@@ -1,5 +1,9 @@
 {
-  "periodo": { "desde": "01-09-2026", "hasta": "06-09-2026", "dias": 6 },
-  "tecnicosActivos": 53,
-  "generado": "07-09-2026 14:04"
+    "periodo":  {
+                    "desde":  "01-09-2026",
+                    "hasta":  "06-09-2026",
+                    "dias":  6
+                },
+    "tecnicosActivos":  53,
+    "generado":  "07-09-2026 17:24"
 }

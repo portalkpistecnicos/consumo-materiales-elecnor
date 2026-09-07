@@ -1,17 +1,200 @@
 [
-  {"Tipo":"CABLE_INT_FO_NS","nombre":"Cable Fibra Óptica (interior)","Total":2688,"Tecnicos":25,"Dias":5,"PromedioPorTecnico":107.52,"PromedioDiario":537.6,"Codigos":["10302530359","10302530362","10302530363","10302530378"]},
-  {"Tipo":"CABLE_UTP_NS","nombre":"Cable UTP","Total":1759,"Tecnicos":34,"Dias":5,"PromedioPorTecnico":51.74,"PromedioDiario":351.8,"Codigos":["10303680003","10303680012","10303680017"]},
-  {"Tipo":"SOP_DROP_FO_NS","nombre":"Soporte Drop FO","Total":304,"Tecnicos":27,"Dias":5,"PromedioPorTecnico":11.26,"PromedioDiario":60.8,"Codigos":["10302520168","10302520170"]},
-  {"Tipo":"DECO_IPTV_SD_S","nombre":"Decodificador IPTV SD","Total":297,"Tecnicos":52,"Dias":6,"PromedioPorTecnico":5.71,"PromedioDiario":49.5,"Codigos":["10307110155","10307110156","10307110158","10307110164"]},
-  {"Tipo":"CONECT_CAM_FO_NS","nombre":"Conector de Campo FO","Total":190,"Tecnicos":47,"Dias":6,"PromedioPorTecnico":4.04,"PromedioDiario":31.67,"Codigos":["10302520120","10302520169"]},
-  {"Tipo":"ETQ_NFC_NS","nombre":"Etiqueta NFC","Total":138,"Tecnicos":48,"Dias":6,"PromedioPorTecnico":2.88,"PromedioDiario":23,"Codigos":["10309990378","10309990382"]},
-  {"Tipo":"MODEM_F_W6_S","nombre":"Módem WiFi 6","Total":60,"Tecnicos":38,"Dias":5,"PromedioPorTecnico":1.58,"PromedioDiario":12,"Codigos":["10306100221","10306100222"]},
-  {"Tipo":"MODEM_F_W6_2x2","nombre":"Módem WiFi 6 (2x2)","Total":60,"Tecnicos":30,"Dias":6,"PromedioPorTecnico":2,"PromedioDiario":10,"Codigos":["10306100270"]},
-  {"Tipo":"AP_S","nombre":"Access Point / Repetidor","Total":55,"Tecnicos":32,"Dias":5,"PromedioPorTecnico":1.72,"PromedioDiario":11,"Codigos":["10307180117","10307180162"]},
-  {"Tipo":"JUMPER_FO_NS","nombre":"Jumper Fibra Óptica","Total":51,"Tecnicos":29,"Dias":5,"PromedioPorTecnico":1.76,"PromedioDiario":10.2,"Codigos":["10302520231","10303640031"]},
-  {"Tipo":"MODEM_F_S","nombre":"Módem Estándar","Total":42,"Tecnicos":31,"Dias":5,"PromedioPorTecnico":1.35,"PromedioDiario":8.4,"Codigos":["10306100144","10306100187","10306100198"]},
-  {"Tipo":"ROSETA_FO_NS","nombre":"Roseta Fibra Óptica","Total":11,"Tecnicos":9,"Dias":5,"PromedioPorTecnico":1.22,"PromedioDiario":2.2,"Codigos":["10302520106"]},
-  {"Tipo":"DECO_IPTV_CD_S","nombre":"Decodificador IPTV CD","Total":11,"Tecnicos":9,"Dias":4,"PromedioPorTecnico":1.22,"PromedioDiario":2.75,"Codigos":["10307110151"]},
-  {"Tipo":"CABLE_PRE_CON","nombre":"Cable Preconectorizado","Total":4,"Tecnicos":4,"Dias":2,"PromedioPorTecnico":1,"PromedioDiario":2,"Codigos":["10302520173","10302520246","10302520253"]},
-  {"Tipo":"PROT_EMP_FO_NS","nombre":"Protector de Empalme FO","Total":1,"Tecnicos":1,"Dias":1,"PromedioPorTecnico":1,"PromedioDiario":1,"Codigos":["10302520198"]}
+    {
+        "Tipo":  "CABLE_INT_FO_NS",
+        "nombre":  "Cable Fibra Optica (interior)",
+        "Total":  2688,
+        "Tecnicos":  25,
+        "Dias":  5,
+        "PromedioPorTecnico":  107.52,
+        "PromedioDiario":  537.6,
+        "Codigos":  [
+                        "10302530359",
+                        "10302530362",
+                        "10302530363",
+                        "10302530378"
+                    ]
+    },
+    {
+        "Tipo":  "CABLE_UTP_NS",
+        "nombre":  "Cable UTP",
+        "Total":  1759,
+        "Tecnicos":  34,
+        "Dias":  5,
+        "PromedioPorTecnico":  51.74,
+        "PromedioDiario":  351.8,
+        "Codigos":  [
+                        "10303680003",
+                        "10303680012",
+                        "10303680017"
+                    ]
+    },
+    {
+        "Tipo":  "SOP_DROP_FO_NS",
+        "nombre":  "Soporte Drop FO",
+        "Total":  304,
+        "Tecnicos":  27,
+        "Dias":  5,
+        "PromedioPorTecnico":  11.26,
+        "PromedioDiario":  60.8,
+        "Codigos":  [
+                        "10302520168",
+                        "10302520170"
+                    ]
+    },
+    {
+        "Tipo":  "DECO_IPTV_SD_S",
+        "nombre":  "Decodificador IPTV SD",
+        "Total":  297,
+        "Tecnicos":  52,
+        "Dias":  6,
+        "PromedioPorTecnico":  5.71,
+        "PromedioDiario":  49.5,
+        "Codigos":  [
+                        "10307110155",
+                        "10307110156",
+                        "10307110158",
+                        "10307110164"
+                    ]
+    },
+    {
+        "Tipo":  "CONECT_CAM_FO_NS",
+        "nombre":  "Conector de Campo FO",
+        "Total":  190,
+        "Tecnicos":  47,
+        "Dias":  6,
+        "PromedioPorTecnico":  4.04,
+        "PromedioDiario":  31.67,
+        "Codigos":  [
+                        "10302520120",
+                        "10302520169"
+                    ]
+    },
+    {
+        "Tipo":  "ETQ_NFC_NS",
+        "nombre":  "Etiqueta NFC",
+        "Total":  138,
+        "Tecnicos":  48,
+        "Dias":  6,
+        "PromedioPorTecnico":  2.88,
+        "PromedioDiario":  23,
+        "Codigos":  [
+                        "10309990378",
+                        "10309990382"
+                    ]
+    },
+    {
+        "Tipo":  "MODEM_F_W6_S",
+        "nombre":  "Modem WiFi 6",
+        "Total":  60,
+        "Tecnicos":  38,
+        "Dias":  5,
+        "PromedioPorTecnico":  1.58,
+        "PromedioDiario":  12,
+        "Codigos":  [
+                        "10306100221",
+                        "10306100222"
+                    ]
+    },
+    {
+        "Tipo":  "MODEM_F_W6_2x2",
+        "nombre":  "Modem WiFi 6 (2x2)",
+        "Total":  60,
+        "Tecnicos":  30,
+        "Dias":  6,
+        "PromedioPorTecnico":  2,
+        "PromedioDiario":  10,
+        "Codigos":  [
+                        "10306100270"
+                    ]
+    },
+    {
+        "Tipo":  "AP_S",
+        "nombre":  "Access Point / Repetidor",
+        "Total":  55,
+        "Tecnicos":  32,
+        "Dias":  5,
+        "PromedioPorTecnico":  1.72,
+        "PromedioDiario":  11,
+        "Codigos":  [
+                        "10307180117",
+                        "10307180162"
+                    ]
+    },
+    {
+        "Tipo":  "JUMPER_FO_NS",
+        "nombre":  "Jumper Fibra Optica",
+        "Total":  51,
+        "Tecnicos":  29,
+        "Dias":  5,
+        "PromedioPorTecnico":  1.76,
+        "PromedioDiario":  10.2,
+        "Codigos":  [
+                        "10302520231",
+                        "10303640031"
+                    ]
+    },
+    {
+        "Tipo":  "MODEM_F_S",
+        "nombre":  "Modem Estandar",
+        "Total":  42,
+        "Tecnicos":  31,
+        "Dias":  5,
+        "PromedioPorTecnico":  1.35,
+        "PromedioDiario":  8.4,
+        "Codigos":  [
+                        "10306100144",
+                        "10306100187",
+                        "10306100198"
+                    ]
+    },
+    {
+        "Tipo":  "DECO_IPTV_CD_S",
+        "nombre":  "Decodificador IPTV CD",
+        "Total":  11,
+        "Tecnicos":  9,
+        "Dias":  4,
+        "PromedioPorTecnico":  1.22,
+        "PromedioDiario":  2.75,
+        "Codigos":  [
+                        "10307110151"
+                    ]
+    },
+    {
+        "Tipo":  "ROSETA_FO_NS",
+        "nombre":  "Roseta Fibra Optica",
+        "Total":  11,
+        "Tecnicos":  9,
+        "Dias":  5,
+        "PromedioPorTecnico":  1.22,
+        "PromedioDiario":  2.2,
+        "Codigos":  [
+                        "10302520106"
+                    ]
+    },
+    {
+        "Tipo":  "CABLE_PRE_CON",
+        "nombre":  "Cable Preconectorizado",
+        "Total":  4,
+        "Tecnicos":  4,
+        "Dias":  2,
+        "PromedioPorTecnico":  1,
+        "PromedioDiario":  2,
+        "Codigos":  [
+                        "10302520173",
+                        "10302520246",
+                        "10302520253"
+                    ]
+    },
+    {
+        "Tipo":  "PROT_EMP_FO_NS",
+        "nombre":  "Protector de Empalme FO",
+        "Total":  1,
+        "Tecnicos":  1,
+        "Dias":  1,
+        "PromedioPorTecnico":  1,
+        "PromedioDiario":  1,
+        "Codigos":  [
+                        "10302520198"
+                    ]
+    }
 ]

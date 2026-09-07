@@ -1,0 +1,623 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Consumo de Materiales — Elecnor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F4F6FA;
+    --surface:#FFFFFF;
+    --surface-2:#EAEFF6;
+    --text:#142A47;
+    --text-muted:#5A6B85;
+    --border:#DCE3EE;
+    --brand-blue:#003F86;
+    --brand-blue-deep:#002A5C;
+    --brand-orange:#F47C02;
+    --brand-orange-soft:#FDE7CC;
+    --shadow: 0 1px 2px rgba(20,42,71,0.06), 0 8px 24px rgba(20,42,71,0.06);
+    --focus: #1E6FD9;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0B1626;
+      --surface:#101E33;
+      --surface-2:#16283F;
+      --text:#EAF1FB;
+      --text-muted:#93A6C2;
+      --border:#223650;
+      --brand-blue:#4F8FDB;
+      --brand-blue-deep:#003F86;
+      --brand-orange:#FF9A3D;
+      --brand-orange-soft:#3A2B14;
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px rgba(0,0,0,0.35);
+      --focus: #7FB2FF;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0B1626;
+    --surface:#101E33;
+    --surface-2:#16283F;
+    --text:#EAF1FB;
+    --text-muted:#93A6C2;
+    --border:#223650;
+    --brand-blue:#4F8FDB;
+    --brand-blue-deep:#003F86;
+    --brand-orange:#FF9A3D;
+    --brand-orange-soft:#3A2B14;
+    --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px rgba(0,0,0,0.35);
+    --focus: #7FB2FF;
+  }
+
+  *{box-sizing:border-box;}
+  html,body{ margin:0; }
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:"IBM Plex Sans", system-ui, sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3{
+    font-family:"Archivo", system-ui, sans-serif;
+    text-wrap:balance;
+    margin:0;
+  }
+  .num{ font-family:"IBM Plex Mono", ui-monospace, monospace; font-variant-numeric:tabular-nums; }
+
+  a{color:var(--brand-blue);}
+
+  .page{
+    max-width:1080px;
+    margin:0 auto;
+    padding:28px 20px 56px;
+    display:flex;
+    flex-direction:column;
+    gap:28px;
+  }
+
+  /* ---------- Header ---------- */
+  .masthead{
+    background:linear-gradient(135deg, var(--brand-blue) 0%, var(--brand-blue-deep) 100%);
+    border-radius:16px;
+    padding:28px 28px 24px;
+    color:#F4F8FF;
+    box-shadow:var(--shadow);
+    position:relative;
+    overflow:hidden;
+  }
+  .masthead::after{
+    content:"";
+    position:absolute;
+    right:-60px; top:-60px;
+    width:220px; height:220px;
+    border-radius:50%;
+    background:radial-gradient(circle, rgba(244,124,2,0.35) 0%, rgba(244,124,2,0) 70%);
+  }
+  .eyebrow{
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--brand-orange);
+    margin-bottom:8px;
+  }
+  .masthead h1{
+    font-size:clamp(22px,4.2vw,30px);
+    font-weight:800;
+    color:#fff;
+  }
+  .masthead-meta{
+    margin-top:14px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px 18px;
+    font-size:13px;
+    color:#CFE0F7;
+  }
+  .masthead-meta b{ color:#fff; font-weight:600; }
+  .masthead-meta .dot{ opacity:0.5; }
+
+  /* ---------- KPI tiles ---------- */
+  .kpis{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:14px;
+  }
+  .kpi{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:12px;
+    padding:16px 16px 14px;
+    box-shadow:var(--shadow);
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+  }
+  .kpi-label{
+    font-size:11.5px;
+    font-weight:600;
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+    color:var(--text-muted);
+  }
+  .kpi-value{
+    font-size:26px;
+    font-weight:700;
+    line-height:1;
+    color:var(--brand-blue);
+  }
+  :root[data-theme="dark"] .kpi-value{ color:var(--brand-orange); }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .kpi-value{ color:var(--brand-orange); } }
+  .kpi-sub{ font-size:12px; color:var(--text-muted); }
+
+  /* ---------- Section shell ---------- */
+  .panel{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:16px;
+    padding:22px 22px 24px;
+    box-shadow:var(--shadow);
+  }
+  .panel-head{
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-between;
+    gap:16px;
+    flex-wrap:wrap;
+    margin-bottom:18px;
+  }
+  .panel-head h2{ font-size:18px; font-weight:700; }
+  .panel-head p{ margin:4px 0 0; font-size:13px; color:var(--text-muted); max-width:52ch; }
+
+  /* segmented control */
+  .segmented{
+    display:inline-flex;
+    background:var(--surface-2);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:3px;
+    gap:2px;
+  }
+  .segmented button{
+    appearance:none;
+    border:none;
+    background:transparent;
+    color:var(--text-muted);
+    font:inherit;
+    font-size:12.5px;
+    font-weight:600;
+    padding:7px 12px;
+    border-radius:7px;
+    cursor:pointer;
+    white-space:nowrap;
+    transition:background .15s ease, color .15s ease;
+  }
+  .segmented button.active{
+    background:var(--brand-blue);
+    color:#fff;
+  }
+  .segmented button:focus-visible, .searchbox input:focus-visible, th button:focus-visible{
+    outline:2px solid var(--focus);
+    outline-offset:2px;
+  }
+
+  /* ---------- Bar chart (bar-list) ---------- */
+  .chart-scale{
+    display:flex;
+    justify-content:space-between;
+    font-size:11px;
+    color:var(--text-muted);
+    padding-left:calc(180px + 12px);
+    margin-bottom:6px;
+  }
+  .chart{
+    display:flex;
+    flex-direction:column;
+    gap:9px;
+  }
+  .bar-row{
+    display:grid;
+    grid-template-columns:180px 1fr 78px;
+    align-items:center;
+    gap:12px;
+    cursor:pointer;
+    border-radius:8px;
+    padding:3px 6px;
+    margin:-3px -6px;
+    transition:background .12s ease;
+  }
+  .bar-row:hover, .bar-row.highlight{
+    background:var(--surface-2);
+  }
+  .bar-label{
+    font-size:12.5px;
+    font-weight:600;
+    color:var(--text);
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+  }
+  .bar-track{
+    position:relative;
+    height:20px;
+    background:var(--surface-2);
+    border-radius:5px;
+    overflow:hidden;
+  }
+  .bar-track::before,.bar-track::after{
+    content:"";
+    position:absolute; top:0; bottom:0;
+    width:1px; background:var(--border);
+  }
+  .bar-track::before{ left:25%; }
+  .bar-track::after{ left:75%; }
+  .bar-fill{
+    position:absolute; left:0; top:0; bottom:0;
+    border-radius:5px;
+    background:linear-gradient(90deg, var(--brand-blue) 0%, var(--brand-blue) 70%, var(--brand-orange) 100%);
+    transition:width .5s cubic-bezier(.2,.8,.2,1);
+    min-width:3px;
+  }
+  .bar-row.highlight .bar-fill{
+    background:linear-gradient(90deg, var(--brand-orange) 0%, var(--brand-orange) 100%);
+  }
+  .bar-value{
+    font-size:12.5px;
+    text-align:right;
+    color:var(--text);
+    font-weight:600;
+  }
+
+  /* ---------- Table ---------- */
+  .table-tools{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:12px;
+    flex-wrap:wrap;
+    margin-bottom:14px;
+  }
+  .searchbox{
+    position:relative;
+    flex:1 1 220px;
+    max-width:320px;
+  }
+  .searchbox input{
+    width:100%;
+    font:inherit;
+    font-size:13px;
+    padding:8px 12px 8px 32px;
+    border:1px solid var(--border);
+    border-radius:9px;
+    background:var(--surface-2);
+    color:var(--text);
+  }
+  .searchbox svg{
+    position:absolute; left:10px; top:50%; transform:translateY(-50%);
+    width:14px; height:14px; stroke:var(--text-muted); fill:none;
+  }
+  .table-scroll{ overflow-x:auto; border:1px solid var(--border); border-radius:12px; }
+  table{ width:100%; border-collapse:collapse; min-width:640px; }
+  thead th{
+    text-align:left;
+    font-size:11px;
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+    color:var(--text-muted);
+    background:var(--surface-2);
+    padding:10px 14px;
+    position:sticky; top:0;
+  }
+  thead th:not(:first-child){ text-align:right; }
+  thead th button{
+    appearance:none; border:none; background:none; color:inherit; font:inherit;
+    letter-spacing:inherit; text-transform:inherit; cursor:pointer;
+    display:inline-flex; align-items:center; gap:4px; padding:2px;
+  }
+  thead th:not(:first-child) button{ flex-direction:row-reverse; }
+  .sort-arrow{ font-size:9px; opacity:0.35; }
+  .sort-arrow.active{ opacity:1; color:var(--brand-orange); }
+  tbody td{
+    padding:10px 14px;
+    font-size:13px;
+    border-top:1px solid var(--border);
+    white-space:nowrap;
+  }
+  tbody td:not(:first-child){ text-align:right; }
+  tbody tr{ cursor:pointer; }
+  tbody tr:hover, tbody tr.highlight{ background:var(--surface-2); }
+  .mat-name{ font-weight:600; }
+  .mat-code{
+    display:block;
+    font-family:"IBM Plex Mono", ui-monospace, monospace;
+    font-size:10.5px;
+    color:var(--text-muted);
+    font-weight:400;
+    margin-top:2px;
+    white-space:normal;
+  }
+  tbody td:first-child{ white-space:normal; min-width:220px; }
+  .empty-row td{ text-align:center; color:var(--text-muted); padding:22px; font-size:13px; }
+
+  /* ---------- Footer ---------- */
+  .methodology{
+    font-size:12px;
+    line-height:1.6;
+    color:var(--text-muted);
+  }
+  .methodology b{ color:var(--text); }
+  .methodology ul{ margin:8px 0 0; padding-left:18px; }
+  .updated-badge{
+    display:inline-flex; align-items:center; gap:6px;
+    font-size:11px; color:var(--text-muted);
+  }
+  .updated-badge .live-dot{
+    width:6px; height:6px; border-radius:50%; background:#2FAE5C;
+    box-shadow:0 0 0 3px rgba(47,174,92,0.18);
+  }
+
+  @media (max-width: 640px){
+    .kpis{ grid-template-columns:repeat(2,1fr); }
+    .panel{ padding:18px 16px 20px; }
+    .chart-scale{ display:none; }
+    .bar-row{ grid-template-columns:104px 1fr 56px; gap:8px; }
+    .bar-label{ font-size:11.5px; }
+    .bar-value{ font-size:11.5px; }
+    .table-tools{ flex-direction:column; align-items:stretch; }
+    .searchbox{ max-width:none; }
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    .bar-fill{ transition:none; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="masthead">
+    <div class="eyebrow">Informe Ejecutivo · Operaciones Técnicas</div>
+    <h1>Consumo de Materiales por Técnico</h1>
+    <div class="masthead-meta">
+      <span>Período <b id="metaPeriodo">—</b></span>
+      <span class="dot">·</span>
+      <span><b id="metaTecnicos">—</b> técnicos activos</span>
+      <span class="dot">·</span>
+      <span><b id="metaUnidades">—</b> unidades consumidas</span>
+      <span class="dot">·</span>
+      <span class="updated-badge"><span class="live-dot"></span>Actualizado <b id="metaGenerado">—</b></span>
+    </div>
+  </header>
+
+  <section class="kpis">
+    <div class="kpi">
+      <div class="kpi-label">Unidades totales</div>
+      <div class="kpi-value num" id="kpiTotal">—</div>
+      <div class="kpi-sub" id="kpiTotalSub">en el período</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Promedio diario</div>
+      <div class="kpi-value num" id="kpiDiario">—</div>
+      <div class="kpi-sub">unidades / día, todo material</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Tipos de material</div>
+      <div class="kpi-value num" id="kpiTipos">—</div>
+      <div class="kpi-sub">categorías distintas registradas</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Material líder</div>
+      <div class="kpi-value" id="kpiLider" style="font-size:16px; line-height:1.25;">—</div>
+      <div class="kpi-sub" id="kpiLiderSub">por unidades totales</div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <div>
+        <h2>Ranking por material</h2>
+        <p>Barras ordenadas de mayor a menor según la métrica elegida. El promedio por técnico solo considera a quienes efectivamente usaron ese material — no diluye el dato con técnicos inactivos.</p>
+      </div>
+      <div class="segmented" role="tablist" aria-label="Métrica del gráfico">
+        <button type="button" data-metric="Total" class="active">Total</button>
+        <button type="button" data-metric="PromedioPorTecnico">Promedio / técnico</button>
+        <button type="button" data-metric="PromedioDiario">Promedio / día</button>
+      </div>
+    </div>
+    <div class="chart-scale">
+      <span>0</span><span id="scaleMid">·</span><span id="scaleMax">máx.</span>
+    </div>
+    <div class="chart" id="chart"></div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <div>
+        <h2>Detalle por material</h2>
+        <p>Toca un encabezado para ordenar la tabla. Los renglones se enlazan con el gráfico de arriba.</p>
+      </div>
+    </div>
+    <div class="table-tools">
+      <div class="searchbox">
+        <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="searchInput" placeholder="Buscar por código SAP (col. D) o nombre…" aria-label="Buscar material por código SAP o nombre">
+      </div>
+    </div>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th><button data-key="nombre">Material <span class="sort-arrow" data-arrow="nombre">▲</span></button></th>
+            <th><button data-key="Total">Total <span class="sort-arrow" data-arrow="Total">▲</span></button></th>
+            <th><button data-key="Tecnicos">Técnicos <span class="sort-arrow" data-arrow="Tecnicos">▲</span></button></th>
+            <th><button data-key="PromedioPorTecnico">Prom. / técnico <span class="sort-arrow" data-arrow="PromedioPorTecnico">▲</span></button></th>
+            <th><button data-key="PromedioDiario">Prom. / día <span class="sort-arrow" data-arrow="PromedioDiario">▲</span></button></th>
+          </tr>
+        </thead>
+        <tbody id="tbody"><tr class="empty-row"><td colspan="5">Cargando datos…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel methodology">
+    <b>Metodología y fuente.</b>
+    <ul>
+      <li>Fuente: <code>Consumo_por_Tecnico.xlsx</code> (hoja "Detalle Diario"), regenerado automáticamente desde <code>Consolidado_consumo.xlsx</code> y los archivos diarios de terreno. Esta página se republica sola al final de cada corrida de <code>Actualizar_Consumo_Tecnico.ps1</code>.</li>
+      <li><b>Total</b>: suma de unidades consumidas del material en el período. <b>Prom. / técnico</b>: total ÷ técnicos que registraron ese material al menos una vez (excluye inactivos). <b>Prom. / día</b>: total ÷ días del período con al menos un registro de ese material.</li>
+      <li>El período se reinicia cada vez que <code>Consolidado_consumo.xlsx</code> avanza de mes; esta fotografía corresponde solo a los días ya consolidados de ese mes.</li>
+    </ul>
+  </section>
+
+</div>
+
+<script>
+const fmtInt = n => new Intl.NumberFormat('es-CL').format(Math.round(n));
+const fmtDec = n => new Intl.NumberFormat('es-CL', { minimumFractionDigits:1, maximumFractionDigits:1 }).format(n);
+
+let rows = [];
+let PERIODO = { desde: "—", hasta: "—", dias: 1 };
+let TECNICOS_ACTIVOS = 0;
+let GENERADO = "—";
+
+async function loadData(){
+  const bust = '?v=' + Date.now();
+  const [materiales, meta] = await Promise.all([
+    fetch('data/materiales.json' + bust).then(r => r.json()),
+    fetch('data/meta.json' + bust).then(r => r.json())
+  ]);
+  rows = materiales;
+  PERIODO = meta.periodo;
+  TECNICOS_ACTIVOS = meta.tecnicosActivos;
+  GENERADO = meta.generado;
+}
+
+function renderHeaderAndKpis(){
+  document.getElementById('metaPeriodo').textContent = `${PERIODO.desde} – ${PERIODO.hasta}`;
+  document.getElementById('metaTecnicos').textContent = fmtInt(TECNICOS_ACTIVOS);
+  document.getElementById('metaGenerado').textContent = GENERADO;
+
+  const totalGeneral = rows.reduce((s,r) => s + r.Total, 0);
+  document.getElementById('metaUnidades').textContent = fmtInt(totalGeneral);
+  document.getElementById('kpiTotal').textContent = fmtInt(totalGeneral);
+  document.getElementById('kpiTotalSub').textContent = `${PERIODO.desde} – ${PERIODO.hasta}`;
+  document.getElementById('kpiDiario').textContent = fmtDec(totalGeneral / PERIODO.dias);
+  document.getElementById('kpiTipos').textContent = fmtInt(rows.length);
+  const lider = [...rows].sort((a,b)=>b.Total-a.Total)[0];
+  if (lider){
+    document.getElementById('kpiLider').textContent = lider.nombre;
+    document.getElementById('kpiLiderSub').textContent = `${fmtInt(lider.Total)} unidades totales`;
+  }
+}
+
+// ---- Chart ----
+let metric = 'Total';
+let highlighted = null;
+const chartEl = document.getElementById('chart');
+
+const metricFmt = (v) => metric === 'Total' ? fmtInt(v) : fmtDec(v);
+
+function renderChart(){
+  const sorted = [...rows].sort((a,b)=> b[metric] - a[metric]);
+  const max = (sorted[0] && sorted[0][metric]) || 1;
+  document.getElementById('scaleMax').textContent = metricFmt(max);
+  document.getElementById('scaleMid').textContent = metricFmt(max/2);
+  chartEl.innerHTML = '';
+  sorted.forEach(r => {
+    const row = document.createElement('div');
+    row.className = 'bar-row' + (highlighted === r.Tipo ? ' highlight' : '');
+    row.dataset.tipo = r.Tipo;
+    row.innerHTML = `
+      <div class="bar-label" title="${r.nombre}">${r.nombre}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${(r[metric]/max*100).toFixed(1)}%"></div></div>
+      <div class="bar-value num">${metricFmt(r[metric])}</div>
+    `;
+    row.addEventListener('click', () => { highlighted = (highlighted === r.Tipo) ? null : r.Tipo; renderAll(); });
+    chartEl.appendChild(row);
+  });
+}
+
+document.querySelectorAll('.segmented button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.segmented button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    metric = btn.dataset.metric;
+    renderChart();
+  });
+});
+
+// ---- Table ----
+let sortKey = 'Total';
+let sortDir = -1; // descending
+let query = '';
+
+function updateArrows(){
+  document.querySelectorAll('.sort-arrow').forEach(a => {
+    a.classList.toggle('active', a.dataset.arrow === sortKey);
+    a.textContent = (a.dataset.arrow === sortKey) ? (sortDir === 1 ? '▲' : '▼') : '▲';
+  });
+}
+
+function renderTable(){
+  const tbody = document.getElementById('tbody');
+  let filtered = rows.filter(r =>
+    r.nombre.toLowerCase().includes(query) ||
+    r.Tipo.toLowerCase().includes(query) ||
+    r.Codigos.some(c => c.includes(query))
+  );
+  filtered.sort((a,b) => {
+    const av = sortKey === 'nombre' ? a.nombre : a[sortKey];
+    const bv = sortKey === 'nombre' ? b.nombre : b[sortKey];
+    if (typeof av === 'string') return av.localeCompare(bv) * sortDir;
+    return (av - bv) * sortDir;
+  });
+  tbody.innerHTML = '';
+  if (filtered.length === 0){
+    tbody.innerHTML = `<tr class="empty-row"><td colspan="5">Sin coincidencias para "${query}"</td></tr>`;
+    return;
+  }
+  filtered.forEach(r => {
+    const tr = document.createElement('tr');
+    tr.className = highlighted === r.Tipo ? 'highlight' : '';
+    tr.dataset.tipo = r.Tipo;
+    tr.innerHTML = `
+      <td><span class="mat-name">${r.nombre}</span><span class="mat-code">${r.Tipo} · SAP ${r.Codigos.join(', ')}</span></td>
+      <td class="num">${fmtInt(r.Total)}</td>
+      <td class="num">${fmtInt(r.Tecnicos)}</td>
+      <td class="num">${fmtDec(r.PromedioPorTecnico)}</td>
+      <td class="num">${fmtDec(r.PromedioDiario)}</td>
+    `;
+    tr.addEventListener('click', () => { highlighted = (highlighted === r.Tipo) ? null : r.Tipo; renderAll(); });
+    tbody.appendChild(tr);
+  });
+  updateArrows();
+}
+
+document.querySelectorAll('thead th button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const key = btn.dataset.key;
+    if (sortKey === key) { sortDir *= -1; } else { sortKey = key; sortDir = key === 'nombre' ? 1 : -1; }
+    renderTable();
+  });
+});
+
+document.getElementById('searchInput').addEventListener('input', (e) => {
+  query = e.target.value.trim().toLowerCase();
+  renderTable();
+});
+
+function renderAll(){ renderChart(); renderTable(); }
+
+loadData()
+  .then(renderHeaderAndKpis)
+  .then(renderAll)
+  .catch(err => {
+    document.getElementById('tbody').innerHTML = `<tr class="empty-row"><td colspan="5">No se pudieron cargar los datos (${err.message}). Reintenta más tarde.</td></tr>`;
+  });
+</script>
+</body>
+</html>

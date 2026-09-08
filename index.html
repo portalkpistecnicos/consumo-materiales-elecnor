@@ -249,7 +249,37 @@
     display:flex;
     flex-direction:column;
     gap:6px;
+    text-align:left;
+    font:inherit;
+    color:inherit;
+    width:100%;
+    position:relative;
   }
+  .kpi-link{
+    appearance:none;
+    cursor:pointer;
+    transition:border-color .15s ease, transform .15s ease, box-shadow .15s ease;
+  }
+  .kpi-link::after{
+    content:"→";
+    position:absolute;
+    top:14px; right:14px;
+    font-size:13px;
+    color:var(--brand-orange);
+    opacity:0;
+    transform:translateX(-3px);
+    transition:opacity .15s ease, transform .15s ease;
+  }
+  .kpi-link:hover, .kpi-link:focus-visible{
+    border-color:var(--brand-orange);
+    transform:translateY(-1px);
+    box-shadow:0 4px 14px rgba(244,124,2,0.16);
+  }
+  .kpi-link:hover::after, .kpi-link:focus-visible::after{
+    opacity:1;
+    transform:translateX(0);
+  }
+  .kpi-link:focus-visible{ outline:2px solid var(--focus); outline-offset:2px; }
   .kpi-label{
     font-size:11.5px;
     font-weight:600;
@@ -568,26 +598,26 @@
       </div>
     </div>
     <div class="kpis" style="margin-bottom:18px;">
-      <div class="kpi">
+      <button type="button" class="kpi kpi-link" id="kpiTotalBtn">
         <div class="kpi-label">Tu total</div>
         <div class="kpi-value num" id="pkTotal">—</div>
         <div class="kpi-sub" id="pkTotalSub">unidades en el período</div>
-      </div>
-      <div class="kpi">
+      </button>
+      <button type="button" class="kpi kpi-link" id="kpiTopBtn">
         <div class="kpi-label">Tu material principal</div>
         <div class="kpi-value" id="pkTop" style="font-size:15px; line-height:1.25;">—</div>
         <div class="kpi-sub" id="pkTopSub">—</div>
-      </div>
-      <div class="kpi">
+      </button>
+      <button type="button" class="kpi kpi-link" id="kpiTiposBtn">
         <div class="kpi-label">Tipos que usaste</div>
         <div class="kpi-value num" id="pkTipos">—</div>
         <div class="kpi-sub">de los materiales controlados</div>
-      </div>
-      <div class="kpi">
+      </button>
+      <button type="button" class="kpi kpi-link" id="kpiRankBtn">
         <div class="kpi-label">Tu posición</div>
         <div class="kpi-value" id="pkRank" style="font-size:20px;">—</div>
         <div class="kpi-sub" id="pkRankSub">en el equipo</div>
-      </div>
+      </button>
     </div>
   </section>
 
@@ -619,7 +649,7 @@
     </div>
   </section>
 
-  <section class="panel">
+  <section class="panel" id="rankingSection">
     <div class="panel-head">
       <div>
         <h2>Ranking del equipo por material</h2>
@@ -815,27 +845,49 @@ function renderChart(){
   });
 }
 
+// Sets the ranking chart's metric, keeps the segmented control in sync, and re-renders.
+// Shared by the segmented toggle itself and the "Tu consumo" KPI tiles, so every entry
+// point into a metric ends up in the same state.
+function activateMetric(metricKey){
+  metric = metricKey;
+  document.querySelectorAll('.segmented button').forEach(b => b.classList.toggle('active', b.dataset.metric === metricKey));
+  renderChart();
+  jumpToDetalle(metricKey);
+}
+
 document.querySelectorAll('.segmented button').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.segmented button').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    metric = btn.dataset.metric;
-    renderChart();
-    jumpToDetalle(metric);
-  });
+  btn.addEventListener('click', () => activateMetric(btn.dataset.metric));
 });
+
+// "Tu consumo" KPI tiles jump straight to the data behind each number.
+document.getElementById('kpiTotalBtn').addEventListener('click', () => activateMetric('Total'));
+document.getElementById('kpiTiposBtn').addEventListener('click', () => activateMetric('Total'));
+document.getElementById('kpiTopBtn').addEventListener('click', () => {
+  const mats = current.materiales || [];
+  if (mats.length) highlighted = mats[0].Tipo;
+  activateMetric('Total');
+});
+document.getElementById('kpiRankBtn').addEventListener('click', jumpToRanking);
 
 // Toggling a metric here also re-sorts "Detalle por material" by that same column and
 // scrolls to it, so pressing a metric always lands you on the underlying data.
-function jumpToDetalle(metricKey){
-  sortKey = metricKey;
-  sortDir = -1;
-  renderTable();
-  const section = document.getElementById('detalleSection');
+function scrollAndFlash(elementId){
+  const section = document.getElementById(elementId);
   section.scrollIntoView({ behavior: 'smooth', block: 'start' });
   section.classList.remove('flash-highlight');
   void section.offsetWidth; // restart the animation if it's already mid-flash
   section.classList.add('flash-highlight');
+}
+
+function jumpToDetalle(metricKey){
+  sortKey = metricKey;
+  sortDir = -1;
+  renderTable();
+  scrollAndFlash('detalleSection');
+}
+
+function jumpToRanking(){
+  scrollAndFlash('rankingSection');
 }
 
 // ---------------- Personal table ----------------

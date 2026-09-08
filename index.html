@@ -717,6 +717,7 @@
       <li>El IDCA de cada técnico viene de <code>Formato pedidos a Planificación.xlsx</code>, hoja "Plantel", columna G.</li>
       <li><b>Total</b>: suma de unidades consumidas del material en el período. <b>Prom. / técnico</b>: total ÷ técnicos que registraron ese material al menos una vez (excluye inactivos). <b>Prom. / día</b>: total ÷ días del período con al menos un registro de ese material.</li>
       <li>El período se reinicia cada vez que <code>Consolidado_consumo.xlsx</code> avanza de mes; esta fotografía corresponde solo a los días ya consolidados de ese mes.</li>
+      <li><b>Tu stock</b> viene de un extracto SAP aparte (<code>STOCK TECNICOS</code>, bodega móvil), cruzado por RUT — no depende del consumo ni tiene el mismo corte de fecha.</li>
     </ul>
   </section>
 
@@ -734,6 +735,7 @@ let tecnicos = [];       // tecnicos.json (per-tecnico, keyed by idca)
 let PERIODO = { desde: "—", hasta: "—", dias: 1 };
 let TECNICOS_ACTIVOS = 0;
 let GENERADO = "—";
+let STOCK_META = null;   // meta.stock: { fecha, turno, archivo } or null if no stock file that month
 let current = null;      // logged-in tecnico object
 
 async function loadData(){
@@ -748,6 +750,7 @@ async function loadData(){
   PERIODO = meta.periodo;
   TECNICOS_ACTIVOS = meta.tecnicosActivos;
   GENERADO = meta.generado;
+  STOCK_META = meta.stock || null;
 }
 
 // ---------------- Login ----------------
@@ -807,6 +810,7 @@ function enterApp(tecnico){
   appPage.hidden = false;
   renderHeaderAndKpis();
   renderPersonal();
+  renderStock();
   renderAll();
 }
 
@@ -940,7 +944,7 @@ let sortDir = -1; // descending
 let query = '';
 
 function updateArrows(){
-  document.querySelectorAll('.sort-arrow').forEach(a => {
+  document.querySelectorAll('#detalleSection .sort-arrow').forEach(a => {
     a.classList.toggle('active', a.dataset.arrow === sortKey);
     a.textContent = (a.dataset.arrow === sortKey) ? (sortDir === 1 ? '▲' : '▼') : '▲';
   });
@@ -1001,7 +1005,7 @@ function renderTable(){
   updateArrows();
 }
 
-document.querySelectorAll('thead th button').forEach(btn => {
+document.querySelectorAll('#detalleSection thead th button').forEach(btn => {
   btn.addEventListener('click', () => {
     const key = btn.dataset.key;
     if (sortKey === key) { sortDir *= -1; } else { sortKey = key; sortDir = key === 'nombre' ? 1 : -1; }
@@ -1012,6 +1016,77 @@ document.querySelectorAll('thead th button').forEach(btn => {
 document.getElementById('searchInput').addEventListener('input', (e) => {
   query = e.target.value.trim().toLowerCase();
   renderTable();
+});
+
+// ---------------- Stock panel ----------------
+let stockSortKey = 'Cantidad';
+let stockSortDir = -1;
+let stockQuery = '';
+
+function updateStockArrows(){
+  document.querySelectorAll('#stockSection .sort-arrow').forEach(a => {
+    a.classList.toggle('active', a.dataset.arrow === stockSortKey);
+    a.textContent = (a.dataset.arrow === stockSortKey) ? (stockSortDir === 1 ? '▲' : '▼') : '▲';
+  });
+}
+
+function renderStockTable(){
+  const tbody = document.getElementById('tbodyStock');
+  const items = current.stock || [];
+  if (items.length === 0){
+    tbody.innerHTML = `<tr class="empty-row"><td colspan="2">No se encontró stock registrado a tu nombre.</td></tr>`;
+    return;
+  }
+  let filtered = items.filter(it =>
+    it.Nombre.toLowerCase().includes(stockQuery) || String(it.Material).toLowerCase().includes(stockQuery)
+  );
+  filtered.sort((a,b) => {
+    if (stockSortKey === 'nombre') return a.Nombre.localeCompare(b.Nombre) * stockSortDir;
+    return (a.Cantidad - b.Cantidad) * stockSortDir;
+  });
+  tbody.innerHTML = '';
+  if (filtered.length === 0){
+    tbody.innerHTML = `<tr class="empty-row"><td colspan="2">Sin coincidencias para "${stockQuery}"</td></tr>`;
+    return;
+  }
+  filtered.forEach(it => {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td><span class="mat-name">${it.Nombre}</span><span class="mat-code">SAP ${it.Material}</span></td>
+      <td class="num">${fmtInt(it.Cantidad)}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+  updateStockArrows();
+}
+
+function renderStock(){
+  const section = document.getElementById('stockSection');
+  if (!STOCK_META){
+    section.hidden = true;
+    return;
+  }
+  section.hidden = false;
+  const items = current.stock || [];
+  const total = current.stockTotal || 0;
+  document.getElementById('skTotal').textContent = fmtInt(total);
+  document.getElementById('skTipos').textContent = fmtInt(items.length);
+  document.getElementById('skFecha').textContent = STOCK_META.fecha;
+  document.getElementById('skTurno').textContent = STOCK_META.turno === 'AM' ? 'Corte de la mañana' : 'Corte de la tarde';
+  renderStockTable();
+}
+
+document.querySelectorAll('#stockSection thead th button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const key = btn.dataset.key;
+    if (stockSortKey === key) { stockSortDir *= -1; } else { stockSortKey = key; stockSortDir = key === 'nombre' ? 1 : -1; }
+    renderStockTable();
+  });
+});
+
+document.getElementById('searchStockInput').addEventListener('input', (e) => {
+  stockQuery = e.target.value.trim().toLowerCase();
+  renderStockTable();
 });
 
 function renderAll(){ renderChart(); renderTable(); }

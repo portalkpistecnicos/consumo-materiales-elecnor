@@ -598,7 +598,7 @@
     <div class="panel-head">
       <div>
         <h2>Detalle por material</h2>
-        <p>Toca un encabezado para ordenar la tabla. Los renglones se enlazan con el gráfico de arriba.</p>
+        <p>Tu consumo, material por material. Toca un encabezado para ordenar la tabla; los renglones se enlazan con el ranking del equipo de arriba.</p>
       </div>
     </div>
     <div class="table-tools">
@@ -612,13 +612,12 @@
         <thead>
           <tr>
             <th><button data-key="nombre">Material <span class="sort-arrow" data-arrow="nombre">▲</span></button></th>
-            <th><button data-key="Total">Total <span class="sort-arrow" data-arrow="Total">▲</span></button></th>
-            <th><button data-key="Tecnicos">Técnicos <span class="sort-arrow" data-arrow="Tecnicos">▲</span></button></th>
-            <th><button data-key="PromedioPorTecnico">Prom. / técnico <span class="sort-arrow" data-arrow="PromedioPorTecnico">▲</span></button></th>
-            <th><button data-key="PromedioDiario">Prom. / día <span class="sort-arrow" data-arrow="PromedioDiario">▲</span></button></th>
+            <th><button data-key="Total">Tu total <span class="sort-arrow" data-arrow="Total">▲</span></button></th>
+            <th><button data-key="PromedioPorTecnico">Prom. equipo / técnico <span class="sort-arrow" data-arrow="PromedioPorTecnico">▲</span></button></th>
+            <th><button data-key="PromedioDiario">Prom. equipo / día <span class="sort-arrow" data-arrow="PromedioDiario">▲</span></button></th>
           </tr>
         </thead>
-        <tbody id="tbody"><tr class="empty-row"><td colspan="5">Cargando datos…</td></tr></tbody>
+        <tbody id="tbody"><tr class="empty-row"><td colspan="4">Cargando datos…</td></tr></tbody>
       </table>
     </div>
   </section>
@@ -843,9 +842,30 @@ function updateArrows(){
   });
 }
 
+function personalTableRows(){
+  const teamByTipo = {};
+  rows.forEach(r => { teamByTipo[r.Tipo] = r; });
+  return (current.materiales || []).map(m => {
+    const teamRow = teamByTipo[m.Tipo];
+    return {
+      Tipo: m.Tipo,
+      nombre: m.nombre,
+      Total: m.Total,
+      Codigos: teamRow ? teamRow.Codigos : [],
+      PromedioPorTecnico: teamRow ? teamRow.PromedioPorTecnico : 0,
+      PromedioDiario: teamRow ? teamRow.PromedioDiario : 0
+    };
+  });
+}
+
 function renderTable(){
   const tbody = document.getElementById('tbody');
-  let filtered = rows.filter(r =>
+  const personalRows = personalTableRows();
+  if (personalRows.length === 0){
+    tbody.innerHTML = `<tr class="empty-row"><td colspan="4">Aún no registras consumo de materiales en este período.</td></tr>`;
+    return;
+  }
+  let filtered = personalRows.filter(r =>
     r.nombre.toLowerCase().includes(query) ||
     r.Tipo.toLowerCase().includes(query) ||
     r.Codigos.some(c => c.includes(query))
@@ -858,7 +878,7 @@ function renderTable(){
   });
   tbody.innerHTML = '';
   if (filtered.length === 0){
-    tbody.innerHTML = `<tr class="empty-row"><td colspan="5">Sin coincidencias para "${query}"</td></tr>`;
+    tbody.innerHTML = `<tr class="empty-row"><td colspan="4">Sin coincidencias para "${query}"</td></tr>`;
     return;
   }
   filtered.forEach(r => {
@@ -866,9 +886,8 @@ function renderTable(){
     tr.className = highlighted === r.Tipo ? 'highlight' : '';
     tr.dataset.tipo = r.Tipo;
     tr.innerHTML = `
-      <td><span class="mat-name">${r.nombre}</span><span class="mat-code">${r.Tipo} · SAP ${r.Codigos.join(', ')}</span></td>
+      <td><span class="mat-name">${r.nombre}</span><span class="mat-code">${r.Tipo}${r.Codigos.length ? ' · SAP ' + r.Codigos.join(', ') : ''}</span></td>
       <td class="num">${fmtInt(r.Total)}</td>
-      <td class="num">${fmtInt(r.Tecnicos)}</td>
       <td class="num">${fmtDec(r.PromedioPorTecnico)}</td>
       <td class="num">${fmtDec(r.PromedioDiario)}</td>
     `;

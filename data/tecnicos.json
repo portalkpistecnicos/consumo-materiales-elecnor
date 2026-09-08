@@ -1,0 +1,2501 @@
+[
+    {
+        "idca":  "1226",
+        "nombre":  "ABELARDO HIPOLITO VENEGAS HERNANDEZ",
+        "total":  124,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  83
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  20
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  8
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  6
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  2
+                           }
+                       ]
+    },
+    {
+        "idca":  "19593",
+        "nombre":  "ALEJANDRO ENRIQUE LAGOS GONZALEZ",
+        "total":  24,
+        "materiales":  [
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  7
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "2746",
+        "nombre":  "ALEJANDRO NICOLAS PARA GOMEZ",
+        "total":  28,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  20
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "1944",
+        "nombre":  "ALEJANDRO SEBASTIAN CISTERNAS MARIN",
+        "total":  25,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  20
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "20281",
+        "nombre":  "AUGUSTO ANDRES FUENTES TAPIA",
+        "total":  0,
+        "materiales":  [
+
+                       ]
+    },
+    {
+        "idca":  "28427",
+        "nombre":  "BASTIAN IGNACIO RIOS MADRID",
+        "total":  135,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  60
+                           },
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  50
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  10
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  5
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "18479",
+        "nombre":  "BENJAMIN ALFREDO MIRANDA IRARRAZABAL",
+        "total":  55,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  20
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  10
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  7
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  5
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "ROSETA_FO_NS",
+                               "nombre":  "Roseta Fibra Optica",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "PROT_EMP_FO_NS",
+                               "nombre":  "Protector de Empalme FO",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "28430",
+        "nombre":  "CARLOS HERNAN MUNOZ MATUS",
+        "total":  105,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  45
+                           },
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  30
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  6
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  6
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_CD_S",
+                               "nombre":  "Decodificador IPTV CD",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "CABLE_PRE_CON",
+                               "nombre":  "Cable Preconectorizado",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "28991",
+        "nombre":  "CHRISTOPHER PATRICK LISBOA BARRERA",
+        "total":  111,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  60
+                           },
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  22
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  14
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  7
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "ROSETA_FO_NS",
+                               "nombre":  "Roseta Fibra Optica",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "21626",
+        "nombre":  "CRISTIAN ANDRES VASQUEZ MUNOZ",
+        "total":  84,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  65
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  7
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "4310",
+        "nombre":  "CRISTIAN GUILLERMO GOLOTT ESCUDERO",
+        "total":  0,
+        "materiales":  [
+
+                       ]
+    },
+    {
+        "idca":  "28344",
+        "nombre":  "CRISTIAN NICOLAS SERRANO VELLAGAS",
+        "total":  327,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  300
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  15
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "20496",
+        "nombre":  "DANIEL ALEXANDER RAMIREZ TORRES",
+        "total":  16,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  10
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "18331",
+        "nombre":  "ESTEBAN DAVID ORTIZ FIGUEROA",
+        "total":  36,
+        "materiales":  [
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  17
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "20638",
+        "nombre":  "FABIAN GONZALO SAAVEDRA VILCHES",
+        "total":  31,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  20
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "CABLE_PRE_CON",
+                               "nombre":  "Cable Preconectorizado",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "1949",
+        "nombre":  "FERNANDO ALEXIS HOLM MORALES",
+        "total":  7,
+        "materiales":  [
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "27820",
+        "nombre":  "FRANCISCO ERNESTO GUERRA GOMEZ",
+        "total":  126,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  100
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  10
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  9
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "9352",
+        "nombre":  "FRANCISCO ESTEBAN CARMONA CASTRO",
+        "total":  0,
+        "materiales":  [
+
+                       ]
+    },
+    {
+        "idca":  "22049",
+        "nombre":  "FRANCO JOSUE DIAZ NUNEZ",
+        "total":  331,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  300
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  12
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  7
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "28313",
+        "nombre":  "GONZALO ANDRES TAPIA VASCONCELO",
+        "total":  7,
+        "materiales":  [
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "ROSETA_FO_NS",
+                               "nombre":  "Roseta Fibra Optica",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "21970",
+        "nombre":  "HECTOR DAVID AVALOS RUPCICH",
+        "total":  2,
+        "materiales":  [
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "20206",
+        "nombre":  "HECTOR FERNANDO QUIROZ TORRES",
+        "total":  140,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  115
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  10
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  6
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "20404",
+        "nombre":  "HECTOR JOSE ORTIZ MARQUEZ",
+        "total":  312,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  250
+                           },
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  25
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  14
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  6
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  5
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_CD_S",
+                               "nombre":  "Decodificador IPTV CD",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "1855",
+        "nombre":  "HECTOR LEONARDO MUNOZ MIRANDA",
+        "total":  210,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  103
+                           },
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  65
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  13
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  8
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  6
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  5
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  2
+                           }
+                       ]
+    },
+    {
+        "idca":  "20290",
+        "nombre":  "HENRY MURIEL DIAZ TORRIJO",
+        "total":  69,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  45
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  10
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "1333",
+        "nombre":  "IVAN ALEJANDRO CALDERON MUNOZ",
+        "total":  207,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  110
+                           },
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  75
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "ROSETA_FO_NS",
+                               "nombre":  "Roseta Fibra Optica",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_CD_S",
+                               "nombre":  "Decodificador IPTV CD",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "2421",
+        "nombre":  "JAIME ALEJANDRO FIGUEROA PINO",
+        "total":  98,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  80
+                           },
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  5
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "3705",
+        "nombre":  "JAIR JESUS VALENCIA DIAZ",
+        "total":  78,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  60
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "30734",
+        "nombre":  "JAVIER ANDRE PARRA ROJAS",
+        "total":  298,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  180
+                           },
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  70
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  20
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  8
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  8
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "ROSETA_FO_NS",
+                               "nombre":  "Roseta Fibra Optica",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "28992",
+        "nombre":  "JONATHAN RICARDO HENRIQUEZ VENEGAS",
+        "total":  6,
+        "materiales":  [
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "8468",
+        "nombre":  "JORGE EDUARDO JORQUERA FLORES",
+        "total":  100,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  55
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  11
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  8
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  7
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  6
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  5
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_CD_S",
+                               "nombre":  "Decodificador IPTV CD",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "21162",
+        "nombre":  "JORGE RENE RAMIREZ DE LA BARRA",
+        "total":  9,
+        "materiales":  [
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "2481",
+        "nombre":  "JOSE GERARDO CORNEJO GARRIDO",
+        "total":  67,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  30
+                           },
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  20
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  6
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "ROSETA_FO_NS",
+                               "nombre":  "Roseta Fibra Optica",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "20450",
+        "nombre":  "JOSE LUIS MUNOZ RAMOS",
+        "total":  19,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  10
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_CD_S",
+                               "nombre":  "Decodificador IPTV CD",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "29025",
+        "nombre":  "JOSE MANUEL SEPULVEDA ROJAS",
+        "total":  133,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  60
+                           },
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  40
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  12
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  7
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "ROSETA_FO_NS",
+                               "nombre":  "Roseta Fibra Optica",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "CABLE_PRE_CON",
+                               "nombre":  "Cable Preconectorizado",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_CD_S",
+                               "nombre":  "Decodificador IPTV CD",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "30729",
+        "nombre":  "JOSUE ORELLANA ALARCON",
+        "total":  63,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  45
+                           },
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  10
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "622",
+        "nombre":  "JUAN CARLOS TAPIA GOMEZ",
+        "total":  0,
+        "materiales":  [
+
+                       ]
+    },
+    {
+        "idca":  "28998",
+        "nombre":  "JUAN ESTEBAN MARTINEZ LOCK",
+        "total":  56,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  22
+                           },
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  20
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  9
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "22764",
+        "nombre":  "JUAN HERIBERTO VARGAS ALARCON",
+        "total":  80,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  30
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  30
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  6
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "20998",
+        "nombre":  "JUAN JOSE MARCANO GONZALEZ",
+        "total":  15,
+        "materiales":  [
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  6
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "19061",
+        "nombre":  "LUIS ALFONSO VALLEJO GARCIA",
+        "total":  298,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  220
+                           },
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  50
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  16
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "28431",
+        "nombre":  "MANUEL DARIO JELDES ARANCIBIA",
+        "total":  22,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  10
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  5
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "2516",
+        "nombre":  "MARCO MANUEL VEGA VEGA",
+        "total":  96,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  80
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_CD_S",
+                               "nombre":  "Decodificador IPTV CD",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "19352",
+        "nombre":  "MATIAS HERNAN VILLALOBOS RAMOS",
+        "total":  410,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  270
+                           },
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  109
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  9
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  7
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  2
+                           }
+                       ]
+    },
+    {
+        "idca":  "19516",
+        "nombre":  "MATIAS RODRIGO MONTECINOS POZO",
+        "total":  286,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  150
+                           },
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  100
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  10
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  10
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  6
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  2
+                           }
+                       ]
+    },
+    {
+        "idca":  "30705",
+        "nombre":  "MATIAS RUBEN RUBINA BURGOS",
+        "total":  84,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  63
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  9
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "20728",
+        "nombre":  "MAURICIO RODOLFO ASTORGA HERRERA",
+        "total":  0,
+        "materiales":  [
+
+                       ]
+    },
+    {
+        "idca":  "2495",
+        "nombre":  "NESTOR FABIAN PASTEN ALARCON",
+        "total":  0,
+        "materiales":  [
+
+                       ]
+    },
+    {
+        "idca":  "22766",
+        "nombre":  "OSCAR ANDRES JOFRE LE CERF",
+        "total":  126,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  60
+                           },
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  50
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "8387",
+        "nombre":  "PATRICIO CANALES GEVE",
+        "total":  186,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  150
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  12
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  11
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  5
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "18455",
+        "nombre":  "PATRICIO EDUARDO DELANO SCHWAIGER",
+        "total":  44,
+        "materiales":  [
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  12
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  11
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  7
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  6
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  2
+                           }
+                       ]
+    },
+    {
+        "idca":  "22191",
+        "nombre":  "PEDRO ISAIAS CONCHA JORQUERA",
+        "total":  64,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  40
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  7
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_CD_S",
+                               "nombre":  "Decodificador IPTV CD",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "ROSETA_FO_NS",
+                               "nombre":  "Roseta Fibra Optica",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "20471",
+        "nombre":  "PROPHETE GABRIEL",
+        "total":  143,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  90
+                           },
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  15
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  10
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  8
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  5
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "ROSETA_FO_NS",
+                               "nombre":  "Roseta Fibra Optica",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "2520",
+        "nombre":  "RICHARDS ANTONIO CRUZ CUEVAS",
+        "total":  37,
+        "materiales":  [
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  23
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  5
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "CABLE_PRE_CON",
+                               "nombre":  "Cable Preconectorizado",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "18373",
+        "nombre":  "SANTIAGO EMILIO ANGEL ARIAS",
+        "total":  2,
+        "materiales":  [
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "18373",
+        "nombre":  "SEBASTIAN ANDRES SANCHEZ CAYUQUEO",
+        "total":  24,
+        "materiales":  [
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  8
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_CD_S",
+                               "nombre":  "Decodificador IPTV CD",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "28725",
+        "nombre":  "SIMON ANDRES SILVA PHILIP",
+        "total":  280,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_INT_FO_NS",
+                               "nombre":  "Cable Fibra Optica (interior)",
+                               "Total":  135
+                           },
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  99
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  13
+                           },
+                           {
+                               "Tipo":  "CONECT_CAM_FO_NS",
+                               "nombre":  "Conector de Campo FO",
+                               "Total":  11
+                           },
+                           {
+                               "Tipo":  "SOP_DROP_FO_NS",
+                               "nombre":  "Soporte Drop FO",
+                               "Total":  7
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  6
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  4
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_2x2",
+                               "nombre":  "Modem WiFi 6 (2x2)",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "JUMPER_FO_NS",
+                               "nombre":  "Jumper Fibra Optica",
+                               "Total":  1
+                           },
+                           {
+                               "Tipo":  "MODEM_F_S",
+                               "nombre":  "Modem Estandar",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "27819",
+        "nombre":  "WILFRED RENE ROCCO ZUNIGA",
+        "total":  33,
+        "materiales":  [
+                           {
+                               "Tipo":  "CABLE_UTP_NS",
+                               "nombre":  "Cable UTP",
+                               "Total":  25
+                           },
+                           {
+                               "Tipo":  "AP_S",
+                               "nombre":  "Access Point / Repetidor",
+                               "Total":  3
+                           },
+                           {
+                               "Tipo":  "ETQ_NFC_NS",
+                               "nombre":  "Etiqueta NFC",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  2
+                           },
+                           {
+                               "Tipo":  "MODEM_F_W6_S",
+                               "nombre":  "Modem WiFi 6",
+                               "Total":  1
+                           }
+                       ]
+    },
+    {
+        "idca":  "21627",
+        "nombre":  "YUSSEF ALI SAT PINO",
+        "total":  2,
+        "materiales":  [
+                           {
+                               "Tipo":  "DECO_IPTV_SD_S",
+                               "nombre":  "Decodificador IPTV SD",
+                               "Total":  2
+                           }
+                       ]
+    }
+]

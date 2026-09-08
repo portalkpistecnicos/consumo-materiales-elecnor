@@ -21,6 +21,7 @@
     --brand-orange-soft:#FDE7CC;
     --shadow: 0 1px 2px rgba(20,42,71,0.06), 0 8px 24px rgba(20,42,71,0.06);
     --focus: #1E6FD9;
+    --danger: #C0392B;
     color-scheme: light dark;
   }
   @media (prefers-color-scheme: dark){
@@ -37,6 +38,7 @@
       --brand-orange-soft:#3A2B14;
       --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px rgba(0,0,0,0.35);
       --focus: #7FB2FF;
+      --danger: #FF6B5E;
     }
   }
   :root[data-theme="dark"]{
@@ -52,6 +54,7 @@
     --brand-orange-soft:#3A2B14;
     --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 8px 24px rgba(0,0,0,0.35);
     --focus: #7FB2FF;
+    --danger: #FF6B5E;
   }
 
   *{box-sizing:border-box;}
@@ -68,9 +71,97 @@
     margin:0;
   }
   .num{ font-family:"IBM Plex Mono", ui-monospace, monospace; font-variant-numeric:tabular-nums; }
+  [hidden]{ display:none !important; }
 
   a{color:var(--brand-blue);}
 
+  /* ---------- Login screen ---------- */
+  .login-wrap{
+    min-height:100dvh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:24px;
+    background:linear-gradient(160deg, var(--brand-blue) 0%, var(--brand-blue-deep) 60%, #041B3D 100%);
+  }
+  .login-card{
+    width:100%;
+    max-width:380px;
+    background:var(--surface);
+    border-radius:18px;
+    box-shadow:0 20px 60px rgba(0,10,30,0.35);
+    padding:32px 28px 28px;
+    position:relative;
+    overflow:hidden;
+  }
+  .login-card::before{
+    content:"";
+    position:absolute; left:0; right:0; top:0; height:5px;
+    background:linear-gradient(90deg, var(--brand-blue) 0%, var(--brand-orange) 100%);
+  }
+  .login-eyebrow{
+    font-size:11.5px; font-weight:600; letter-spacing:0.08em; text-transform:uppercase;
+    color:var(--brand-orange); margin-bottom:6px;
+  }
+  .login-card h1{ font-size:22px; font-weight:800; color:var(--text); margin-bottom:6px; }
+  .login-card p.sub{ font-size:13px; color:var(--text-muted); margin:0 0 22px; line-height:1.5; }
+  .field-label{ font-size:12px; font-weight:600; color:var(--text-muted); margin-bottom:6px; display:block; }
+  .idca-input{
+    width:100%;
+    font:inherit;
+    font-family:"IBM Plex Mono", ui-monospace, monospace;
+    font-size:20px;
+    letter-spacing:0.04em;
+    padding:12px 14px;
+    border:1.5px solid var(--border);
+    border-radius:10px;
+    background:var(--surface-2);
+    color:var(--text);
+    text-align:center;
+  }
+  .idca-input:focus-visible{ outline:2px solid var(--focus); outline-offset:1px; border-color:var(--brand-blue); }
+  .login-submit{
+    width:100%;
+    margin-top:14px;
+    padding:12px 14px;
+    border:none;
+    border-radius:10px;
+    background:var(--brand-blue);
+    color:#fff;
+    font:inherit;
+    font-weight:700;
+    font-size:14px;
+    cursor:pointer;
+    transition:opacity .15s ease;
+  }
+  .login-submit:hover{ opacity:0.92; }
+  .login-error{
+    margin-top:12px;
+    font-size:12.5px;
+    color:var(--danger);
+    display:flex;
+    align-items:center;
+    gap:6px;
+  }
+  .login-loading{ margin-top:14px; font-size:12.5px; color:var(--text-muted); text-align:center; }
+  .login-footer{ margin-top:20px; font-size:11px; color:var(--text-muted); text-align:center; }
+
+  .picker-list{ margin-top:14px; display:flex; flex-direction:column; gap:8px; }
+  .picker-btn{
+    text-align:left;
+    padding:10px 12px;
+    border:1px solid var(--border);
+    border-radius:9px;
+    background:var(--surface-2);
+    color:var(--text);
+    font:inherit;
+    font-size:13px;
+    font-weight:600;
+    cursor:pointer;
+  }
+  .picker-btn:hover{ border-color:var(--brand-blue); }
+
+  /* ---------- App shell ---------- */
   .page{
     max-width:1080px;
     margin:0 auto;
@@ -84,7 +175,7 @@
   .masthead{
     background:linear-gradient(135deg, var(--brand-blue) 0%, var(--brand-blue-deep) 100%);
     border-radius:16px;
-    padding:28px 28px 24px;
+    padding:24px 28px 24px;
     color:#F4F8FF;
     box-shadow:var(--shadow);
     position:relative;
@@ -98,6 +189,7 @@
     border-radius:50%;
     background:radial-gradient(circle, rgba(244,124,2,0.35) 0%, rgba(244,124,2,0) 70%);
   }
+  .masthead-top{ display:flex; align-items:flex-start; justify-content:space-between; gap:12px; position:relative; z-index:1; }
   .eyebrow{
     font-size:12px;
     font-weight:600;
@@ -106,10 +198,29 @@
     color:var(--brand-orange);
     margin-bottom:8px;
   }
+  .logout-btn{
+    appearance:none; border:1px solid rgba(255,255,255,0.35); background:rgba(255,255,255,0.08);
+    color:#fff; font:inherit; font-size:12px; font-weight:600;
+    padding:6px 12px; border-radius:8px; cursor:pointer; white-space:nowrap;
+  }
+  .logout-btn:hover{ background:rgba(255,255,255,0.18); }
   .masthead h1{
     font-size:clamp(22px,4.2vw,30px);
     font-weight:800;
     color:#fff;
+    position:relative; z-index:1;
+  }
+  .masthead-greeting{
+    margin:6px 0 0;
+    font-size:14px;
+    color:#CFE0F7;
+    position:relative; z-index:1;
+  }
+  .masthead-greeting b{ color:#fff; }
+  .idca-chip{
+    display:inline-block; margin-left:8px; padding:2px 8px;
+    border-radius:999px; background:rgba(255,255,255,0.12);
+    font-family:"IBM Plex Mono", ui-monospace, monospace; font-size:11px;
   }
   .masthead-meta{
     margin-top:14px;
@@ -118,6 +229,7 @@
     gap:8px 18px;
     font-size:13px;
     color:#CFE0F7;
+    position:relative; z-index:1;
   }
   .masthead-meta b{ color:#fff; font-weight:600; }
   .masthead-meta .dot{ opacity:0.5; }
@@ -162,6 +274,10 @@
     border-radius:16px;
     padding:22px 22px 24px;
     box-shadow:var(--shadow);
+  }
+  .panel.personal-panel{
+    border-color:var(--brand-orange);
+    box-shadow:0 0 0 1px rgba(244,124,2,0.15), var(--shadow);
   }
   .panel-head{
     display:flex;
@@ -273,6 +389,16 @@
     font-weight:600;
   }
 
+  /* personal chart variant: value column carries a second, muted comparison line */
+  .bar-row.personal{ grid-template-columns:170px 1fr 108px; cursor:default; }
+  .bar-row.personal:hover{ background:transparent; }
+  .bar-value-wrap{ text-align:right; line-height:1.25; }
+  .bar-compare{ display:block; font-size:10.5px; color:var(--text-muted); font-weight:400; }
+  .empty-personal{
+    padding:28px 12px; text-align:center; color:var(--text-muted); font-size:13.5px;
+    border:1px dashed var(--border); border-radius:12px;
+  }
+
   /* ---------- Table ---------- */
   .table-tools{
     display:flex;
@@ -366,8 +492,10 @@
     .panel{ padding:18px 16px 20px; }
     .chart-scale{ display:none; }
     .bar-row{ grid-template-columns:104px 1fr 56px; gap:8px; }
+    .bar-row.personal{ grid-template-columns:96px 1fr 84px; }
     .bar-label{ font-size:11.5px; }
     .bar-value{ font-size:11.5px; }
+    .bar-compare{ font-size:9.5px; }
     .table-tools{ flex-direction:column; align-items:stretch; }
     .searchbox{ max-width:none; }
   }
@@ -378,11 +506,33 @@
 </style>
 </head>
 <body>
-<div class="page">
+
+<div class="login-wrap" id="loginScreen">
+  <div class="login-card">
+    <div class="login-eyebrow">Portal Técnicos · Consumo de Materiales</div>
+    <h1>Ingresa tu IDCA</h1>
+    <p class="sub">Para ver tu consumo de materiales del período, escribe tu código IDCA (hoja Plantel).</p>
+    <form id="loginForm" autocomplete="off">
+      <label class="field-label" for="idcaInput">Código IDCA</label>
+      <input class="idca-input" id="idcaInput" type="text" inputmode="numeric" placeholder="Ej: 1226" maxlength="10">
+      <button class="login-submit" type="submit">Ingresar</button>
+    </form>
+    <div class="login-loading" id="loginLoading">Cargando datos…</div>
+    <div class="login-error" id="loginError" hidden></div>
+    <div class="picker-list" id="pickerList" hidden></div>
+    <div class="login-footer">Los datos se actualizan solos con cada corrida de Actualizar_Consumo_Tecnico.ps1.</div>
+  </div>
+</div>
+
+<div class="page" id="appPage" hidden>
 
   <header class="masthead">
-    <div class="eyebrow">Informe Ejecutivo · Operaciones Técnicas</div>
+    <div class="masthead-top">
+      <div class="eyebrow">Informe Ejecutivo · Operaciones Técnicas</div>
+      <button type="button" class="logout-btn" id="logoutBtn">Salir</button>
+    </div>
     <h1>Consumo de Materiales por Técnico</h1>
+    <p class="masthead-greeting">Hola, <b id="greetName">—</b><span class="idca-chip">IDCA <span id="greetIdca">—</span></span></p>
     <div class="masthead-meta">
       <span>Período <b id="metaPeriodo">—</b></span>
       <span class="dot">·</span>
@@ -394,33 +544,42 @@
     </div>
   </header>
 
-  <section class="kpis">
-    <div class="kpi">
-      <div class="kpi-label">Unidades totales</div>
-      <div class="kpi-value num" id="kpiTotal">—</div>
-      <div class="kpi-sub" id="kpiTotalSub">en el período</div>
+  <section class="panel personal-panel">
+    <div class="panel-head">
+      <div>
+        <h2>Tu consumo</h2>
+        <p id="personalSub">Materiales que registraste en el período, comparados con el promedio del equipo por técnico.</p>
+      </div>
     </div>
-    <div class="kpi">
-      <div class="kpi-label">Promedio diario</div>
-      <div class="kpi-value num" id="kpiDiario">—</div>
-      <div class="kpi-sub">unidades / día, todo material</div>
+    <div class="kpis" style="margin-bottom:18px;">
+      <div class="kpi">
+        <div class="kpi-label">Tu total</div>
+        <div class="kpi-value num" id="pkTotal">—</div>
+        <div class="kpi-sub" id="pkTotalSub">unidades en el período</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Tu material principal</div>
+        <div class="kpi-value" id="pkTop" style="font-size:15px; line-height:1.25;">—</div>
+        <div class="kpi-sub" id="pkTopSub">—</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Tipos que usaste</div>
+        <div class="kpi-value num" id="pkTipos">—</div>
+        <div class="kpi-sub">de los materiales controlados</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Tu posición</div>
+        <div class="kpi-value" id="pkRank" style="font-size:20px;">—</div>
+        <div class="kpi-sub" id="pkRankSub">en el equipo</div>
+      </div>
     </div>
-    <div class="kpi">
-      <div class="kpi-label">Tipos de material</div>
-      <div class="kpi-value num" id="kpiTipos">—</div>
-      <div class="kpi-sub">categorías distintas registradas</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-label">Material líder</div>
-      <div class="kpi-value" id="kpiLider" style="font-size:16px; line-height:1.25;">—</div>
-      <div class="kpi-sub" id="kpiLiderSub">por unidades totales</div>
-    </div>
+    <div class="chart" id="personalChart"></div>
   </section>
 
   <section class="panel">
     <div class="panel-head">
       <div>
-        <h2>Ranking por material</h2>
+        <h2>Ranking del equipo por material</h2>
         <p>Barras ordenadas de mayor a menor según la métrica elegida. El promedio por técnico solo considera a quienes efectivamente usaron ese material — no diluye el dato con técnicos inactivos.</p>
       </div>
       <div class="segmented" role="tablist" aria-label="Métrica del gráfico">
@@ -468,6 +627,7 @@
     <b>Metodología y fuente.</b>
     <ul>
       <li>Fuente: <code>Consumo_por_Tecnico.xlsx</code> (hoja "Detalle Diario"), regenerado automáticamente desde <code>Consolidado_consumo.xlsx</code> y los archivos diarios de terreno. Esta página se republica sola al final de cada corrida de <code>Actualizar_Consumo_Tecnico.ps1</code>.</li>
+      <li>El IDCA de cada técnico viene de <code>Formato pedidos a Planificación.xlsx</code>, hoja "Plantel", columna G.</li>
       <li><b>Total</b>: suma de unidades consumidas del material en el período. <b>Prom. / técnico</b>: total ÷ técnicos que registraron ese material al menos una vez (excluye inactivos). <b>Prom. / día</b>: total ÷ días del período con al menos un registro de ese material.</li>
       <li>El período se reinicia cada vez que <code>Consolidado_consumo.xlsx</code> avanza de mes; esta fotografía corresponde solo a los días ya consolidados de ese mes.</li>
     </ul>
@@ -478,47 +638,168 @@
 <script>
 const fmtInt = n => new Intl.NumberFormat('es-CL').format(Math.round(n));
 const fmtDec = n => new Intl.NumberFormat('es-CL', { minimumFractionDigits:1, maximumFractionDigits:1 }).format(n);
+const STORAGE_KEY = 'consumo_materiales_idca';
 
-let rows = [];
+let rows = [];          // materiales.json (team aggregate)
+let tecnicos = [];       // tecnicos.json (per-tecnico, keyed by idca)
 let PERIODO = { desde: "—", hasta: "—", dias: 1 };
 let TECNICOS_ACTIVOS = 0;
 let GENERADO = "—";
+let current = null;      // logged-in tecnico object
 
 async function loadData(){
   const bust = '?v=' + Date.now();
-  const [materiales, meta] = await Promise.all([
+  const [materiales, meta, tecnicosData] = await Promise.all([
     fetch('data/materiales.json' + bust).then(r => r.json()),
-    fetch('data/meta.json' + bust).then(r => r.json())
+    fetch('data/meta.json' + bust).then(r => r.json()),
+    fetch('data/tecnicos.json' + bust).then(r => r.json())
   ]);
   rows = materiales;
+  tecnicos = tecnicosData;
   PERIODO = meta.periodo;
   TECNICOS_ACTIVOS = meta.tecnicosActivos;
   GENERADO = meta.generado;
 }
 
+// ---------------- Login ----------------
+const loginScreen = document.getElementById('loginScreen');
+const appPage = document.getElementById('appPage');
+const loginForm = document.getElementById('loginForm');
+const idcaInput = document.getElementById('idcaInput');
+const loginLoading = document.getElementById('loginLoading');
+const loginError = document.getElementById('loginError');
+const pickerList = document.getElementById('pickerList');
+
+function showError(msg){
+  loginError.textContent = msg;
+  loginError.hidden = false;
+}
+function clearError(){
+  loginError.hidden = true;
+  pickerList.hidden = true;
+  pickerList.innerHTML = '';
+}
+
+function attemptLogin(idcaRaw){
+  clearError();
+  const idca = String(idcaRaw).trim();
+  if (!idca){ showError('Ingresa tu código IDCA.'); return; }
+  const matches = tecnicos.filter(t => String(t.idca).trim() === idca);
+  if (matches.length === 0){
+    showError('IDCA no encontrado. Verifica el número e intenta de nuevo.');
+    return;
+  }
+  if (matches.length > 1){
+    // Duplicate IDCA in the roster - let the person pick their own name instead of guessing.
+    pickerList.hidden = false;
+    pickerList.innerHTML = '';
+    const note = document.createElement('div');
+    note.className = 'login-error';
+    note.style.color = 'var(--text-muted)';
+    note.textContent = 'Ese IDCA está asignado a más de un técnico. Toca tu nombre:';
+    pickerList.appendChild(note);
+    matches.forEach(t => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'picker-btn';
+      btn.textContent = t.nombre;
+      btn.addEventListener('click', () => enterApp(t));
+      pickerList.appendChild(btn);
+    });
+    return;
+  }
+  enterApp(matches[0]);
+}
+
+function enterApp(tecnico){
+  current = tecnico;
+  try { localStorage.setItem(STORAGE_KEY, String(tecnico.idca)); } catch(e){}
+  loginScreen.hidden = true;
+  appPage.hidden = false;
+  renderHeaderAndKpis();
+  renderPersonal();
+  renderAll();
+}
+
+document.getElementById('logoutBtn').addEventListener('click', () => {
+  try { localStorage.removeItem(STORAGE_KEY); } catch(e){}
+  current = null;
+  idcaInput.value = '';
+  clearError();
+  appPage.hidden = true;
+  loginScreen.hidden = false;
+  idcaInput.focus();
+});
+
+loginForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  attemptLogin(idcaInput.value);
+});
+
+// ---------------- Team header / KPIs ----------------
 function renderHeaderAndKpis(){
+  document.getElementById('greetName').textContent = current.nombre;
+  document.getElementById('greetIdca').textContent = current.idca;
   document.getElementById('metaPeriodo').textContent = `${PERIODO.desde} – ${PERIODO.hasta}`;
   document.getElementById('metaTecnicos').textContent = fmtInt(TECNICOS_ACTIVOS);
   document.getElementById('metaGenerado').textContent = GENERADO;
-
   const totalGeneral = rows.reduce((s,r) => s + r.Total, 0);
   document.getElementById('metaUnidades').textContent = fmtInt(totalGeneral);
-  document.getElementById('kpiTotal').textContent = fmtInt(totalGeneral);
-  document.getElementById('kpiTotalSub').textContent = `${PERIODO.desde} – ${PERIODO.hasta}`;
-  document.getElementById('kpiDiario').textContent = fmtDec(totalGeneral / PERIODO.dias);
-  document.getElementById('kpiTipos').textContent = fmtInt(rows.length);
-  const lider = [...rows].sort((a,b)=>b.Total-a.Total)[0];
-  if (lider){
-    document.getElementById('kpiLider').textContent = lider.nombre;
-    document.getElementById('kpiLiderSub').textContent = `${fmtInt(lider.Total)} unidades totales`;
-  }
 }
 
-// ---- Chart ----
+// ---------------- Personal panel ----------------
+function renderPersonal(){
+  const chartEl = document.getElementById('personalChart');
+  const mats = current.materiales || [];
+  const total = current.total || 0;
+
+  document.getElementById('pkTotal').textContent = fmtInt(total);
+  if (mats.length){
+    document.getElementById('pkTop').textContent = mats[0].nombre;
+    document.getElementById('pkTopSub').textContent = `${fmtInt(mats[0].Total)} unidades`;
+  } else {
+    document.getElementById('pkTop').textContent = '—';
+    document.getElementById('pkTopSub').textContent = 'sin registros aún';
+  }
+  document.getElementById('pkTipos').textContent = fmtInt(mats.length);
+
+  const activos = tecnicos.filter(t => (t.total || 0) > 0);
+  if (total > 0){
+    const mejores = activos.filter(t => (t.total || 0) > total).length;
+    document.getElementById('pkRank').textContent = `#${mejores + 1}`;
+    document.getElementById('pkRankSub').textContent = `de ${activos.length} con actividad`;
+  } else {
+    document.getElementById('pkRank').textContent = '—';
+    document.getElementById('pkRankSub').textContent = 'sin actividad este período';
+  }
+
+  chartEl.innerHTML = '';
+  if (mats.length === 0){
+    chartEl.innerHTML = '<div class="empty-personal">Aún no registras consumo de materiales en este período.</div>';
+    return;
+  }
+  const max = mats[0].Total || 1;
+  const teamByTipo = {};
+  rows.forEach(r => { teamByTipo[r.Tipo] = r; });
+
+  mats.forEach(m => {
+    const row = document.createElement('div');
+    row.className = 'bar-row personal';
+    const teamRow = teamByTipo[m.Tipo];
+    const compareTxt = teamRow ? `equipo ${fmtDec(teamRow.PromedioPorTecnico)}` : '';
+    row.innerHTML = `
+      <div class="bar-label" title="${m.nombre}">${m.nombre}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${(m.Total/max*100).toFixed(1)}%"></div></div>
+      <div class="bar-value-wrap"><span class="bar-value num">${fmtInt(m.Total)}</span><span class="bar-compare num">${compareTxt}</span></div>
+    `;
+    chartEl.appendChild(row);
+  });
+}
+
+// ---------------- Team chart ----------------
 let metric = 'Total';
 let highlighted = null;
 const chartEl = document.getElementById('chart');
-
 const metricFmt = (v) => metric === 'Total' ? fmtInt(v) : fmtDec(v);
 
 function renderChart(){
@@ -550,7 +831,7 @@ document.querySelectorAll('.segmented button').forEach(btn => {
   });
 });
 
-// ---- Table ----
+// ---------------- Team table ----------------
 let sortKey = 'Total';
 let sortDir = -1; // descending
 let query = '';
@@ -612,12 +893,24 @@ document.getElementById('searchInput').addEventListener('input', (e) => {
 
 function renderAll(){ renderChart(); renderTable(); }
 
+// ---------------- Boot ----------------
 loadData()
-  .then(renderHeaderAndKpis)
-  .then(renderAll)
+  .then(() => {
+    loginLoading.hidden = true;
+    idcaInput.disabled = false;
+    let saved = null;
+    try { saved = localStorage.getItem(STORAGE_KEY); } catch(e){}
+    if (saved){
+      const match = tecnicos.find(t => String(t.idca).trim() === saved);
+      if (match){ enterApp(match); return; }
+    }
+    idcaInput.focus();
+  })
   .catch(err => {
-    document.getElementById('tbody').innerHTML = `<tr class="empty-row"><td colspan="5">No se pudieron cargar los datos (${err.message}). Reintenta más tarde.</td></tr>`;
+    loginLoading.textContent = `No se pudieron cargar los datos (${err.message}). Reintenta más tarde.`;
   });
+
+idcaInput.disabled = true;
 </script>
 </body>
 </html>

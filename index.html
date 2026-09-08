@@ -548,7 +548,7 @@
     <div class="panel-head">
       <div>
         <h2>Tu consumo</h2>
-        <p id="personalSub">Materiales que registraste en el período, comparados con el promedio del equipo por técnico.</p>
+        <p id="personalSub">Resumen del período. El detalle por material está más abajo.</p>
       </div>
     </div>
     <div class="kpis" style="margin-bottom:18px;">
@@ -573,19 +573,18 @@
         <div class="kpi-sub" id="pkRankSub">en el equipo</div>
       </div>
     </div>
-    <div class="chart" id="personalChart"></div>
   </section>
 
   <section class="panel">
     <div class="panel-head">
       <div>
-        <h2>Ranking del equipo por material</h2>
-        <p>Barras ordenadas de mayor a menor según la métrica elegida. El promedio por técnico solo considera a quienes efectivamente usaron ese material — no diluye el dato con técnicos inactivos.</p>
+        <h2>Ranking de tus materiales</h2>
+        <p>Barras ordenadas de mayor a menor según la métrica elegida, solo para los materiales que usaste. "Total" es tu consumo; los promedios son del equipo, para comparar.</p>
       </div>
       <div class="segmented" role="tablist" aria-label="Métrica del gráfico">
-        <button type="button" data-metric="Total" class="active">Total</button>
-        <button type="button" data-metric="PromedioPorTecnico">Promedio / técnico</button>
-        <button type="button" data-metric="PromedioDiario">Promedio / día</button>
+        <button type="button" data-metric="Total" class="active">Tu total</button>
+        <button type="button" data-metric="PromedioPorTecnico">Prom. equipo / técnico</button>
+        <button type="button" data-metric="PromedioDiario">Prom. equipo / día</button>
       </div>
     </div>
     <div class="chart-scale">
@@ -748,7 +747,6 @@ function renderHeaderAndKpis(){
 
 // ---------------- Personal panel ----------------
 function renderPersonal(){
-  const chartEl = document.getElementById('personalChart');
   const mats = current.materiales || [];
   const total = current.total || 0;
 
@@ -772,41 +770,26 @@ function renderPersonal(){
     document.getElementById('pkRankSub').textContent = 'sin actividad este período';
   }
 
-  chartEl.innerHTML = '';
-  if (mats.length === 0){
-    chartEl.innerHTML = '<div class="empty-personal">Aún no registras consumo de materiales en este período.</div>';
-    return;
-  }
-  const max = mats[0].Total || 1;
-  const teamByTipo = {};
-  rows.forEach(r => { teamByTipo[r.Tipo] = r; });
-
-  mats.forEach(m => {
-    const row = document.createElement('div');
-    row.className = 'bar-row personal';
-    const teamRow = teamByTipo[m.Tipo];
-    const compareTxt = teamRow ? `equipo ${fmtDec(teamRow.PromedioPorTecnico)}` : '';
-    row.innerHTML = `
-      <div class="bar-label" title="${m.nombre}">${m.nombre}</div>
-      <div class="bar-track"><div class="bar-fill" style="width:${(m.Total/max*100).toFixed(1)}%"></div></div>
-      <div class="bar-value-wrap"><span class="bar-value num">${fmtInt(m.Total)}</span><span class="bar-compare num">${compareTxt}</span></div>
-    `;
-    chartEl.appendChild(row);
-  });
 }
 
-// ---------------- Team chart ----------------
+// ---------------- Personal ranking chart ----------------
 let metric = 'Total';
 let highlighted = null;
 const chartEl = document.getElementById('chart');
 const metricFmt = (v) => metric === 'Total' ? fmtInt(v) : fmtDec(v);
 
 function renderChart(){
-  const sorted = [...rows].sort((a,b)=> b[metric] - a[metric]);
-  const max = (sorted[0] && sorted[0][metric]) || 1;
+  const sorted = personalTableRows().sort((a,b)=> b[metric] - a[metric]);
+  chartEl.innerHTML = '';
+  if (sorted.length === 0){
+    document.getElementById('scaleMax').textContent = metricFmt(0);
+    document.getElementById('scaleMid').textContent = metricFmt(0);
+    chartEl.innerHTML = '<div class="empty-personal">Aún no registras consumo de materiales en este período.</div>';
+    return;
+  }
+  const max = sorted[0][metric] || 1;
   document.getElementById('scaleMax').textContent = metricFmt(max);
   document.getElementById('scaleMid').textContent = metricFmt(max/2);
-  chartEl.innerHTML = '';
   sorted.forEach(r => {
     const row = document.createElement('div');
     row.className = 'bar-row' + (highlighted === r.Tipo ? ' highlight' : '');
@@ -830,7 +813,7 @@ document.querySelectorAll('.segmented button').forEach(btn => {
   });
 });
 
-// ---------------- Team table ----------------
+// ---------------- Personal table ----------------
 let sortKey = 'Total';
 let sortDir = -1; // descending
 let query = '';

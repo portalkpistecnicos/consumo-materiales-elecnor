@@ -389,16 +389,6 @@
     font-weight:600;
   }
 
-  /* personal chart variant: value column carries a second, muted comparison line */
-  .bar-row.personal{ grid-template-columns:170px 1fr 108px; cursor:default; }
-  .bar-row.personal:hover{ background:transparent; }
-  .bar-value-wrap{ text-align:right; line-height:1.25; }
-  .bar-compare{ display:block; font-size:10.5px; color:var(--text-muted); font-weight:400; }
-  .empty-personal{
-    padding:28px 12px; text-align:center; color:var(--text-muted); font-size:13.5px;
-    border:1px dashed var(--border); border-radius:12px;
-  }
-
   /* ---------- Table ---------- */
   .table-tools{
     display:flex;
@@ -486,16 +476,23 @@
     width:6px; height:6px; border-radius:50%; background:#2FAE5C;
     box-shadow:0 0 0 3px rgba(47,174,92,0.18);
   }
+  .site-footer{
+    text-align:center;
+    font-size:11px;
+    font-weight:600;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    color:var(--text-muted);
+    padding-top:4px;
+  }
 
   @media (max-width: 640px){
     .kpis{ grid-template-columns:repeat(2,1fr); }
     .panel{ padding:18px 16px 20px; }
     .chart-scale{ display:none; }
     .bar-row{ grid-template-columns:104px 1fr 56px; gap:8px; }
-    .bar-row.personal{ grid-template-columns:96px 1fr 84px; }
     .bar-label{ font-size:11.5px; }
     .bar-value{ font-size:11.5px; }
-    .bar-compare{ font-size:9.5px; }
     .table-tools{ flex-direction:column; align-items:stretch; }
     .searchbox{ max-width:none; }
   }
@@ -578,26 +575,8 @@
   <section class="panel">
     <div class="panel-head">
       <div>
-        <h2>Ranking de tus materiales</h2>
-        <p>Barras ordenadas de mayor a menor según la métrica elegida, solo para los materiales que usaste. "Total" es tu consumo; los promedios son del equipo, para comparar.</p>
-      </div>
-      <div class="segmented" role="tablist" aria-label="Métrica del gráfico">
-        <button type="button" data-metric="Total" class="active">Tu total</button>
-        <button type="button" data-metric="PromedioPorTecnico">Prom. equipo / técnico</button>
-        <button type="button" data-metric="PromedioDiario">Prom. equipo / día</button>
-      </div>
-    </div>
-    <div class="chart-scale">
-      <span>0</span><span id="scaleMid">·</span><span id="scaleMax">máx.</span>
-    </div>
-    <div class="chart" id="chart"></div>
-  </section>
-
-  <section class="panel">
-    <div class="panel-head">
-      <div>
         <h2>Detalle por material</h2>
-        <p>Tu consumo, material por material. Toca un encabezado para ordenar la tabla; los renglones se enlazan con el ranking del equipo de arriba.</p>
+        <p>Tu consumo, material por material. Toca un encabezado para ordenar la tabla; los renglones se enlazan con el ranking del equipo de más abajo.</p>
       </div>
     </div>
     <div class="table-tools">
@@ -621,15 +600,34 @@
     </div>
   </section>
 
+  <section class="panel">
+    <div class="panel-head">
+      <div>
+        <h2>Ranking del equipo por material</h2>
+        <p>Total de unidades usadas por todo el equipo, promedio por técnico y promedio diario, para cada material. El promedio por técnico solo considera a quienes efectivamente lo usaron — no diluye el dato con técnicos inactivos.</p>
+      </div>
+      <div class="segmented" role="tablist" aria-label="Métrica del gráfico">
+        <button type="button" data-metric="Total" class="active">Total</button>
+        <button type="button" data-metric="PromedioPorTecnico">Promedio / técnico</button>
+        <button type="button" data-metric="PromedioDiario">Promedio / día</button>
+      </div>
+    </div>
+    <div class="chart-scale">
+      <span>0</span><span id="scaleMid">·</span><span id="scaleMax">máx.</span>
+    </div>
+    <div class="chart" id="chart"></div>
+  </section>
+
   <section class="panel methodology">
-    <b>Metodología y fuente.</b>
+    <b>Metodología.</b>
     <ul>
-      <li>Fuente: <code>Consumo_por_Tecnico.xlsx</code> (hoja "Detalle Diario"), regenerado automáticamente desde <code>Consolidado_consumo.xlsx</code> y los archivos diarios de terreno. Esta página se republica sola al final de cada corrida de <code>Actualizar_Consumo_Tecnico.ps1</code>.</li>
       <li>El IDCA de cada técnico viene de <code>Formato pedidos a Planificación.xlsx</code>, hoja "Plantel", columna G.</li>
       <li><b>Total</b>: suma de unidades consumidas del material en el período. <b>Prom. / técnico</b>: total ÷ técnicos que registraron ese material al menos una vez (excluye inactivos). <b>Prom. / día</b>: total ÷ días del período con al menos un registro de ese material.</li>
       <li>El período se reinicia cada vez que <code>Consolidado_consumo.xlsx</code> avanza de mes; esta fotografía corresponde solo a los días ya consolidados de ese mes.</li>
     </ul>
   </section>
+
+  <footer class="site-footer">Diseñado por Xas</footer>
 
 </div>
 
@@ -772,24 +770,18 @@ function renderPersonal(){
 
 }
 
-// ---------------- Personal ranking chart ----------------
+// ---------------- Team ranking chart ----------------
 let metric = 'Total';
 let highlighted = null;
 const chartEl = document.getElementById('chart');
 const metricFmt = (v) => metric === 'Total' ? fmtInt(v) : fmtDec(v);
 
 function renderChart(){
-  const sorted = personalTableRows().sort((a,b)=> b[metric] - a[metric]);
-  chartEl.innerHTML = '';
-  if (sorted.length === 0){
-    document.getElementById('scaleMax').textContent = metricFmt(0);
-    document.getElementById('scaleMid').textContent = metricFmt(0);
-    chartEl.innerHTML = '<div class="empty-personal">Aún no registras consumo de materiales en este período.</div>';
-    return;
-  }
-  const max = sorted[0][metric] || 1;
+  const sorted = [...rows].sort((a,b)=> b[metric] - a[metric]);
+  const max = (sorted[0] && sorted[0][metric]) || 1;
   document.getElementById('scaleMax').textContent = metricFmt(max);
   document.getElementById('scaleMid').textContent = metricFmt(max/2);
+  chartEl.innerHTML = '';
   sorted.forEach(r => {
     const row = document.createElement('div');
     row.className = 'bar-row' + (highlighted === r.Tipo ? ' highlight' : '');

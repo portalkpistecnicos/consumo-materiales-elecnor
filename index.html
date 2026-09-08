@@ -240,6 +240,7 @@
     grid-template-columns:repeat(4,1fr);
     gap:14px;
   }
+  .kpis-3{ grid-template-columns:repeat(3,1fr); }
   .kpi{
     background:var(--surface);
     border:1px solid var(--border);
@@ -618,6 +619,49 @@
         <div class="kpi-value" id="pkRank" style="font-size:20px;">—</div>
         <div class="kpi-sub" id="pkRankSub">en el equipo</div>
       </button>
+    </div>
+  </section>
+
+  <section class="panel personal-panel" id="stockSection">
+    <div class="panel-head">
+      <div>
+        <h2>Tu stock</h2>
+        <p id="stockSub">Lo que tienes actualmente en tu bodega móvil, según el corte SAP más reciente.</p>
+      </div>
+    </div>
+    <div class="kpis kpis-3" style="margin-bottom:18px;">
+      <div class="kpi">
+        <div class="kpi-label">Stock actual</div>
+        <div class="kpi-value num" id="skTotal">—</div>
+        <div class="kpi-sub">unidades en tu bodega móvil</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Materiales en stock</div>
+        <div class="kpi-value num" id="skTipos">—</div>
+        <div class="kpi-sub">tipos distintos</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Corte SAP</div>
+        <div class="kpi-value" id="skFecha" style="font-size:18px;">—</div>
+        <div class="kpi-sub" id="skTurno">—</div>
+      </div>
+    </div>
+    <div class="table-tools">
+      <div class="searchbox">
+        <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="searchStockInput" placeholder="Buscar por código SAP o nombre…" aria-label="Buscar material en tu stock">
+      </div>
+    </div>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th><button data-key="nombre">Material <span class="sort-arrow" data-arrow="nombre">▲</span></button></th>
+            <th><button data-key="Cantidad">Cantidad <span class="sort-arrow" data-arrow="Cantidad">▲</span></button></th>
+          </tr>
+        </thead>
+        <tbody id="tbodyStock"><tr class="empty-row"><td colspan="2">Cargando datos…</td></tr></tbody>
+      </table>
     </div>
   </section>
 

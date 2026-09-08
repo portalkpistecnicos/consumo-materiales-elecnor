@@ -504,6 +504,16 @@
     .bar-value{ font-size:11.5px; }
     .table-tools{ flex-direction:column; align-items:stretch; }
     .searchbox{ max-width:none; }
+
+    /* Let the table fit a phone width without a horizontal scroll: the min-width that
+       keeps it roomy on desktop is exactly what hides the number columns off-screen here. */
+    table{ min-width:0; width:100%; table-layout:fixed; }
+    thead th, tbody td{ padding:8px 5px; font-size:11px; white-space:normal; }
+    thead th{ line-height:1.25; }
+    tbody td:first-child{ min-width:0; width:38%; }
+    thead th:nth-child(1) button, tbody td:first-child{ padding-left:8px; }
+    .mat-name{ font-size:11.5px; }
+    .mat-code{ font-size:9px; }
   }
 
   @media (prefers-reduced-motion: reduce){

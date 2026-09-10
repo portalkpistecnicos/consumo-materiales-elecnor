@@ -467,6 +467,7 @@
         <div class="masthead-btns">
           <button type="button" class="ghost-btn" id="themeBtn" aria-label="Cambiar fondo: claro u oscuro">Fondo: <span id="themeBtnLabel">Claro</span></button>
           <button type="button" class="ghost-btn" id="pdfBtn">Descargar PDF</button>
+          <button type="button" class="ghost-btn" id="excelBtn">Descargar Excel</button>
           <button type="button" class="logout-btn" id="logoutBtn">Salir</button>
         </div>
       </div>
@@ -540,6 +541,7 @@
 
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script>
 const fmtInt = n => new Intl.NumberFormat('es-CL').format(Math.round(n));
 const STORAGE_KEY = 'consumo_materiales_idca';
@@ -573,6 +575,44 @@ themeBtn.addEventListener('click', () => {
 });
 
 document.getElementById('pdfBtn').addEventListener('click', () => window.print());
+
+document.getElementById('excelBtn').addEventListener('click', () => {
+  if (!current) return;
+  const flow = current.flow || [];
+  const otros = current.stockOtros || [];
+  const teamByTipo = {};
+  rows.forEach(r => { teamByTipo[r.Tipo] = r; });
+
+  const infoRows = [
+    ['Técnico', current.nombre],
+    ['IDCA', current.idca],
+    ['Período', `${PERIODO.desde} – ${PERIODO.hasta}`],
+    ['Generado', GENERADO],
+    ['Corte de stock', STOCK_META ? `${STOCK_META.fecha} ${STOCK_META.turno}` : 'Sin datos de stock este mes'],
+    []
+  ];
+  const flowHeader = ['Material', 'Código(s) SAP', 'Stock', 'Consumo', 'Diferencia'];
+  const flowRows = flow.map(f => {
+    const teamRow = teamByTipo[f.Tipo];
+    const codigos = (teamRow && teamRow.Codigos && teamRow.Codigos.length) ? teamRow.Codigos.join(', ') : f.Tipo;
+    return [f.nombre, codigos, f.stock, f.consumo, f.stock - f.consumo];
+  });
+
+  const wb = XLSX.utils.book_new();
+  const ws1 = XLSX.utils.aoa_to_sheet([...infoRows, flowHeader, ...flowRows]);
+  ws1['!cols'] = [{ wch:32 }, { wch:36 }, { wch:9 }, { wch:9 }, { wch:11 }];
+  XLSX.utils.book_append_sheet(wb, ws1, 'Stock y Consumo');
+
+  if (otros.length){
+    const otrosData = [['Material', 'SAP', 'Cantidad'], ...otros.map(o => [o.Nombre, o.Material, o.Cantidad])];
+    const ws2 = XLSX.utils.aoa_to_sheet(otrosData);
+    ws2['!cols'] = [{ wch:38 }, { wch:16 }, { wch:10 }];
+    XLSX.utils.book_append_sheet(wb, ws2, 'Otros materiales');
+  }
+
+  const fechaArchivo = (PERIODO.hasta || '').split('-').reverse().join('-'); // dd-mm-yyyy -> yyyy-mm-dd
+  XLSX.writeFile(wb, `Consumo_Materiales_IDCA${current.idca}_${fechaArchivo}.xlsx`);
+});
 
 let rows = [];          // materiales.json (team aggregate)
 let tecnicos = [];       // tecnicos.json (per-tecnico, keyed by idca)

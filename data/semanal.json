@@ -1,0 +1,1182 @@
+[
+    {
+        "idca":  "1226",
+        "nombre":  "ABELARDO HIPOLITO VENEGAS HERNANDEZ",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  124,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  11,
+                              "stock":  617,
+                              "diferencia":  606
+                          }
+                      ]
+    },
+    {
+        "idca":  "19593",
+        "nombre":  "ALEJANDRO ENRIQUE LAGOS GONZALEZ",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  24,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  0,
+                              "stock":  619,
+                              "diferencia":  619
+                          }
+                      ]
+    },
+    {
+        "idca":  "2746",
+        "nombre":  "ALEJANDRO NICOLAS PARA GOMEZ",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  28,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  60,
+                              "stock":  576,
+                              "diferencia":  516
+                          }
+                      ]
+    },
+    {
+        "idca":  "1944",
+        "nombre":  "ALEJANDRO SEBASTIAN CISTERNAS MARIN",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  25,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  17,
+                              "stock":  410,
+                              "diferencia":  393
+                          }
+                      ]
+    },
+    {
+        "idca":  "20281",
+        "nombre":  "AUGUSTO ANDRES FUENTES TAPIA",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  0,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  0,
+                              "stock":  30,
+                              "diferencia":  30
+                          }
+                      ]
+    },
+    {
+        "idca":  "28427",
+        "nombre":  "BASTIAN IGNACIO RIOS MADRID",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  135,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  0,
+                              "stock":  313,
+                              "diferencia":  313
+                          }
+                      ]
+    },
+    {
+        "idca":  "18479",
+        "nombre":  "BENJAMIN ALFREDO MIRANDA IRARRAZABAL",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  55,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  11,
+                              "stock":  524,
+                              "diferencia":  513
+                          }
+                      ]
+    },
+    {
+        "idca":  "28430",
+        "nombre":  "CARLOS HERNAN MUNOZ MATUS",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  105,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  82,
+                              "stock":  647,
+                              "diferencia":  565
+                          }
+                      ]
+    },
+    {
+        "idca":  "28991",
+        "nombre":  "CHRISTOPHER PATRICK LISBOA BARRERA",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  111,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  1,
+                              "stock":  139,
+                              "diferencia":  138
+                          }
+                      ]
+    },
+    {
+        "idca":  "21626",
+        "nombre":  "CRISTIAN ANDRES VASQUEZ MUNOZ",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  84,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  49,
+                              "stock":  197,
+                              "diferencia":  148
+                          }
+                      ]
+    },
+    {
+        "idca":  "4310",
+        "nombre":  "CRISTIAN GUILLERMO GOLOTT ESCUDERO",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  0,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  0,
+                              "stock":  70,
+                              "diferencia":  70
+                          }
+                      ]
+    },
+    {
+        "idca":  "28344",
+        "nombre":  "CRISTIAN NICOLAS SERRANO VELLAGAS",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  327,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  30,
+                              "stock":  200,
+                              "diferencia":  170
+                          }
+                      ]
+    },
+    {
+        "idca":  "20496",
+        "nombre":  "DANIEL ALEXANDER RAMIREZ TORRES",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  16,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  33,
+                              "stock":  429,
+                              "diferencia":  396
+                          }
+                      ]
+    },
+    {
+        "idca":  "18331",
+        "nombre":  "ESTEBAN DAVID ORTIZ FIGUEROA",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  36,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  31,
+                              "stock":  608,
+                              "diferencia":  577
+                          }
+                      ]
+    },
+    {
+        "idca":  "20638",
+        "nombre":  "FABIAN GONZALO SAAVEDRA VILCHES",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  31,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  10,
+                              "stock":  546,
+                              "diferencia":  536
+                          }
+                      ]
+    },
+    {
+        "idca":  "1949",
+        "nombre":  "FERNANDO ALEXIS HOLM MORALES",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  7,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  3,
+                              "stock":  530,
+                              "diferencia":  527
+                          }
+                      ]
+    },
+    {
+        "idca":  "27820",
+        "nombre":  "FRANCISCO ERNESTO GUERRA GOMEZ",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  126,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  65,
+                              "stock":  65,
+                              "diferencia":  0
+                          }
+                      ]
+    },
+    {
+        "idca":  "9352",
+        "nombre":  "FRANCISCO ESTEBAN CARMONA CASTRO",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  0,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  1,
+                              "stock":  474,
+                              "diferencia":  473
+                          }
+                      ]
+    },
+    {
+        "idca":  "22049",
+        "nombre":  "FRANCO JOSUE DIAZ NUNEZ",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  331,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  5,
+                              "stock":  227,
+                              "diferencia":  222
+                          }
+                      ]
+    },
+    {
+        "idca":  "28313",
+        "nombre":  "GONZALO ANDRES TAPIA VASCONCELO",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  7,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  21,
+                              "stock":  291,
+                              "diferencia":  270
+                          }
+                      ]
+    },
+    {
+        "idca":  "21970",
+        "nombre":  "HECTOR DAVID AVALOS RUPCICH",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  2,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  0,
+                              "stock":  609,
+                              "diferencia":  609
+                          }
+                      ]
+    },
+    {
+        "idca":  "20206",
+        "nombre":  "HECTOR FERNANDO QUIROZ TORRES",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  140,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  9,
+                              "stock":  591,
+                              "diferencia":  582
+                          }
+                      ]
+    },
+    {
+        "idca":  "20404",
+        "nombre":  "HECTOR JOSE ORTIZ MARQUEZ",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  312,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  5,
+                              "stock":  319,
+                              "diferencia":  314
+                          }
+                      ]
+    },
+    {
+        "idca":  "1855",
+        "nombre":  "HECTOR LEONARDO MUNOZ MIRANDA",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  210,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  15,
+                              "stock":  792,
+                              "diferencia":  777
+                          }
+                      ]
+    },
+    {
+        "idca":  "20290",
+        "nombre":  "HENRY MURIEL DIAZ TORRIJO",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  69,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  68,
+                              "stock":  489,
+                              "diferencia":  421
+                          }
+                      ]
+    },
+    {
+        "idca":  "1333",
+        "nombre":  "IVAN ALEJANDRO CALDERON MUNOZ",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  207,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  1,
+                              "stock":  379,
+                              "diferencia":  378
+                          }
+                      ]
+    },
+    {
+        "idca":  "2421",
+        "nombre":  "JAIME ALEJANDRO FIGUEROA PINO",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  98,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  81,
+                              "stock":  329,
+                              "diferencia":  248
+                          }
+                      ]
+    },
+    {
+        "idca":  "3705",
+        "nombre":  "JAIR JESUS VALENCIA DIAZ",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  78,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  40,
+                              "stock":  169,
+                              "diferencia":  129
+                          }
+                      ]
+    },
+    {
+        "idca":  "30734",
+        "nombre":  "JAVIER ANDRE PARRA ROJAS",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  298,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  9,
+                              "stock":  140,
+                              "diferencia":  131
+                          }
+                      ]
+    },
+    {
+        "idca":  "28992",
+        "nombre":  "JONATHAN RICARDO HENRIQUEZ VENEGAS",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  6,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  89,
+                              "stock":  383,
+                              "diferencia":  294
+                          }
+                      ]
+    },
+    {
+        "idca":  "8468",
+        "nombre":  "JORGE EDUARDO JORQUERA FLORES",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  100,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  36,
+                              "stock":  100,
+                              "diferencia":  64
+                          }
+                      ]
+    },
+    {
+        "idca":  "21162",
+        "nombre":  "JORGE RENE RAMIREZ DE LA BARRA",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  9,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  52,
+                              "stock":  475,
+                              "diferencia":  423
+                          }
+                      ]
+    },
+    {
+        "idca":  "2481",
+        "nombre":  "JOSE GERARDO CORNEJO GARRIDO",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  67,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  102,
+                              "stock":  193,
+                              "diferencia":  91
+                          }
+                      ]
+    },
+    {
+        "idca":  "20450",
+        "nombre":  "JOSE LUIS MUNOZ RAMOS",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  19,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  22,
+                              "stock":  535,
+                              "diferencia":  513
+                          }
+                      ]
+    },
+    {
+        "idca":  "29025",
+        "nombre":  "JOSE MANUEL SEPULVEDA ROJAS",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  133,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  59,
+                              "stock":  134,
+                              "diferencia":  75
+                          }
+                      ]
+    },
+    {
+        "idca":  "30729",
+        "nombre":  "JOSUE ORELLANA ALARCON",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  63,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  1,
+                              "stock":  186,
+                              "diferencia":  185
+                          }
+                      ]
+    },
+    {
+        "idca":  "622",
+        "nombre":  "JUAN CARLOS TAPIA GOMEZ",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  0,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  0,
+                              "stock":  419,
+                              "diferencia":  419
+                          }
+                      ]
+    },
+    {
+        "idca":  "28998",
+        "nombre":  "JUAN ESTEBAN MARTINEZ LOCK",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  56,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  132,
+                              "stock":  182,
+                              "diferencia":  50
+                          }
+                      ]
+    },
+    {
+        "idca":  "22764",
+        "nombre":  "JUAN HERIBERTO VARGAS ALARCON",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  80,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  7,
+                              "stock":  375,
+                              "diferencia":  368
+                          }
+                      ]
+    },
+    {
+        "idca":  "20998",
+        "nombre":  "JUAN JOSE MARCANO GONZALEZ",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  15,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  48,
+                              "stock":  355,
+                              "diferencia":  307
+                          }
+                      ]
+    },
+    {
+        "idca":  "19061",
+        "nombre":  "LUIS ALFONSO VALLEJO GARCIA",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  298,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  71,
+                              "stock":  1172,
+                              "diferencia":  1101
+                          }
+                      ]
+    },
+    {
+        "idca":  "28431",
+        "nombre":  "MANUEL DARIO JELDES ARANCIBIA",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  22,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  21,
+                              "stock":  364,
+                              "diferencia":  343
+                          }
+                      ]
+    },
+    {
+        "idca":  "2516",
+        "nombre":  "MARCO MANUEL VEGA VEGA",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  96,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  145,
+                              "stock":  590,
+                              "diferencia":  445
+                          }
+                      ]
+    },
+    {
+        "idca":  "19352",
+        "nombre":  "MATIAS HERNAN VILLALOBOS RAMOS",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  410,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  108,
+                              "stock":  507,
+                              "diferencia":  399
+                          }
+                      ]
+    },
+    {
+        "idca":  "19516",
+        "nombre":  "MATIAS RODRIGO MONTECINOS POZO",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  286,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  0,
+                              "stock":  78,
+                              "diferencia":  78
+                          }
+                      ]
+    },
+    {
+        "idca":  "30705",
+        "nombre":  "MATIAS RUBEN RUBINA BURGOS",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  84,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  0,
+                              "stock":  650,
+                              "diferencia":  650
+                          }
+                      ]
+    },
+    {
+        "idca":  "20728",
+        "nombre":  "MAURICIO RODOLFO ASTORGA HERRERA",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  0,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  0,
+                              "stock":  228,
+                              "diferencia":  228
+                          }
+                      ]
+    },
+    {
+        "idca":  "2495",
+        "nombre":  "NESTOR FABIAN PASTEN ALARCON",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  0,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  0,
+                              "stock":  280,
+                              "diferencia":  280
+                          }
+                      ]
+    },
+    {
+        "idca":  "22766",
+        "nombre":  "OSCAR ANDRES JOFRE LE CERF",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  126,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  5,
+                              "stock":  441,
+                              "diferencia":  436
+                          }
+                      ]
+    },
+    {
+        "idca":  "8387",
+        "nombre":  "PATRICIO CANALES GEVE",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  186,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  0,
+                              "stock":  368,
+                              "diferencia":  368
+                          }
+                      ]
+    },
+    {
+        "idca":  "18455",
+        "nombre":  "PATRICIO EDUARDO DELANO SCHWAIGER",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  44,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  18,
+                              "stock":  363,
+                              "diferencia":  345
+                          }
+                      ]
+    },
+    {
+        "idca":  "22191",
+        "nombre":  "PEDRO ISAIAS CONCHA JORQUERA",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  64,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  0,
+                              "stock":  400,
+                              "diferencia":  400
+                          }
+                      ]
+    },
+    {
+        "idca":  "20471",
+        "nombre":  "PROPHETE GABRIEL",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  143,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  35,
+                              "stock":  225,
+                              "diferencia":  190
+                          }
+                      ]
+    },
+    {
+        "idca":  "2520",
+        "nombre":  "RICHARDS ANTONIO CRUZ CUEVAS",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  37,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  112,
+                              "stock":  555,
+                              "diferencia":  443
+                          }
+                      ]
+    },
+    {
+        "idca":  "18373",
+        "nombre":  "SANTIAGO EMILIO ANGEL ARIAS",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  2,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  12,
+                              "stock":  384,
+                              "diferencia":  372
+                          }
+                      ]
+    },
+    {
+        "idca":  "28993",
+        "nombre":  "SEBASTIAN ANDRES SANCHEZ CAYUQUEO",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  24,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  46,
+                              "stock":  908,
+                              "diferencia":  862
+                          }
+                      ]
+    },
+    {
+        "idca":  "28725",
+        "nombre":  "SIMON ANDRES SILVA PHILIP",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  280,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  5,
+                              "stock":  558,
+                              "diferencia":  553
+                          }
+                      ]
+    },
+    {
+        "idca":  "27819",
+        "nombre":  "WILFRED RENE ROCCO ZUNIGA",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  33,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  2,
+                              "stock":  264,
+                              "diferencia":  262
+                          }
+                      ]
+    },
+    {
+        "idca":  "21627",
+        "nombre":  "YUSSEF ALI SAT PINO",
+        "porSemana":  [
+                          {
+                              "desde":  "31-08-2026",
+                              "hasta":  "06-09-2026",
+                              "consumo":  2,
+                              "stock":  null,
+                              "diferencia":  null
+                          },
+                          {
+                              "desde":  "07-09-2026",
+                              "hasta":  "13-09-2026",
+                              "consumo":  4,
+                              "stock":  261,
+                              "diferencia":  257
+                          }
+                      ]
+    }
+]

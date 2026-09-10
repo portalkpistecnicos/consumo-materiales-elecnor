@@ -175,7 +175,7 @@
   .masthead{
     background:linear-gradient(135deg, var(--brand-blue) 0%, var(--brand-blue-deep) 100%);
     border-radius:16px;
-    padding:24px 28px 24px;
+    padding:20px 28px 24px;
     color:#F4F8FF;
     box-shadow:var(--shadow);
     position:relative;
@@ -189,14 +189,18 @@
     border-radius:50%;
     background:radial-gradient(circle, rgba(244,124,2,0.35) 0%, rgba(244,124,2,0) 70%);
   }
-  .masthead-top{ display:flex; align-items:flex-start; justify-content:space-between; gap:12px; position:relative; z-index:1; }
+  .masthead-top{ display:flex; align-items:flex-start; justify-content:space-between; gap:12px; flex-wrap:wrap; position:relative; z-index:1; }
+  .masthead-brand{ display:flex; align-items:center; gap:10px; min-width:0; }
+  .brand-logo{ height:24px; width:auto; flex:none; background:#fff; border-radius:5px; padding:3px 6px; }
+  .masthead-right{ display:flex; align-items:center; gap:12px; flex:none; }
+  .masthead-updated{ text-align:right; font-size:10px; color:#CFE0F7; line-height:1.35; }
+  .masthead-updated b{ display:block; color:#fff; font-size:12px; font-family:"IBM Plex Mono", ui-monospace, monospace; }
   .eyebrow{
     font-size:12px;
     font-weight:600;
     letter-spacing:0.08em;
     text-transform:uppercase;
     color:var(--brand-orange);
-    margin-bottom:8px;
   }
   .logout-btn{
     appearance:none; border:1px solid rgba(255,255,255,0.35); background:rgba(255,255,255,0.08);
@@ -209,6 +213,7 @@
     font-weight:800;
     color:#fff;
     position:relative; z-index:1;
+    margin-top:14px;
   }
   .masthead-greeting{
     margin:6px 0 0;
@@ -240,7 +245,6 @@
     grid-template-columns:repeat(4,1fr);
     gap:14px;
   }
-  .kpis-3{ grid-template-columns:repeat(3,1fr); }
   .kpi{
     background:var(--surface);
     border:1px solid var(--border);
@@ -307,10 +311,6 @@
     box-shadow:var(--shadow);
     scroll-margin-top:16px;
   }
-  .panel.personal-panel{
-    border-color:var(--brand-orange);
-    box-shadow:0 0 0 1px rgba(244,124,2,0.15), var(--shadow);
-  }
   @keyframes flashHighlight{
     0%, 100%{ box-shadow:var(--shadow); border-color:var(--border); }
     20%, 60%{ box-shadow:0 0 0 3px rgba(244,124,2,0.35), var(--shadow); border-color:var(--brand-orange); }
@@ -328,7 +328,7 @@
     margin-bottom:18px;
   }
   .panel-head h2{ font-size:18px; font-weight:700; }
-  .panel-head p{ margin:4px 0 0; font-size:13px; color:var(--text-muted); max-width:52ch; }
+  .panel-head p{ margin:4px 0 0; font-size:13px; color:var(--text-muted); max-width:56ch; }
 
   /* segmented control */
   .segmented{
@@ -357,12 +357,12 @@
     background:var(--brand-blue);
     color:#fff;
   }
-  .segmented button:focus-visible, .searchbox input:focus-visible, th button:focus-visible{
+  .segmented button:focus-visible{
     outline:2px solid var(--focus);
     outline-offset:2px;
   }
 
-  /* ---------- Bar chart (bar-list) ---------- */
+  /* ---------- Bar chart (team ranking) ---------- */
   .chart-scale{
     display:flex;
     justify-content:space-between;
@@ -429,76 +429,49 @@
     font-weight:600;
   }
 
-  /* ---------- Table ---------- */
-  .table-tools{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    gap:12px;
-    flex-wrap:wrap;
-    margin-bottom:14px;
-  }
-  .searchbox{
-    position:relative;
-    flex:1 1 220px;
-    max-width:320px;
-  }
-  .searchbox input{
-    width:100%;
-    font:inherit;
-    font-size:13px;
-    padding:8px 12px 8px 32px;
-    border:1px solid var(--border);
-    border-radius:9px;
-    background:var(--surface-2);
-    color:var(--text);
-  }
-  .searchbox svg{
-    position:absolute; left:10px; top:50%; transform:translateY(-50%);
-    width:14px; height:14px; stroke:var(--text-muted); fill:none;
-  }
-  .table-scroll{ overflow-x:auto; border:1px solid var(--border); border-radius:12px; }
-  table{ width:100%; border-collapse:collapse; min-width:640px; }
-  thead th{
-    text-align:left;
-    font-size:11px;
-    letter-spacing:0.04em;
-    text-transform:uppercase;
-    color:var(--text-muted);
-    background:var(--surface-2);
-    padding:10px 14px;
-    position:sticky; top:0;
-  }
-  thead th:not(:first-child){ text-align:right; }
-  thead th button{
-    appearance:none; border:none; background:none; color:inherit; font:inherit;
-    letter-spacing:inherit; text-transform:inherit; cursor:pointer;
-    display:inline-flex; align-items:center; gap:4px; padding:2px;
-  }
-  thead th:not(:first-child) button{ flex-direction:row-reverse; }
-  .sort-arrow{ font-size:9px; opacity:0.35; }
-  .sort-arrow.active{ opacity:1; color:var(--brand-orange); }
-  tbody td{
-    padding:10px 14px;
-    font-size:13px;
-    border-top:1px solid var(--border);
-    white-space:nowrap;
-  }
-  tbody td:not(:first-child){ text-align:right; }
-  tbody tr{ cursor:pointer; }
-  tbody tr:hover, tbody tr.highlight{ background:var(--surface-2); }
-  .mat-name{ font-weight:600; }
+  /* ---------- Stock/consumo flow list ---------- */
+  .legend{ display:flex; gap:16px; margin-top:10px; font-size:12px; color:var(--text-muted); }
+  .legend span{ display:inline-flex; align-items:center; gap:5px; }
+  .legend i{ width:10px; height:10px; border-radius:3px; display:inline-block; }
+  .legend .i-stock{ background:var(--brand-blue); }
+  .legend .i-consumo{ background:var(--brand-orange); }
+
+  .flow-list{ display:flex; flex-direction:column; }
+  .flow-row{ padding:13px 8px; border-top:1px solid var(--border); border-radius:8px; cursor:pointer; margin:0 -8px; }
+  .flow-row:first-child{ border-top:none; }
+  .flow-row:hover, .flow-row.highlight{ background:var(--surface-2); }
+  .flow-row-head{ display:flex; align-items:flex-start; justify-content:space-between; gap:10px; }
+  .mat-name{ font-size:13.5px; font-weight:600; color:var(--text); }
   .mat-code{
     display:block;
     font-family:"IBM Plex Mono", ui-monospace, monospace;
-    font-size:10.5px;
+    font-size:10px;
     color:var(--text-muted);
     font-weight:400;
-    margin-top:2px;
-    white-space:normal;
+    margin-top:1px;
   }
-  tbody td:first-child{ white-space:normal; min-width:220px; }
-  .empty-row td{ text-align:center; color:var(--text-muted); padding:22px; font-size:13px; }
+  .flow-diff{ flex:none; text-align:right; }
+  .flow-diff-value{ font-family:"IBM Plex Mono", ui-monospace, monospace; font-size:13px; font-weight:700; }
+  .flow-diff-value.pos{ color:var(--brand-blue); }
+  :root[data-theme="dark"] .flow-diff-value.pos{ color:var(--brand-orange); }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .flow-diff-value.pos{ color:var(--brand-orange); } }
+  .flow-diff-value.neg{ color:var(--danger); }
+  .flow-diff-label{ font-size:9px; letter-spacing:0.04em; text-transform:uppercase; color:var(--text-muted); }
+  .flow-bars{ margin-top:9px; display:flex; flex-direction:column; gap:5px; }
+  .flow-bar-line{ display:grid; grid-template-columns:56px 1fr 44px; align-items:center; gap:8px; }
+  .flow-bar-label{ font-size:10.5px; font-weight:600; color:var(--text-muted); }
+  .flow-bar-track{ position:relative; height:14px; background:var(--surface-2); border-radius:4px; overflow:hidden; }
+  .flow-bar-fill{ position:absolute; left:0; top:0; bottom:0; border-radius:4px; min-width:2px; }
+  .flow-bar-fill.stock{ background:var(--brand-blue); }
+  .flow-bar-fill.consumo{ background:var(--brand-orange); }
+  .flow-bar-value{ font-size:11.5px; text-align:right; font-weight:600; }
+
+  .otros-list{ display:flex; flex-direction:column; }
+  .otros-row{ display:flex; justify-content:space-between; align-items:baseline; padding:10px 0; border-top:1px solid var(--border); gap:10px; }
+  .otros-row:first-child{ border-top:none; }
+  .otros-value{ font-size:13px; font-weight:600; white-space:nowrap; }
+
+  .empty-note{ text-align:center; color:var(--text-muted); padding:20px 8px; font-size:13px; }
 
   /* ---------- Footer ---------- */
   .methodology{
@@ -533,18 +506,6 @@
     .bar-row{ grid-template-columns:104px 1fr 56px; gap:8px; }
     .bar-label{ font-size:11.5px; }
     .bar-value{ font-size:11.5px; }
-    .table-tools{ flex-direction:column; align-items:stretch; }
-    .searchbox{ max-width:none; }
-
-    /* Let the table fit a phone width without a horizontal scroll: the min-width that
-       keeps it roomy on desktop is exactly what hides the number columns off-screen here. */
-    table{ min-width:0; width:100%; table-layout:fixed; }
-    thead th, tbody td{ padding:8px 5px; font-size:11px; white-space:normal; }
-    thead th{ line-height:1.25; }
-    tbody td:first-child{ min-width:0; width:38%; }
-    thead th:nth-child(1) button, tbody td:first-child{ padding-left:8px; }
-    .mat-name{ font-size:11.5px; }
-    .mat-code{ font-size:9px; }
   }
 
   @media (prefers-reduced-motion: reduce){
@@ -575,8 +536,14 @@
 
   <header class="masthead">
     <div class="masthead-top">
-      <div class="eyebrow">Informe Ejecutivo · Operaciones Técnicas</div>
-      <button type="button" class="logout-btn" id="logoutBtn">Salir</button>
+      <div class="masthead-brand">
+        <img class="brand-logo" src="data:image/png;base64,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" alt="Elecnor">
+        <div class="eyebrow">Informe Ejecutivo</div>
+      </div>
+      <div class="masthead-right">
+        <div class="masthead-updated">Actualizado<b id="metaGenerado">—</b></div>
+        <button type="button" class="logout-btn" id="logoutBtn">Salir</button>
+      </div>
     </div>
     <h1>Consumo de Materiales por Técnico</h1>
     <p class="masthead-greeting">Hola, <b id="greetName">—</b><span class="idca-chip">IDCA <span id="greetIdca">—</span></span></p>
@@ -586,111 +553,51 @@
       <span><b id="metaTecnicos">—</b> técnicos activos</span>
       <span class="dot">·</span>
       <span><b id="metaUnidades">—</b> unidades consumidas</span>
-      <span class="dot">·</span>
-      <span class="updated-badge"><span class="live-dot"></span>Actualizado <b id="metaGenerado">—</b></span>
     </div>
   </header>
 
-  <section class="panel personal-panel">
-    <div class="panel-head">
-      <div>
-        <h2>Tu consumo</h2>
-        <p id="personalSub">Resumen del período. El detalle por material está más abajo.</p>
-      </div>
-    </div>
-    <div class="kpis" style="margin-bottom:18px;">
-      <button type="button" class="kpi kpi-link" id="kpiTotalBtn">
-        <div class="kpi-label">Tu total</div>
-        <div class="kpi-value num" id="pkTotal">—</div>
-        <div class="kpi-sub" id="pkTotalSub">unidades en el período</div>
-      </button>
-      <button type="button" class="kpi kpi-link" id="kpiTopBtn">
-        <div class="kpi-label">Tu material principal</div>
-        <div class="kpi-value" id="pkTop" style="font-size:15px; line-height:1.25;">—</div>
-        <div class="kpi-sub" id="pkTopSub">—</div>
-      </button>
-      <button type="button" class="kpi kpi-link" id="kpiTiposBtn">
-        <div class="kpi-label">Tipos que usaste</div>
-        <div class="kpi-value num" id="pkTipos">—</div>
-        <div class="kpi-sub">de los materiales controlados</div>
-      </button>
-      <button type="button" class="kpi kpi-link" id="kpiRankBtn">
-        <div class="kpi-label">Tu posición</div>
-        <div class="kpi-value" id="pkRank" style="font-size:20px;">—</div>
-        <div class="kpi-sub" id="pkRankSub">en el equipo</div>
-      </button>
-    </div>
-  </section>
-
-  <section class="panel personal-panel" id="stockSection">
-    <div class="panel-head">
-      <div>
-        <h2>Tu stock</h2>
-        <p id="stockSub">Lo que tienes actualmente en tu bodega móvil, según el corte SAP más reciente.</p>
-      </div>
-    </div>
-    <div class="kpis kpis-3" style="margin-bottom:18px;">
-      <div class="kpi">
-        <div class="kpi-label">Stock actual</div>
-        <div class="kpi-value num" id="skTotal">—</div>
-        <div class="kpi-sub">unidades en tu bodega móvil</div>
-      </div>
-      <div class="kpi">
-        <div class="kpi-label">Materiales en stock</div>
-        <div class="kpi-value num" id="skTipos">—</div>
-        <div class="kpi-sub">tipos distintos</div>
-      </div>
-      <div class="kpi">
-        <div class="kpi-label">Corte SAP</div>
-        <div class="kpi-value" id="skFecha" style="font-size:18px;">—</div>
-        <div class="kpi-sub" id="skTurno">—</div>
-      </div>
-    </div>
-    <div class="table-tools">
-      <div class="searchbox">
-        <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-        <input type="text" id="searchStockInput" placeholder="Buscar por código SAP o nombre…" aria-label="Buscar material en tu stock">
-      </div>
-    </div>
-    <div class="table-scroll">
-      <table>
-        <thead>
-          <tr>
-            <th><button data-key="nombre">Material <span class="sort-arrow" data-arrow="nombre">▲</span></button></th>
-            <th><button data-key="Cantidad">Cantidad <span class="sort-arrow" data-arrow="Cantidad">▲</span></button></th>
-          </tr>
-        </thead>
-        <tbody id="tbodyStock"><tr class="empty-row"><td colspan="2">Cargando datos…</td></tr></tbody>
-      </table>
-    </div>
+  <section class="kpis">
+    <button type="button" class="kpi kpi-link" id="kpiStockBtn">
+      <div class="kpi-label">Stock actual</div>
+      <div class="kpi-value num" id="pkStock">—</div>
+      <div class="kpi-sub">en tu bodega móvil</div>
+    </button>
+    <button type="button" class="kpi kpi-link" id="kpiConsumidoBtn">
+      <div class="kpi-label">Consumido</div>
+      <div class="kpi-value num" id="pkTotal">—</div>
+      <div class="kpi-sub">en el período</div>
+    </button>
+    <button type="button" class="kpi kpi-link" id="kpiMovimientoBtn">
+      <div class="kpi-label">Con movimiento</div>
+      <div class="kpi-value num" id="pkMovimiento">—</div>
+      <div class="kpi-sub">materiales</div>
+    </button>
+    <button type="button" class="kpi kpi-link" id="kpiRankBtn">
+      <div class="kpi-label">Tu posición</div>
+      <div class="kpi-value" id="pkRank" style="font-size:20px;">—</div>
+      <div class="kpi-sub" id="pkRankSub">en el equipo</div>
+    </button>
   </section>
 
   <section class="panel" id="detalleSection">
     <div class="panel-head">
       <div>
-        <h2>Detalle por material</h2>
-        <p>Tu consumo, material por material. Toca un encabezado para ordenar la tabla, o una métrica del ranking de más abajo para saltar aquí ordenado por ella.</p>
+        <h2>Stock y consumo por material</h2>
+        <p>Lo que tienes en tu bodega móvil junto a lo que has consumido este período. La <b>diferencia</b> (stock − consumo) muestra si te queda margen o si ya consumiste más de lo que traes contigo.</p>
+        <div class="legend"><span><i class="i-stock"></i>Stock actual</span><span><i class="i-consumo"></i>Consumido (período)</span></div>
       </div>
     </div>
-    <div class="table-tools">
-      <div class="searchbox">
-        <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-        <input type="text" id="searchInput" placeholder="Buscar por código SAP (col. D) o nombre…" aria-label="Buscar material por código SAP o nombre">
+    <div class="flow-list" id="flowList"></div>
+  </section>
+
+  <section class="panel" id="otrosSection">
+    <div class="panel-head">
+      <div>
+        <h2>Otros materiales en tu stock</h2>
+        <p>No forman parte de las categorías de consumo controladas, pero también están en tu bodega móvil.</p>
       </div>
     </div>
-    <div class="table-scroll">
-      <table>
-        <thead>
-          <tr>
-            <th><button data-key="nombre">Material <span class="sort-arrow" data-arrow="nombre">▲</span></button></th>
-            <th><button data-key="Total">Tu total <span class="sort-arrow" data-arrow="Total">▲</span></button></th>
-            <th><button data-key="PromedioPorTecnico">Prom. equipo / técnico <span class="sort-arrow" data-arrow="PromedioPorTecnico">▲</span></button></th>
-            <th><button data-key="PromedioDiario">Prom. equipo / día <span class="sort-arrow" data-arrow="PromedioDiario">▲</span></button></th>
-          </tr>
-        </thead>
-        <tbody id="tbody"><tr class="empty-row"><td colspan="4">Cargando datos…</td></tr></tbody>
-      </table>
-    </div>
+    <div class="otros-list" id="otrosList"></div>
   </section>
 
   <section class="panel" id="rankingSection">
@@ -715,9 +622,11 @@
     <b>Metodología.</b>
     <ul>
       <li><b>Total</b>: suma de unidades consumidas del material en el período. <b>Prom. / técnico</b>: total ÷ técnicos que registraron ese material al menos una vez (excluye inactivos). <b>Prom. / día</b>: total ÷ días del período con al menos un registro de ese material.</li>
-      <li><b>Tu stock</b> viene de un extracto SAP aparte (<code>STOCK TECNICOS</code>, bodega móvil), cruzado por RUT — no depende del consumo ni tiene el mismo corte de fecha.</li>
+      <li><b>Tu stock</b> viene de un extracto SAP aparte (<code>STOCK TECNICOS</code>, bodega móvil), cruzado por RUT — no depende del consumo ni tiene el mismo corte de fecha. La <b>diferencia</b> por material es simplemente stock − consumo; no asume que uno explique al otro.</li>
     </ul>
   </section>
+
+  <div class="updated-badge" id="stockBadge" hidden><span class="live-dot"></span>Corte de stock <b id="stockBadgeFecha">—</b></div>
 
   <footer class="site-footer">Diseñado por Xas</footer>
 
@@ -807,9 +716,9 @@ function enterApp(tecnico){
   loginScreen.hidden = true;
   appPage.hidden = false;
   renderHeaderAndKpis();
-  renderPersonal();
-  renderStock();
-  renderAll();
+  renderFlow();
+  renderOtros();
+  renderChart();
 }
 
 document.getElementById('logoutBtn').addEventListener('click', () => {
@@ -827,7 +736,7 @@ loginForm.addEventListener('submit', (e) => {
   attemptLogin(idcaInput.value);
 });
 
-// ---------------- Team header / KPIs ----------------
+// ---------------- Header / KPIs ----------------
 function renderHeaderAndKpis(){
   document.getElementById('greetName').textContent = current.nombre;
   document.getElementById('greetIdca').textContent = current.idca;
@@ -836,24 +745,14 @@ function renderHeaderAndKpis(){
   document.getElementById('metaGenerado').textContent = GENERADO;
   const totalGeneral = rows.reduce((s,r) => s + r.Total, 0);
   document.getElementById('metaUnidades').textContent = fmtInt(totalGeneral);
-}
 
-// ---------------- Personal panel ----------------
-function renderPersonal(){
-  const mats = current.materiales || [];
-  const total = current.total || 0;
-
-  document.getElementById('pkTotal').textContent = fmtInt(total);
-  if (mats.length){
-    document.getElementById('pkTop').textContent = mats[0].nombre;
-    document.getElementById('pkTopSub').textContent = `${fmtInt(mats[0].Total)} unidades`;
-  } else {
-    document.getElementById('pkTop').textContent = '—';
-    document.getElementById('pkTopSub').textContent = 'sin registros aún';
-  }
-  document.getElementById('pkTipos').textContent = fmtInt(mats.length);
+  const flow = current.flow || [];
+  document.getElementById('pkStock').textContent = fmtInt(current.stockTotal || 0);
+  document.getElementById('pkTotal').textContent = fmtInt(current.total || 0);
+  document.getElementById('pkMovimiento').textContent = fmtInt(flow.length);
 
   const activos = tecnicos.filter(t => (t.total || 0) > 0);
+  const total = current.total || 0;
   if (total > 0){
     const mejores = activos.filter(t => (t.total || 0) > total).length;
     document.getElementById('pkRank').textContent = `#${mejores + 1}`;
@@ -863,11 +762,94 @@ function renderPersonal(){
     document.getElementById('pkRankSub').textContent = 'sin actividad este período';
   }
 
+  const stockBadge = document.getElementById('stockBadge');
+  if (STOCK_META){
+    stockBadge.hidden = false;
+    document.getElementById('stockBadgeFecha').textContent = `${STOCK_META.fecha} ${STOCK_META.turno}`;
+  } else {
+    stockBadge.hidden = true;
+  }
+}
+
+// ---------------- Stock/consumo flow list ----------------
+let highlighted = null;
+
+function scrollAndFlash(elementId){
+  const section = document.getElementById(elementId);
+  section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  section.classList.remove('flash-highlight');
+  void section.offsetWidth; // restart the animation if it's already mid-flash
+  section.classList.add('flash-highlight');
+}
+
+function renderFlow(){
+  const list = document.getElementById('flowList');
+  const flow = current.flow || [];
+  list.innerHTML = '';
+  if (flow.length === 0){
+    list.innerHTML = `<div class="empty-note">Aún no registras stock ni consumo de materiales en este período.</div>`;
+    return;
+  }
+  flow.forEach(f => {
+    const max = Math.max(f.stock, f.consumo, 1);
+    const diff = f.stock - f.consumo;
+    const diffClass = diff >= 0 ? 'pos' : 'neg';
+    const diffTxt = (diff > 0 ? '+' : '') + fmtInt(diff);
+    const row = document.createElement('div');
+    row.className = 'flow-row' + (highlighted === f.Tipo ? ' highlight' : '');
+    row.dataset.tipo = f.Tipo;
+    row.innerHTML = `
+      <div class="flow-row-head">
+        <div>
+          <div class="mat-name">${f.nombre}</div>
+          <div class="mat-code">${f.Tipo}</div>
+        </div>
+        <div class="flow-diff">
+          <div class="flow-diff-value ${diffClass} num">${diffTxt}</div>
+          <div class="flow-diff-label">Diferencia</div>
+        </div>
+      </div>
+      <div class="flow-bars">
+        <div class="flow-bar-line">
+          <div class="flow-bar-label">Stock</div>
+          <div class="flow-bar-track"><div class="flow-bar-fill stock" style="width:${(f.stock/max*100).toFixed(1)}%"></div></div>
+          <div class="flow-bar-value num">${fmtInt(f.stock)}</div>
+        </div>
+        <div class="flow-bar-line">
+          <div class="flow-bar-label">Consumo</div>
+          <div class="flow-bar-track"><div class="flow-bar-fill consumo" style="width:${(f.consumo/max*100).toFixed(1)}%"></div></div>
+          <div class="flow-bar-value num">${fmtInt(f.consumo)}</div>
+        </div>
+      </div>
+    `;
+    row.addEventListener('click', () => { highlighted = (highlighted === f.Tipo) ? null : f.Tipo; renderFlow(); renderChart(); });
+    list.appendChild(row);
+  });
+}
+
+function renderOtros(){
+  const section = document.getElementById('otrosSection');
+  const list = document.getElementById('otrosList');
+  const otros = current.stockOtros || [];
+  if (otros.length === 0){
+    section.hidden = true;
+    return;
+  }
+  section.hidden = false;
+  list.innerHTML = '';
+  otros.forEach(o => {
+    const row = document.createElement('div');
+    row.className = 'otros-row';
+    row.innerHTML = `
+      <div><div class="mat-name">${o.Nombre}</div><div class="mat-code">SAP ${o.Material}</div></div>
+      <div class="otros-value num">${fmtInt(o.Cantidad)}</div>
+    `;
+    list.appendChild(row);
+  });
 }
 
 // ---------------- Team ranking chart ----------------
 let metric = 'Total';
-let highlighted = null;
 const chartEl = document.getElementById('chart');
 const metricFmt = (v) => metric === 'Total' ? fmtInt(v) : fmtDec(v);
 
@@ -886,208 +868,33 @@ function renderChart(){
       <div class="bar-track"><div class="bar-fill" style="width:${(r[metric]/max*100).toFixed(1)}%"></div></div>
       <div class="bar-value num">${metricFmt(r[metric])}</div>
     `;
-    row.addEventListener('click', () => { highlighted = (highlighted === r.Tipo) ? null : r.Tipo; renderAll(); });
+    row.addEventListener('click', () => { highlighted = (highlighted === r.Tipo) ? null : r.Tipo; renderChart(); renderFlow(); });
     chartEl.appendChild(row);
   });
 }
 
-// Sets the ranking chart's metric, keeps the segmented control in sync, and re-renders.
-// Shared by the segmented toggle itself and the "Tu consumo" KPI tiles, so every entry
-// point into a metric ends up in the same state.
+// Sets the ranking chart's metric, keeps the segmented control in sync, and jumps to the
+// stock/consumo section so pressing a metric always lands you on the underlying data.
 function activateMetric(metricKey){
   metric = metricKey;
   document.querySelectorAll('.segmented button').forEach(b => b.classList.toggle('active', b.dataset.metric === metricKey));
   renderChart();
-  jumpToDetalle(metricKey);
+  scrollAndFlash('detalleSection');
 }
 
 document.querySelectorAll('.segmented button').forEach(btn => {
   btn.addEventListener('click', () => activateMetric(btn.dataset.metric));
 });
 
-// "Tu consumo" KPI tiles jump straight to the data behind each number.
-document.getElementById('kpiTotalBtn').addEventListener('click', () => activateMetric('Total'));
-document.getElementById('kpiTiposBtn').addEventListener('click', () => activateMetric('Total'));
-document.getElementById('kpiTopBtn').addEventListener('click', () => {
-  const mats = current.materiales || [];
-  if (mats.length) highlighted = mats[0].Tipo;
-  activateMetric('Total');
-});
-document.getElementById('kpiRankBtn').addEventListener('click', jumpToRanking);
-
-// Toggling a metric here also re-sorts "Detalle por material" by that same column and
-// scrolls to it, so pressing a metric always lands you on the underlying data.
-function scrollAndFlash(elementId){
-  const section = document.getElementById(elementId);
-  section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  section.classList.remove('flash-highlight');
-  void section.offsetWidth; // restart the animation if it's already mid-flash
-  section.classList.add('flash-highlight');
-}
-
-function jumpToDetalle(metricKey){
-  sortKey = metricKey;
-  sortDir = -1;
-  renderTable();
-  scrollAndFlash('detalleSection');
-}
-
 function jumpToRanking(){
   scrollAndFlash('rankingSection');
 }
 
-// ---------------- Personal table ----------------
-let sortKey = 'Total';
-let sortDir = -1; // descending
-let query = '';
-
-function updateArrows(){
-  document.querySelectorAll('#detalleSection .sort-arrow').forEach(a => {
-    a.classList.toggle('active', a.dataset.arrow === sortKey);
-    a.textContent = (a.dataset.arrow === sortKey) ? (sortDir === 1 ? '▲' : '▼') : '▲';
-  });
-}
-
-function personalTableRows(){
-  const teamByTipo = {};
-  rows.forEach(r => { teamByTipo[r.Tipo] = r; });
-  return (current.materiales || []).map(m => {
-    const teamRow = teamByTipo[m.Tipo];
-    return {
-      Tipo: m.Tipo,
-      nombre: m.nombre,
-      Total: m.Total,
-      Codigos: teamRow ? teamRow.Codigos : [],
-      PromedioPorTecnico: teamRow ? teamRow.PromedioPorTecnico : 0,
-      PromedioDiario: teamRow ? teamRow.PromedioDiario : 0
-    };
-  });
-}
-
-function renderTable(){
-  const tbody = document.getElementById('tbody');
-  const personalRows = personalTableRows();
-  if (personalRows.length === 0){
-    tbody.innerHTML = `<tr class="empty-row"><td colspan="4">Aún no registras consumo de materiales en este período.</td></tr>`;
-    return;
-  }
-  let filtered = personalRows.filter(r =>
-    r.nombre.toLowerCase().includes(query) ||
-    r.Tipo.toLowerCase().includes(query) ||
-    r.Codigos.some(c => c.includes(query))
-  );
-  filtered.sort((a,b) => {
-    const av = sortKey === 'nombre' ? a.nombre : a[sortKey];
-    const bv = sortKey === 'nombre' ? b.nombre : b[sortKey];
-    if (typeof av === 'string') return av.localeCompare(bv) * sortDir;
-    return (av - bv) * sortDir;
-  });
-  tbody.innerHTML = '';
-  if (filtered.length === 0){
-    tbody.innerHTML = `<tr class="empty-row"><td colspan="4">Sin coincidencias para "${query}"</td></tr>`;
-    return;
-  }
-  filtered.forEach(r => {
-    const tr = document.createElement('tr');
-    tr.className = highlighted === r.Tipo ? 'highlight' : '';
-    tr.dataset.tipo = r.Tipo;
-    tr.innerHTML = `
-      <td><span class="mat-name">${r.nombre}</span><span class="mat-code">${r.Tipo}${r.Codigos.length ? ' · SAP ' + r.Codigos.join(', ') : ''}</span></td>
-      <td class="num">${fmtInt(r.Total)}</td>
-      <td class="num">${fmtDec(r.PromedioPorTecnico)}</td>
-      <td class="num">${fmtDec(r.PromedioDiario)}</td>
-    `;
-    tr.addEventListener('click', () => { highlighted = (highlighted === r.Tipo) ? null : r.Tipo; renderAll(); });
-    tbody.appendChild(tr);
-  });
-  updateArrows();
-}
-
-document.querySelectorAll('#detalleSection thead th button').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const key = btn.dataset.key;
-    if (sortKey === key) { sortDir *= -1; } else { sortKey = key; sortDir = key === 'nombre' ? 1 : -1; }
-    renderTable();
-  });
-});
-
-document.getElementById('searchInput').addEventListener('input', (e) => {
-  query = e.target.value.trim().toLowerCase();
-  renderTable();
-});
-
-// ---------------- Stock panel ----------------
-let stockSortKey = 'Cantidad';
-let stockSortDir = -1;
-let stockQuery = '';
-
-function updateStockArrows(){
-  document.querySelectorAll('#stockSection .sort-arrow').forEach(a => {
-    a.classList.toggle('active', a.dataset.arrow === stockSortKey);
-    a.textContent = (a.dataset.arrow === stockSortKey) ? (stockSortDir === 1 ? '▲' : '▼') : '▲';
-  });
-}
-
-function renderStockTable(){
-  const tbody = document.getElementById('tbodyStock');
-  const items = current.stock || [];
-  if (items.length === 0){
-    tbody.innerHTML = `<tr class="empty-row"><td colspan="2">No se encontró stock registrado a tu nombre.</td></tr>`;
-    return;
-  }
-  let filtered = items.filter(it =>
-    it.Nombre.toLowerCase().includes(stockQuery) || String(it.Material).toLowerCase().includes(stockQuery)
-  );
-  filtered.sort((a,b) => {
-    if (stockSortKey === 'nombre') return a.Nombre.localeCompare(b.Nombre) * stockSortDir;
-    return (a.Cantidad - b.Cantidad) * stockSortDir;
-  });
-  tbody.innerHTML = '';
-  if (filtered.length === 0){
-    tbody.innerHTML = `<tr class="empty-row"><td colspan="2">Sin coincidencias para "${stockQuery}"</td></tr>`;
-    return;
-  }
-  filtered.forEach(it => {
-    const tr = document.createElement('tr');
-    tr.innerHTML = `
-      <td><span class="mat-name">${it.Nombre}</span><span class="mat-code">SAP ${it.Material}</span></td>
-      <td class="num">${fmtInt(it.Cantidad)}</td>
-    `;
-    tbody.appendChild(tr);
-  });
-  updateStockArrows();
-}
-
-function renderStock(){
-  const section = document.getElementById('stockSection');
-  if (!STOCK_META){
-    section.hidden = true;
-    return;
-  }
-  section.hidden = false;
-  const items = current.stock || [];
-  const total = current.stockTotal || 0;
-  document.getElementById('skTotal').textContent = fmtInt(total);
-  document.getElementById('skTipos').textContent = fmtInt(items.length);
-  document.getElementById('skFecha').textContent = STOCK_META.fecha;
-  document.getElementById('skTurno').textContent = STOCK_META.turno === 'AM' ? 'Corte de la mañana' : 'Corte de la tarde';
-  renderStockTable();
-}
-
-document.querySelectorAll('#stockSection thead th button').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const key = btn.dataset.key;
-    if (stockSortKey === key) { stockSortDir *= -1; } else { stockSortKey = key; stockSortDir = key === 'nombre' ? 1 : -1; }
-    renderStockTable();
-  });
-});
-
-document.getElementById('searchStockInput').addEventListener('input', (e) => {
-  stockQuery = e.target.value.trim().toLowerCase();
-  renderStockTable();
-});
-
-function renderAll(){ renderChart(); renderTable(); }
+// KPI tiles jump straight to the data behind each number.
+document.getElementById('kpiStockBtn').addEventListener('click', () => scrollAndFlash('detalleSection'));
+document.getElementById('kpiConsumidoBtn').addEventListener('click', () => scrollAndFlash('detalleSection'));
+document.getElementById('kpiMovimientoBtn').addEventListener('click', () => scrollAndFlash('detalleSection'));
+document.getElementById('kpiRankBtn').addEventListener('click', jumpToRanking);
 
 // ---------------- Boot ----------------
 loadData()

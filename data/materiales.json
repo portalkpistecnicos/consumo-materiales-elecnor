@@ -2,11 +2,11 @@
     {
         "Tipo":  "CABLE_INT_FO_NS",
         "nombre":  "Cable Fibra Optica (interior)",
-        "Total":  2967,
-        "Tecnicos":  26,
-        "Dias":  6,
-        "PromedioPorTecnico":  114.12,
-        "PromedioDiario":  494.5,
+        "Total":  3192,
+        "Tecnicos":  27,
+        "Dias":  7,
+        "PromedioPorTecnico":  118.22,
+        "PromedioDiario":  456,
         "Codigos":  [
                         "10302530359",
                         "10302530362",
@@ -17,11 +17,11 @@
     {
         "Tipo":  "CABLE_UTP_NS",
         "nombre":  "Cable UTP",
-        "Total":  2282,
+        "Total":  2547,
         "Tecnicos":  41,
-        "Dias":  6,
-        "PromedioPorTecnico":  55.66,
-        "PromedioDiario":  380.33,
+        "Dias":  7,
+        "PromedioPorTecnico":  62.12,
+        "PromedioDiario":  363.86,
         "Codigos":  [
                         "10303680003",
                         "10303680012",
@@ -31,12 +31,13 @@
     {
         "Tipo":  "DECO_IPTV_SD_S",
         "nombre":  "Decodificador IPTV SD",
-        "Total":  372,
-        "Tecnicos":  52,
-        "Dias":  7,
-        "PromedioPorTecnico":  7.15,
-        "PromedioDiario":  53.14,
+        "Total":  434,
+        "Tecnicos":  53,
+        "Dias":  8,
+        "PromedioPorTecnico":  8.19,
+        "PromedioDiario":  54.25,
         "Codigos":  [
+                        "10307110134",
                         "10307110155",
                         "10307110156",
                         "10307110158",
@@ -46,11 +47,11 @@
     {
         "Tipo":  "SOP_DROP_FO_NS",
         "nombre":  "Soporte Drop FO",
-        "Total":  350,
-        "Tecnicos":  29,
-        "Dias":  6,
-        "PromedioPorTecnico":  12.07,
-        "PromedioDiario":  58.33,
+        "Total":  400,
+        "Tecnicos":  31,
+        "Dias":  7,
+        "PromedioPorTecnico":  12.9,
+        "PromedioDiario":  57.14,
         "Codigos":  [
                         "10302520168",
                         "10302520170"
@@ -59,11 +60,11 @@
     {
         "Tipo":  "CONECT_CAM_FO_NS",
         "nombre":  "Conector de Campo FO",
-        "Total":  244,
-        "Tecnicos":  47,
-        "Dias":  7,
-        "PromedioPorTecnico":  5.19,
-        "PromedioDiario":  34.86,
+        "Total":  282,
+        "Tecnicos":  50,
+        "Dias":  8,
+        "PromedioPorTecnico":  5.64,
+        "PromedioDiario":  35.25,
         "Codigos":  [
                         "10302520120",
                         "10302520169"
@@ -72,11 +73,11 @@
     {
         "Tipo":  "ETQ_NFC_NS",
         "nombre":  "Etiqueta NFC",
-        "Total":  168,
-        "Tecnicos":  50,
-        "Dias":  7,
-        "PromedioPorTecnico":  3.36,
-        "PromedioDiario":  24,
+        "Total":  193,
+        "Tecnicos":  52,
+        "Dias":  8,
+        "PromedioPorTecnico":  3.71,
+        "PromedioDiario":  24.12,
         "Codigos":  [
                         "10309990378",
                         "10309990382"
@@ -85,11 +86,11 @@
     {
         "Tipo":  "MODEM_F_W6_2x2",
         "nombre":  "Modem WiFi 6 (2x2)",
-        "Total":  87,
-        "Tecnicos":  36,
-        "Dias":  7,
-        "PromedioPorTecnico":  2.42,
-        "PromedioDiario":  12.43,
+        "Total":  101,
+        "Tecnicos":  40,
+        "Dias":  8,
+        "PromedioPorTecnico":  2.52,
+        "PromedioDiario":  12.62,
         "Codigos":  [
                         "10306100270"
                     ]
@@ -97,11 +98,11 @@
     {
         "Tipo":  "AP_S",
         "nombre":  "Access Point / Repetidor",
-        "Total":  68,
-        "Tecnicos":  37,
-        "Dias":  6,
-        "PromedioPorTecnico":  1.84,
-        "PromedioDiario":  11.33,
+        "Total":  78,
+        "Tecnicos":  40,
+        "Dias":  7,
+        "PromedioPorTecnico":  1.95,
+        "PromedioDiario":  11.14,
         "Codigos":  [
                         "10307180117",
                         "10307180162"
@@ -110,11 +111,11 @@
     {
         "Tipo":  "MODEM_F_W6_S",
         "nombre":  "Modem WiFi 6",
-        "Total":  67,
+        "Total":  75,
         "Tecnicos":  40,
-        "Dias":  6,
-        "PromedioPorTecnico":  1.68,
-        "PromedioDiario":  11.17,
+        "Dias":  7,
+        "PromedioPorTecnico":  1.88,
+        "PromedioDiario":  10.71,
         "Codigos":  [
                         "10306100221",
                         "10306100222"
@@ -123,11 +124,11 @@
     {
         "Tipo":  "JUMPER_FO_NS",
         "nombre":  "Jumper Fibra Optica",
-        "Total":  63,
-        "Tecnicos":  30,
-        "Dias":  6,
-        "PromedioPorTecnico":  2.1,
-        "PromedioDiario":  10.5,
+        "Total":  70,
+        "Tecnicos":  32,
+        "Dias":  7,
+        "PromedioPorTecnico":  2.19,
+        "PromedioDiario":  10,
         "Codigos":  [
                         "10302520231",
                         "10303640031"
@@ -136,11 +137,11 @@
     {
         "Tipo":  "MODEM_F_S",
         "nombre":  "Modem Estandar",
-        "Total":  47,
-        "Tecnicos":  31,
-        "Dias":  6,
-        "PromedioPorTecnico":  1.52,
-        "PromedioDiario":  7.83,
+        "Total":  56,
+        "Tecnicos":  36,
+        "Dias":  7,
+        "PromedioPorTecnico":  1.56,
+        "PromedioDiario":  8,
         "Codigos":  [
                         "10306100144",
                         "10306100187",
@@ -150,11 +151,11 @@
     {
         "Tipo":  "ROSETA_FO_NS",
         "nombre":  "Roseta Fibra Optica",
-        "Total":  13,
-        "Tecnicos":  9,
-        "Dias":  6,
-        "PromedioPorTecnico":  1.44,
-        "PromedioDiario":  2.17,
+        "Total":  16,
+        "Tecnicos":  11,
+        "Dias":  7,
+        "PromedioPorTecnico":  1.45,
+        "PromedioDiario":  2.29,
         "Codigos":  [
                         "10302520106"
                     ]
@@ -174,16 +175,18 @@
     {
         "Tipo":  "CABLE_PRE_CON",
         "nombre":  "Cable Preconectorizado",
-        "Total":  6,
-        "Tecnicos":  5,
-        "Dias":  3,
-        "PromedioPorTecnico":  1.2,
+        "Total":  8,
+        "Tecnicos":  7,
+        "Dias":  4,
+        "PromedioPorTecnico":  1.14,
         "PromedioDiario":  2,
         "Codigos":  [
                         "10302520173",
                         "10302520246",
                         "10302520248",
-                        "10302520253"
+                        "10302520251",
+                        "10302520253",
+                        "10302520254"
                     ]
     },
     {

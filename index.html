@@ -178,7 +178,9 @@
     padding:20px 28px 24px;
     color:#F4F8FF;
     box-shadow:var(--shadow);
-    position:relative;
+    position:sticky;
+    top:0;
+    z-index:10;
     overflow:hidden;
   }
   .masthead::after{
@@ -421,7 +423,7 @@
     .login-wrap, .masthead-btns, .updated-badge .live-dot{ display:none !important; }
     body{ background:#fff; }
     .page{ max-width:100%; padding:0; gap:14px; }
-    .masthead{ background:#fff !important; color:#142A47 !important; box-shadow:none; border:1px solid #DCE3EE; }
+    .masthead{ background:#fff !important; color:#142A47 !important; box-shadow:none; border:1px solid #DCE3EE; position:static; }
     .masthead::after{ display:none; }
     .masthead h1, .eyebrow, .masthead-updated, .masthead-updated b,
     .masthead-greeting, .masthead-greeting b, .masthead-meta, .masthead-meta b{ color:#142A47 !important; }

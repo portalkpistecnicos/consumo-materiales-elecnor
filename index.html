@@ -330,104 +330,6 @@
   .panel-head h2{ font-size:18px; font-weight:700; }
   .panel-head p{ margin:4px 0 0; font-size:13px; color:var(--text-muted); max-width:56ch; }
 
-  /* segmented control */
-  .segmented{
-    display:inline-flex;
-    background:var(--surface-2);
-    border:1px solid var(--border);
-    border-radius:10px;
-    padding:3px;
-    gap:2px;
-  }
-  .segmented button{
-    appearance:none;
-    border:none;
-    background:transparent;
-    color:var(--text-muted);
-    font:inherit;
-    font-size:12.5px;
-    font-weight:600;
-    padding:7px 12px;
-    border-radius:7px;
-    cursor:pointer;
-    white-space:nowrap;
-    transition:background .15s ease, color .15s ease;
-  }
-  .segmented button.active{
-    background:var(--brand-blue);
-    color:#fff;
-  }
-  .segmented button:focus-visible{
-    outline:2px solid var(--focus);
-    outline-offset:2px;
-  }
-
-  /* ---------- Bar chart (team ranking) ---------- */
-  .chart-scale{
-    display:flex;
-    justify-content:space-between;
-    font-size:11px;
-    color:var(--text-muted);
-    padding-left:calc(180px + 12px);
-    margin-bottom:6px;
-  }
-  .chart{
-    display:flex;
-    flex-direction:column;
-    gap:9px;
-  }
-  .bar-row{
-    display:grid;
-    grid-template-columns:180px 1fr 78px;
-    align-items:center;
-    gap:12px;
-    cursor:pointer;
-    border-radius:8px;
-    padding:3px 6px;
-    margin:-3px -6px;
-    transition:background .12s ease;
-  }
-  .bar-row:hover, .bar-row.highlight{
-    background:var(--surface-2);
-  }
-  .bar-label{
-    font-size:12.5px;
-    font-weight:600;
-    color:var(--text);
-    overflow:hidden;
-    text-overflow:ellipsis;
-    white-space:nowrap;
-  }
-  .bar-track{
-    position:relative;
-    height:20px;
-    background:var(--surface-2);
-    border-radius:5px;
-    overflow:hidden;
-  }
-  .bar-track::before,.bar-track::after{
-    content:"";
-    position:absolute; top:0; bottom:0;
-    width:1px; background:var(--border);
-  }
-  .bar-track::before{ left:25%; }
-  .bar-track::after{ left:75%; }
-  .bar-fill{
-    position:absolute; left:0; top:0; bottom:0;
-    border-radius:5px;
-    background:linear-gradient(90deg, var(--brand-blue) 0%, var(--brand-blue) 70%, var(--brand-orange) 100%);
-    transition:width .5s cubic-bezier(.2,.8,.2,1);
-    min-width:3px;
-  }
-  .bar-row.highlight .bar-fill{
-    background:linear-gradient(90deg, var(--brand-orange) 0%, var(--brand-orange) 100%);
-  }
-  .bar-value{
-    font-size:12.5px;
-    text-align:right;
-    color:var(--text);
-    font-weight:600;
-  }
 
   /* ---------- Stock/consumo flow list ---------- */
   .legend{ display:flex; gap:16px; margin-top:10px; font-size:12px; color:var(--text-muted); }
@@ -437,9 +339,8 @@
   .legend .i-consumo{ background:var(--brand-orange); }
 
   .flow-list{ display:flex; flex-direction:column; }
-  .flow-row{ padding:13px 8px; border-top:1px solid var(--border); border-radius:8px; cursor:pointer; margin:0 -8px; }
+  .flow-row{ padding:13px 8px; border-top:1px solid var(--border); border-radius:8px; margin:0 -8px; }
   .flow-row:first-child{ border-top:none; }
-  .flow-row:hover, .flow-row.highlight{ background:var(--surface-2); }
   .flow-row-head{ display:flex; align-items:flex-start; justify-content:space-between; gap:10px; }
   .mat-name{ font-size:13.5px; font-weight:600; color:var(--text); }
   .mat-code{
@@ -502,14 +403,10 @@
   @media (max-width: 640px){
     .kpis{ grid-template-columns:repeat(2,1fr); }
     .panel{ padding:18px 16px 20px; }
-    .chart-scale{ display:none; }
-    .bar-row{ grid-template-columns:104px 1fr 56px; gap:8px; }
-    .bar-label{ font-size:11.5px; }
-    .bar-value{ font-size:11.5px; }
   }
 
   @media (prefers-reduced-motion: reduce){
-    .bar-fill{ transition:none; }
+    .flow-bar-fill{ transition:none; }
   }
 </style>
 </head>
@@ -600,29 +497,11 @@
     <div class="otros-list" id="otrosList"></div>
   </section>
 
-  <section class="panel" id="rankingSection">
-    <div class="panel-head">
-      <div>
-        <h2>Ranking del equipo por material</h2>
-        <p>Total de unidades usadas por todo el equipo, promedio por técnico y promedio diario, para cada material. El promedio por técnico solo considera a quienes efectivamente lo usaron — no diluye el dato con técnicos inactivos.</p>
-      </div>
-      <div class="segmented" role="tablist" aria-label="Métrica del gráfico">
-        <button type="button" data-metric="Total" class="active">Total</button>
-        <button type="button" data-metric="PromedioPorTecnico">Promedio / técnico</button>
-        <button type="button" data-metric="PromedioDiario">Promedio / día</button>
-      </div>
-    </div>
-    <div class="chart-scale">
-      <span>0</span><span id="scaleMid">·</span><span id="scaleMax">máx.</span>
-    </div>
-    <div class="chart" id="chart"></div>
-  </section>
-
   <section class="panel methodology">
     <b>Metodología.</b>
     <ul>
-      <li><b>Total</b>: suma de unidades consumidas del material en el período. <b>Prom. / técnico</b>: total ÷ técnicos que registraron ese material al menos una vez (excluye inactivos). <b>Prom. / día</b>: total ÷ días del período con al menos un registro de ese material.</li>
-      <li><b>Tu stock</b> viene de un extracto SAP aparte (<code>STOCK TECNICOS</code>, bodega móvil), cruzado por RUT — no depende del consumo ni tiene el mismo corte de fecha. La <b>diferencia</b> por material es simplemente stock − consumo; no asume que uno explique al otro.</li>
+      <li>La <b>diferencia</b> por material es stock − consumo; no asume que uno explique al otro.</li>
+      <li><b>Tu stock</b> viene de un extracto SAP aparte (<code>STOCK TECNICOS</code>, bodega móvil), cruzado por RUT — no depende del consumo ni tiene el mismo corte de fecha.</li>
     </ul>
   </section>
 
@@ -634,7 +513,6 @@
 
 <script>
 const fmtInt = n => new Intl.NumberFormat('es-CL').format(Math.round(n));
-const fmtDec = n => new Intl.NumberFormat('es-CL', { minimumFractionDigits:1, maximumFractionDigits:1 }).format(n);
 const STORAGE_KEY = 'consumo_materiales_idca';
 
 let rows = [];          // materiales.json (team aggregate)
@@ -718,7 +596,6 @@ function enterApp(tecnico){
   renderHeaderAndKpis();
   renderFlow();
   renderOtros();
-  renderChart();
 }
 
 document.getElementById('logoutBtn').addEventListener('click', () => {
@@ -772,8 +649,6 @@ function renderHeaderAndKpis(){
 }
 
 // ---------------- Stock/consumo flow list ----------------
-let highlighted = null;
-
 function scrollAndFlash(elementId){
   const section = document.getElementById(elementId);
   section.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -790,19 +665,22 @@ function renderFlow(){
     list.innerHTML = `<div class="empty-note">Aún no registras stock ni consumo de materiales en este período.</div>`;
     return;
   }
+  const teamByTipo = {};
+  rows.forEach(r => { teamByTipo[r.Tipo] = r; });
   flow.forEach(f => {
     const max = Math.max(f.stock, f.consumo, 1);
     const diff = f.stock - f.consumo;
     const diffClass = diff >= 0 ? 'pos' : 'neg';
     const diffTxt = (diff > 0 ? '+' : '') + fmtInt(diff);
+    const teamRow = teamByTipo[f.Tipo];
+    const codigos = teamRow && teamRow.Codigos && teamRow.Codigos.length ? 'SAP ' + teamRow.Codigos.join(', ') : f.Tipo;
     const row = document.createElement('div');
-    row.className = 'flow-row' + (highlighted === f.Tipo ? ' highlight' : '');
-    row.dataset.tipo = f.Tipo;
+    row.className = 'flow-row';
     row.innerHTML = `
       <div class="flow-row-head">
         <div>
           <div class="mat-name">${f.nombre}</div>
-          <div class="mat-code">${f.Tipo}</div>
+          <div class="mat-code">${codigos}</div>
         </div>
         <div class="flow-diff">
           <div class="flow-diff-value ${diffClass} num">${diffTxt}</div>
@@ -822,7 +700,6 @@ function renderFlow(){
         </div>
       </div>
     `;
-    row.addEventListener('click', () => { highlighted = (highlighted === f.Tipo) ? null : f.Tipo; renderFlow(); renderChart(); });
     list.appendChild(row);
   });
 }
@@ -848,53 +725,11 @@ function renderOtros(){
   });
 }
 
-// ---------------- Team ranking chart ----------------
-let metric = 'Total';
-const chartEl = document.getElementById('chart');
-const metricFmt = (v) => metric === 'Total' ? fmtInt(v) : fmtDec(v);
-
-function renderChart(){
-  const sorted = [...rows].sort((a,b)=> b[metric] - a[metric]);
-  const max = (sorted[0] && sorted[0][metric]) || 1;
-  document.getElementById('scaleMax').textContent = metricFmt(max);
-  document.getElementById('scaleMid').textContent = metricFmt(max/2);
-  chartEl.innerHTML = '';
-  sorted.forEach(r => {
-    const row = document.createElement('div');
-    row.className = 'bar-row' + (highlighted === r.Tipo ? ' highlight' : '');
-    row.dataset.tipo = r.Tipo;
-    row.innerHTML = `
-      <div class="bar-label" title="${r.nombre}">${r.nombre}</div>
-      <div class="bar-track"><div class="bar-fill" style="width:${(r[metric]/max*100).toFixed(1)}%"></div></div>
-      <div class="bar-value num">${metricFmt(r[metric])}</div>
-    `;
-    row.addEventListener('click', () => { highlighted = (highlighted === r.Tipo) ? null : r.Tipo; renderChart(); renderFlow(); });
-    chartEl.appendChild(row);
-  });
-}
-
-// Sets the ranking chart's metric, keeps the segmented control in sync, and jumps to the
-// stock/consumo section so pressing a metric always lands you on the underlying data.
-function activateMetric(metricKey){
-  metric = metricKey;
-  document.querySelectorAll('.segmented button').forEach(b => b.classList.toggle('active', b.dataset.metric === metricKey));
-  renderChart();
-  scrollAndFlash('detalleSection');
-}
-
-document.querySelectorAll('.segmented button').forEach(btn => {
-  btn.addEventListener('click', () => activateMetric(btn.dataset.metric));
-});
-
-function jumpToRanking(){
-  scrollAndFlash('rankingSection');
-}
-
 // KPI tiles jump straight to the data behind each number.
 document.getElementById('kpiStockBtn').addEventListener('click', () => scrollAndFlash('detalleSection'));
 document.getElementById('kpiConsumidoBtn').addEventListener('click', () => scrollAndFlash('detalleSection'));
 document.getElementById('kpiMovimientoBtn').addEventListener('click', () => scrollAndFlash('detalleSection'));
-document.getElementById('kpiRankBtn').addEventListener('click', jumpToRanking);
+document.getElementById('kpiRankBtn').addEventListener('click', () => scrollAndFlash('detalleSection'));
 
 // ---------------- Boot ----------------
 loadData()

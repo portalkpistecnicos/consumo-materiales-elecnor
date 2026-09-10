@@ -404,6 +404,12 @@
   @media (max-width: 640px){
     .kpis{ grid-template-columns:repeat(2,1fr); }
     .panel{ padding:18px 16px 20px; }
+    /* .masthead-right has flex:none so it sizes to its content (timestamp + 3 buttons) -
+       on a narrow screen that content is wider than the space left after the logo, and
+       since it won't shrink, it overflowed the viewport instead of wrapping (found via
+       device testing: the Salir button ended up positioned off-screen). Forcing it to the
+       masthead's full width lets its own flex-wrap actually wrap within a fully visible row. */
+    .masthead-right{ flex-basis:100%; justify-content:space-between; }
   }
 
   @media (prefers-reduced-motion: reduce){

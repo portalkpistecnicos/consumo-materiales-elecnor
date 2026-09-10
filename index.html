@@ -465,7 +465,7 @@
       <div class="masthead-right">
         <div class="masthead-updated">Actualizado<b id="metaGenerado">—</b></div>
         <div class="masthead-btns">
-          <button type="button" class="ghost-btn" id="themeBtn" aria-label="Cambiar fondo: claro, oscuro o transparente">Fondo: <span id="themeBtnLabel">Transparente</span></button>
+          <button type="button" class="ghost-btn" id="themeBtn" aria-label="Cambiar fondo: claro u oscuro">Fondo: <span id="themeBtnLabel">Claro</span></button>
           <button type="button" class="ghost-btn" id="pdfBtn">Descargar PDF</button>
           <button type="button" class="logout-btn" id="logoutBtn">Salir</button>
         </div>
@@ -545,22 +545,25 @@ const fmtInt = n => new Intl.NumberFormat('es-CL').format(Math.round(n));
 const STORAGE_KEY = 'consumo_materiales_idca';
 const THEME_KEY = 'consumo_materiales_fondo';
 
-// ---------------- Fondo: Claro / Oscuro / Transparente (sigue el sistema) ----------------
-const THEME_CYCLE = ['transparente', 'claro', 'oscuro'];
-const THEME_LABELS = { transparente: 'Transparente', claro: 'Claro', oscuro: 'Oscuro' };
+// ---------------- Fondo: Claro / Oscuro ----------------
+// "Transparente" (seguir el sistema) se quito: para el usuario se veia identico a "Claro"
+// (su sistema esta en modo claro), asi que sobraba como opcion.
+const THEME_CYCLE = ['claro', 'oscuro'];
+const THEME_LABELS = { claro: 'Claro', oscuro: 'Oscuro' };
 const themeBtn = document.getElementById('themeBtn');
 const themeBtnLabel = document.getElementById('themeBtnLabel');
 
 function applyTheme(t){
-  if (t === 'claro') document.documentElement.setAttribute('data-theme', 'light');
-  else if (t === 'oscuro') document.documentElement.setAttribute('data-theme', 'dark');
-  else document.documentElement.removeAttribute('data-theme'); // transparente = deja pasar el del sistema
+  document.documentElement.setAttribute('data-theme', t === 'oscuro' ? 'dark' : 'light');
   themeBtnLabel.textContent = THEME_LABELS[t];
   try { localStorage.setItem(THEME_KEY, t); } catch(e){}
 }
 
-let savedTheme = 'transparente';
-try { savedTheme = localStorage.getItem(THEME_KEY) || 'transparente'; } catch(e){}
+let savedTheme = 'claro';
+try {
+  const stored = localStorage.getItem(THEME_KEY);
+  savedTheme = (stored === 'oscuro') ? 'oscuro' : 'claro'; // migra cualquier valor viejo ("transparente") a claro
+} catch(e){}
 applyTheme(savedTheme);
 
 themeBtn.addEventListener('click', () => {

@@ -204,6 +204,23 @@
 
   .empty-note{ text-align:center; color:var(--text-muted); padding:20px 8px; font-size:13px; }
 
+  .week-toggle{
+    appearance:none; border:none; background:none; color:var(--brand-blue); font:inherit; font-size:12px; font-weight:600;
+    cursor:pointer; padding:10px 0 0; display:inline-flex; align-items:center; gap:4px;
+  }
+  :root[data-theme="dark"] .week-toggle{ color:var(--brand-orange); }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .week-toggle{ color:var(--brand-orange); } }
+  .week-toggle .chev{ display:inline-block; transition:transform .15s ease; }
+  .week-toggle.open .chev{ transform:rotate(180deg); }
+  .week-detail{ margin-top:8px; padding-top:10px; border-top:1px dashed var(--border); display:flex; flex-direction:column; gap:12px; }
+  .week-item-head{ display:flex; align-items:flex-start; justify-content:space-between; gap:10px; }
+  .week-item-label{ font-size:11.5px; font-weight:600; color:var(--text-muted); }
+  .week-item-diff{ font-family:"IBM Plex Mono", ui-monospace, monospace; font-size:12px; font-weight:700; }
+  .week-item-diff.pos{ color:var(--brand-blue); }
+  :root[data-theme="dark"] .week-item-diff.pos{ color:var(--brand-orange); }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .week-item-diff.pos{ color:var(--brand-orange); } }
+  .week-item-diff.neg{ color:var(--danger); }
+
   @media (prefers-reduced-motion: reduce){ .flow-bar-fill{ transition:none; } }
 
   /* ---------- Footer ---------- */
@@ -226,7 +243,7 @@
     .masthead-greeting, .masthead-meta, .masthead-meta b{ color:#142A47 !important; }
     .kpi, .panel{ box-shadow:none; border:1px solid #DCE3EE; break-inside:avoid; }
     .kpi-value{ color:#003F86 !important; }
-    .flow-row{ break-inside:avoid; }
+    .flow-row, .week-detail > div{ break-inside:avoid; }
   }
 </style>
 </head>
@@ -328,7 +345,7 @@
     <div class="panel-head">
       <div>
         <h2>Consumo y stock semanal del equipo</h2>
-        <p>Totales del equipo por semana calendario (lunes a domingo). El detalle semanal de cada técnico está en la hoja "Semanal por Técnico" del Excel.</p>
+        <p>Totales del equipo por semana calendario (lunes a domingo). Para ver la semana a semana de un técnico en particular, toca "Ver semanal" en su tarjeta más abajo (o revisa la hoja "Semanal por Técnico" del Excel).</p>
         <div class="legend"><span><i class="i-stock"></i>Stock vigente esa semana</span><span><i class="i-consumo"></i>Consumido (esa semana)</span></div>
       </div>
     </div>
@@ -359,6 +376,7 @@ const ADMIN_PIN = 'CONSUMO2026';
 let tecnicos = [];
 let materiales = [];
 let semanal = [];  // semanal.json: [{idca, nombre, porSemana:[{desde,hasta,consumo,stock,diferencia}]}]
+let semanalByKey = {};  // `${idca}|${nombre}` -> porSemana (idca por si solo no es unico, hay duplicados en el plantel)
 let PERIODO = { desde: "—", hasta: "—", dias: 1 };
 let TECNICOS_ACTIVOS = 0;
 let GENERADO = "—";
@@ -379,6 +397,8 @@ async function loadData(){
   GENERADO = meta.generado;
   STOCK_META = meta.stock || null;
   semanal = semanalData || [];
+  semanalByKey = {};
+  semanal.forEach(s => { semanalByKey[s.idca + '|' + s.nombre] = s.porSemana || []; });
 }
 
 // ---------------- Fondo: Claro / Oscuro ----------------
@@ -502,10 +522,12 @@ function renderList(){
     return;
   }
 
-  data.forEach(t => {
+  data.forEach((t, i) => {
     const max = Math.max(t.stock, t.consumo, 1);
     const diffClass = t.diferencia >= 0 ? 'pos' : 'neg';
     const diffTxt = (t.diferencia > 0 ? '+' : '') + fmtInt(t.diferencia);
+    const semanasTec = semanalByKey[t.idca + '|' + t.nombre] || [];
+    const weekBlockId = `week-${i}`;
     const row = document.createElement('div');
     row.className = 'flow-row';
     row.innerHTML = `
@@ -531,10 +553,59 @@ function renderList(){
           <div class="flow-bar-value num">${fmtInt(t.consumo)}</div>
         </div>
       </div>
+      ${semanasTec.length ? `
+      <button type="button" class="week-toggle" data-target="${weekBlockId}" data-count="${semanasTec.length}">
+        <span class="chev">▾</span> Ver semanal (${semanasTec.length})
+      </button>
+      <div class="week-detail" id="${weekBlockId}" hidden>
+        ${semanasTec.map(s => {
+          const stockVal = (s.stock === null || s.stock === undefined) ? null : s.stock;
+          const consumoVal = s.consumo || 0;
+          const maxW = Math.max(stockVal || 0, consumoVal, 1);
+          const diffW = stockVal === null ? null : (stockVal - consumoVal);
+          const diffTxtW = diffW === null ? 'Sin dato' : (diffW > 0 ? '+' : '') + fmtInt(diffW);
+          const diffClassW = diffW === null ? '' : (diffW >= 0 ? 'pos' : 'neg');
+          return `
+            <div>
+              <div class="week-item-head">
+                <div class="week-item-label">Semana ${s.desde} – ${s.hasta}</div>
+                <div class="week-item-diff ${diffClassW} num">${diffTxtW}</div>
+              </div>
+              <div class="flow-bars">
+                <div class="flow-bar-line">
+                  <div class="flow-bar-label">Stock</div>
+                  <div class="flow-bar-track"><div class="flow-bar-fill stock" style="width:${stockVal===null?0:(stockVal/maxW*100).toFixed(1)}%"></div></div>
+                  <div class="flow-bar-value num">${stockVal===null?'—':fmtInt(stockVal)}</div>
+                </div>
+                <div class="flow-bar-line">
+                  <div class="flow-bar-label">Consumo</div>
+                  <div class="flow-bar-track"><div class="flow-bar-fill consumo" style="width:${(consumoVal/maxW*100).toFixed(1)}%"></div></div>
+                  <div class="flow-bar-value num">${fmtInt(consumoVal)}</div>
+                </div>
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+      ` : ''}
     `;
     list.appendChild(row);
   });
 }
+
+document.getElementById('tecList').addEventListener('click', (e) => {
+  const btn = e.target.closest('.week-toggle');
+  if (!btn) return;
+  const detail = document.getElementById(btn.dataset.target);
+  if (!detail) return;
+  const willOpen = detail.hidden;
+  detail.hidden = !willOpen;
+  btn.classList.toggle('open', willOpen);
+  const count = btn.dataset.count;
+  btn.innerHTML = willOpen
+    ? `<span class="chev">▾</span> Ocultar semanal`
+    : `<span class="chev">▾</span> Ver semanal (${count})`;
+});
 
 // ---------------- Resumen semanal del equipo (agregado desde semanal.json) ----------------
 function renderSemanal(){

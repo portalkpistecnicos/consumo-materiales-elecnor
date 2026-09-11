@@ -496,7 +496,8 @@ function tecnicoRows(){
     stock: t.stockTotal || 0,
     consumo: t.total || 0,
     diferencia: (t.stockTotal || 0) - (t.total || 0),
-    materiales: (t.flow || []).length
+    materiales: (t.flow || []).length,
+    flow: t.flow || []
   }));
 }
 
@@ -522,12 +523,16 @@ function renderList(){
     return;
   }
 
+  const teamByTipo = {};
+  materiales.forEach(r => { teamByTipo[r.Tipo] = r; });
+
   data.forEach((t, i) => {
     const max = Math.max(t.stock, t.consumo, 1);
     const diffClass = t.diferencia >= 0 ? 'pos' : 'neg';
     const diffTxt = (t.diferencia > 0 ? '+' : '') + fmtInt(t.diferencia);
     const semanasTec = semanalByKey[t.idca + '|' + t.nombre] || [];
     const weekBlockId = `week-${i}`;
+    const matBlockId = `mat-${i}`;
     const row = document.createElement('div');
     row.className = 'flow-row';
     row.innerHTML = `
@@ -553,8 +558,46 @@ function renderList(){
           <div class="flow-bar-value num">${fmtInt(t.consumo)}</div>
         </div>
       </div>
+      ${t.flow.length ? `
+      <button type="button" class="week-toggle" data-target="${matBlockId}" data-count="${t.flow.length}" data-label="materiales">
+        <span class="chev">▾</span> Ver materiales (${t.flow.length})
+      </button>
+      <div class="week-detail" id="${matBlockId}" hidden>
+        ${t.flow.map(f => {
+          const maxM = Math.max(f.stock, f.consumo, 1);
+          const diffM = f.stock - f.consumo;
+          const diffTxtM = (diffM > 0 ? '+' : '') + fmtInt(diffM);
+          const diffClassM = diffM >= 0 ? 'pos' : 'neg';
+          const teamRow = teamByTipo[f.Tipo];
+          const codigos = (teamRow && teamRow.Codigos && teamRow.Codigos.length) ? 'SAP ' + teamRow.Codigos.join(', ') : f.Tipo;
+          return `
+            <div>
+              <div class="flow-row-head">
+                <div>
+                  <div class="mat-name">${f.nombre}</div>
+                  <div class="mat-code">${codigos}</div>
+                </div>
+                <div class="week-item-diff ${diffClassM} num">${diffTxtM}</div>
+              </div>
+              <div class="flow-bars">
+                <div class="flow-bar-line">
+                  <div class="flow-bar-label">Stock</div>
+                  <div class="flow-bar-track"><div class="flow-bar-fill stock" style="width:${(f.stock/maxM*100).toFixed(1)}%"></div></div>
+                  <div class="flow-bar-value num">${fmtInt(f.stock)}</div>
+                </div>
+                <div class="flow-bar-line">
+                  <div class="flow-bar-label">Consumo</div>
+                  <div class="flow-bar-track"><div class="flow-bar-fill consumo" style="width:${(f.consumo/maxM*100).toFixed(1)}%"></div></div>
+                  <div class="flow-bar-value num">${fmtInt(f.consumo)}</div>
+                </div>
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+      ` : ''}
       ${semanasTec.length ? `
-      <button type="button" class="week-toggle" data-target="${weekBlockId}" data-count="${semanasTec.length}">
+      <button type="button" class="week-toggle" data-target="${weekBlockId}" data-count="${semanasTec.length}" data-label="semanal">
         <span class="chev">▾</span> Ver semanal (${semanasTec.length})
       </button>
       <div class="week-detail" id="${weekBlockId}" hidden>
@@ -602,9 +645,10 @@ document.getElementById('tecList').addEventListener('click', (e) => {
   detail.hidden = !willOpen;
   btn.classList.toggle('open', willOpen);
   const count = btn.dataset.count;
+  const label = btn.dataset.label || 'detalle';
   btn.innerHTML = willOpen
-    ? `<span class="chev">▾</span> Ocultar semanal`
-    : `<span class="chev">▾</span> Ver semanal (${count})`;
+    ? `<span class="chev">▾</span> Ocultar ${label}`
+    : `<span class="chev">▾</span> Ver ${label} (${count})`;
 });
 
 // ---------------- Resumen semanal del equipo (agregado desde semanal.json) ----------------

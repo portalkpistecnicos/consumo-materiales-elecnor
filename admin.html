@@ -82,6 +82,16 @@
     background:var(--surface-2); color:var(--text); text-align:center;
   }
   .idca-input:focus-visible{ outline:2px solid var(--focus); outline-offset:1px; border-color:var(--brand-blue); }
+  .pin-field{ position:relative; }
+  .pin-field .idca-input{ padding-right:44px; }
+  .pin-toggle{
+    position:absolute; right:6px; top:50%; transform:translateY(-50%);
+    appearance:none; border:none; background:none; cursor:pointer; padding:7px;
+    color:var(--text-muted); display:flex; align-items:center; justify-content:center; border-radius:7px;
+  }
+  .pin-toggle:hover{ color:var(--text); background:var(--surface-2); }
+  .pin-toggle:focus-visible{ outline:2px solid var(--focus); outline-offset:1px; }
+  .pin-toggle svg{ width:18px; height:18px; }
   .login-submit{
     width:100%; margin-top:14px; padding:12px 14px; border:none; border-radius:10px;
     background:var(--brand-blue); color:#fff; font:inherit; font-weight:700; font-size:14px;
@@ -256,7 +266,13 @@
     <p class="sub">Vista ejecutiva de todos los técnicos: stock y consumo. Ingresa el código de administrador.</p>
     <form id="loginForm" autocomplete="off">
       <label class="field-label" for="pinInput">Código de administrador</label>
-      <input class="idca-input" id="pinInput" type="text" placeholder="••••••" maxlength="20" autocomplete="off">
+      <div class="pin-field">
+        <input class="idca-input" id="pinInput" type="password" placeholder="••••••" maxlength="20" autocomplete="off">
+        <button type="button" class="pin-toggle" id="pinToggle" aria-label="Mostrar contraseña" aria-pressed="false">
+          <svg class="eye-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8Z"/><circle cx="12" cy="12" r="3"/></svg>
+          <svg class="eye-closed" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" hidden><path d="M17.94 17.94A10.94 10.94 0 0 1 12 20c-7 0-11-8-11-8a18.6 18.6 0 0 1 5.06-5.94M9.9 4.24A10.94 10.94 0 0 1 12 4c7 0 11 8 11 8a18.6 18.6 0 0 1-2.16 3.19M14.12 14.12a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>
+        </button>
+      </div>
       <button class="login-submit" type="submit">Ingresar</button>
     </form>
     <div class="login-loading" id="loginLoading">Cargando datos…</div>
@@ -424,6 +440,18 @@ const loginForm = document.getElementById('loginForm');
 const pinInput = document.getElementById('pinInput');
 const loginLoading = document.getElementById('loginLoading');
 const loginError = document.getElementById('loginError');
+
+// ---------------- Mostrar/ocultar contraseña ----------------
+const pinToggle = document.getElementById('pinToggle');
+pinToggle.addEventListener('click', () => {
+  const showing = pinInput.type === 'text';
+  pinInput.type = showing ? 'password' : 'text';
+  pinToggle.setAttribute('aria-pressed', String(!showing));
+  pinToggle.setAttribute('aria-label', showing ? 'Mostrar contraseña' : 'Ocultar contraseña');
+  pinToggle.querySelector('.eye-open').hidden = !showing;
+  pinToggle.querySelector('.eye-closed').hidden = showing;
+  pinInput.focus();
+});
 
 function showError(msg){ loginError.textContent = msg; loginError.hidden = false; }
 function clearError(){ loginError.hidden = true; }

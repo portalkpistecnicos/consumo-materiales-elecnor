@@ -211,7 +211,16 @@
   .flow-bar-fill{ position:absolute; left:0; top:0; bottom:0; border-radius:4px; min-width:2px; }
   .flow-bar-fill.stock{ background:var(--brand-blue); }
   .flow-bar-fill.consumo{ background:var(--brand-orange); }
+  .flow-bar-fill.promsem{ background:var(--text-muted); opacity:0.6; }
+  .flow-bar-fill.diffpos{ background:var(--brand-blue); }
+  :root[data-theme="dark"] .flow-bar-fill.diffpos{ background:var(--brand-orange); }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .flow-bar-fill.diffpos{ background:var(--brand-orange); } }
+  .flow-bar-fill.diffneg{ background:var(--danger); }
   .flow-bar-value{ font-size:11.5px; text-align:right; font-weight:600; }
+  .flow-bar-value.pos{ color:var(--brand-blue); }
+  :root[data-theme="dark"] .flow-bar-value.pos{ color:var(--brand-orange); }
+  @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .flow-bar-value.pos{ color:var(--brand-orange); } }
+  .flow-bar-value.neg{ color:var(--danger); }
 
   .empty-note{ text-align:center; color:var(--text-muted); padding:20px 8px; font-size:13px; }
 
@@ -631,7 +640,8 @@ function renderList(){
           const promSemM = semanasTec.length ? (f.consumo / semanasTec.length) : null;
           const difSemM = semanasTec.length ? (diffM / semanasTec.length) : null;
           const difSemTxt = difSemM === null ? '—' : (difSemM > 0 ? '+' : '') + fmtInt(difSemM);
-          const difSemClass = difSemM === null ? '' : (difSemM >= 0 ? 'pos' : 'neg');
+          const difSemClass = difSemM === null ? '' : (difSemM >= 0 ? 'diffpos' : 'diffneg');
+          const difSemValClass = difSemM === null ? '' : (difSemM >= 0 ? 'pos' : 'neg');
           return `
             <div>
               <div class="flow-row-head">
@@ -652,8 +662,17 @@ function renderList(){
                   <div class="flow-bar-track"><div class="flow-bar-fill consumo" style="width:${(f.consumo/maxM*100).toFixed(1)}%"></div></div>
                   <div class="flow-bar-value num">${fmtInt(f.consumo)}</div>
                 </div>
+                <div class="flow-bar-line">
+                  <div class="flow-bar-label">Prom/sem</div>
+                  <div class="flow-bar-track"><div class="flow-bar-fill promsem" style="width:${promSemM===null?0:(promSemM/maxM*100).toFixed(1)}%"></div></div>
+                  <div class="flow-bar-value num">${promSemM===null?'—':fmtInt(promSemM)}</div>
+                </div>
+                <div class="flow-bar-line">
+                  <div class="flow-bar-label">Dif/sem</div>
+                  <div class="flow-bar-track"><div class="flow-bar-fill ${difSemClass}" style="width:${difSemM===null?0:(Math.abs(difSemM)/maxM*100).toFixed(1)}%"></div></div>
+                  <div class="flow-bar-value ${difSemValClass} num">${difSemTxt}</div>
+                </div>
               </div>
-              <div class="mat-code" style="margin-top:6px;">Prom. semanal: ${promSemM === null ? '—' : fmtInt(promSemM)} · Diferencia semanal: <span class="week-item-diff ${difSemClass} num" style="font-size:inherit;">${difSemTxt}</span></div>
             </div>
           `;
         }).join('')}

@@ -196,6 +196,7 @@
     display:block; font-family:"IBM Plex Mono", ui-monospace, monospace; font-size:10px;
     color:var(--text-muted); font-weight:400; margin-top:1px;
   }
+  .flow-stats{ display:flex; gap:16px; flex-wrap:wrap; justify-content:flex-end; }
   .flow-diff{ flex:none; text-align:right; }
   .flow-diff-value{ font-family:"IBM Plex Mono", ui-monospace, monospace; font-size:13px; font-weight:700; }
   .flow-diff-value.pos{ color:var(--brand-blue); }
@@ -210,6 +211,7 @@
   .flow-bar-fill{ position:absolute; left:0; top:0; bottom:0; border-radius:4px; min-width:2px; }
   .flow-bar-fill.stock{ background:var(--brand-blue); }
   .flow-bar-fill.consumo{ background:var(--brand-orange); }
+  .flow-bar-fill.pct{ background:var(--text-muted); }
   .flow-bar-value{ font-size:11.5px; text-align:right; font-weight:600; }
 
   .empty-note{ text-align:center; color:var(--text-muted); padding:20px 8px; font-size:13px; }
@@ -350,6 +352,7 @@
         <button type="button" data-sort="diferencia" class="active">Diferencia</button>
         <button type="button" data-sort="stock">Stock</button>
         <button type="button" data-sort="consumo">Consumo</button>
+        <button type="button" data-sort="promedioSemanal">Prom. semanal</button>
         <button type="button" data-sort="nombre">Nombre</button>
       </div>
     </div>
@@ -393,6 +396,8 @@ let tecnicos = [];
 let materiales = [];
 let semanal = [];  // semanal.json: [{idca, nombre, porSemana:[{desde,hasta,consumo,stock,diferencia}]}]
 let semanalByKey = {};  // `${idca}|${nombre}` -> porSemana (idca por si solo no es unico, hay duplicados en el plantel)
+let diario = [];  // diario.json: [{idca, nombre, porDia:[{fecha,consumo,stock,diferencia}]}]
+let diarioByFecha = {};  // "dd-MM-yyyy" -> {consumo, stockSum, stockCount} (agregado del equipo)
 let PERIODO = { desde: "—", hasta: "—", dias: 1 };
 let TECNICOS_ACTIVOS = 0;
 let GENERADO = "—";
@@ -400,11 +405,12 @@ let STOCK_META = null;
 
 async function loadData(){
   const bust = '?v=' + Date.now();
-  const [tecnicosData, materialesData, meta, semanalData] = await Promise.all([
+  const [tecnicosData, materialesData, meta, semanalData, diarioData] = await Promise.all([
     fetch('data/tecnicos.json' + bust).then(r => r.json()),
     fetch('data/materiales.json' + bust).then(r => r.json()),
     fetch('data/meta.json' + bust).then(r => r.json()),
-    fetch('data/semanal.json' + bust).then(r => r.ok ? r.json() : []).catch(() => [])
+    fetch('data/semanal.json' + bust).then(r => r.ok ? r.json() : []).catch(() => []),
+    fetch('data/diario.json' + bust).then(r => r.ok ? r.json() : []).catch(() => [])
   ]);
   tecnicos = tecnicosData;
   materiales = materialesData;
@@ -415,6 +421,18 @@ async function loadData(){
   semanal = semanalData || [];
   semanalByKey = {};
   semanal.forEach(s => { semanalByKey[s.idca + '|' + s.nombre] = s.porSemana || []; });
+  diario = diarioData || [];
+  diarioByFecha = {};
+  diario.forEach(t => {
+    (t.porDia || []).forEach(d => {
+      if (!diarioByFecha[d.fecha]) diarioByFecha[d.fecha] = { consumo: 0, stockSum: 0, stockCount: 0 };
+      diarioByFecha[d.fecha].consumo += d.consumo || 0;
+      if (d.stock !== null && d.stock !== undefined){
+        diarioByFecha[d.fecha].stockSum += d.stock;
+        diarioByFecha[d.fecha].stockCount += 1;
+      }
+    });
+  });
 }
 
 // ---------------- Fondo: Claro / Oscuro ----------------
@@ -518,15 +536,22 @@ let sortKey = 'diferencia';
 let query = '';
 
 function tecnicoRows(){
-  return tecnicos.map(t => ({
-    idca: t.idca,
-    nombre: t.nombre,
-    stock: t.stockTotal || 0,
-    consumo: t.total || 0,
-    diferencia: (t.stockTotal || 0) - (t.total || 0),
-    materiales: (t.flow || []).length,
-    flow: t.flow || []
-  }));
+  return tecnicos.map(t => {
+    const semanasTec = semanalByKey[t.idca + '|' + t.nombre] || [];
+    const promedioSemanal = semanasTec.length
+      ? semanasTec.reduce((s, w) => s + (w.consumo || 0), 0) / semanasTec.length
+      : null;
+    return {
+      idca: t.idca,
+      nombre: t.nombre,
+      stock: t.stockTotal || 0,
+      consumo: t.total || 0,
+      diferencia: (t.stockTotal || 0) - (t.total || 0),
+      materiales: (t.flow || []).length,
+      flow: t.flow || [],
+      promedioSemanal
+    };
+  });
 }
 
 function renderList(){
@@ -569,9 +594,15 @@ function renderList(){
           <div class="mat-name">${t.nombre}</div>
           <div class="mat-code">IDCA ${t.idca} · ${fmtInt(t.materiales)} materiales con movimiento</div>
         </div>
-        <div class="flow-diff">
-          <div class="flow-diff-value ${diffClass} num">${diffTxt}</div>
-          <div class="flow-diff-label">Diferencia</div>
+        <div class="flow-stats">
+          <div class="flow-diff">
+            <div class="flow-diff-value ${diffClass} num">${diffTxt}</div>
+            <div class="flow-diff-label">Diferencia</div>
+          </div>
+          <div class="flow-diff">
+            <div class="flow-diff-value num">${t.promedioSemanal === null ? '—' : fmtInt(t.promedioSemanal)}</div>
+            <div class="flow-diff-label">Prom. semanal</div>
+          </div>
         </div>
       </div>
       <div class="flow-bars">
@@ -598,6 +629,8 @@ function renderList(){
           const diffClassM = diffM >= 0 ? 'pos' : 'neg';
           const teamRow = teamByTipo[f.Tipo];
           const codigos = (teamRow && teamRow.Codigos && teamRow.Codigos.length) ? 'SAP ' + teamRow.Codigos.join(', ') : f.Tipo;
+          const promSemM = semanasTec.length ? (f.consumo / semanasTec.length) : null;
+          const pctM = t.consumo > 0 ? (f.consumo / t.consumo * 100) : 0;
           return `
             <div>
               <div class="flow-row-head">
@@ -618,7 +651,13 @@ function renderList(){
                   <div class="flow-bar-track"><div class="flow-bar-fill consumo" style="width:${(f.consumo/maxM*100).toFixed(1)}%"></div></div>
                   <div class="flow-bar-value num">${fmtInt(f.consumo)}</div>
                 </div>
+                <div class="flow-bar-line">
+                  <div class="flow-bar-label">% semanal</div>
+                  <div class="flow-bar-track"><div class="flow-bar-fill pct" style="width:${pctM.toFixed(1)}%"></div></div>
+                  <div class="flow-bar-value num">${pctM.toFixed(1)}%</div>
+                </div>
               </div>
+              <div class="mat-code" style="margin-top:6px;">Prom. semanal: ${promSemM === null ? '—' : fmtInt(promSemM)} · ${pctM.toFixed(1)}% del consumo semanal del técnico</div>
             </div>
           `;
         }).join('')}
@@ -664,20 +703,46 @@ function renderList(){
   });
 }
 
-document.getElementById('tecList').addEventListener('click', (e) => {
-  const btn = e.target.closest('.week-toggle');
-  if (!btn) return;
-  const detail = document.getElementById(btn.dataset.target);
-  if (!detail) return;
-  const willOpen = detail.hidden;
-  detail.hidden = !willOpen;
-  btn.classList.toggle('open', willOpen);
-  const count = btn.dataset.count;
-  const label = btn.dataset.label || 'detalle';
-  btn.innerHTML = willOpen
-    ? `<span class="chev">▾</span> Ocultar ${label}`
-    : `<span class="chev">▾</span> Ver ${label} (${count})`;
-});
+function bindWeekToggleDelegation(container){
+  container.addEventListener('click', (e) => {
+    const btn = e.target.closest('.week-toggle');
+    if (!btn) return;
+    const detail = document.getElementById(btn.dataset.target);
+    if (!detail) return;
+    const willOpen = detail.hidden;
+    detail.hidden = !willOpen;
+    btn.classList.toggle('open', willOpen);
+    const count = btn.dataset.count;
+    const label = btn.dataset.label || 'detalle';
+    btn.innerHTML = willOpen
+      ? `<span class="chev">▾</span> Ocultar ${label}`
+      : `<span class="chev">▾</span> Ver ${label} (${count})`;
+  });
+}
+bindWeekToggleDelegation(document.getElementById('tecList'));
+bindWeekToggleDelegation(document.getElementById('semanalList'));
+
+// dd-MM-yyyy -> lista de 7 fechas (lunes a domingo) en el mismo formato, con nombre de dia en español
+const DIAS_ES = ['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'];
+function parseDDMMYYYY(s){
+  const [dd, mm, yyyy] = s.split('-').map(Number);
+  return new Date(yyyy, mm - 1, dd);
+}
+function fmtDDMMYYYY(d){
+  const dd = String(d.getDate()).padStart(2, '0');
+  const mm = String(d.getMonth() + 1).padStart(2, '0');
+  return `${dd}-${mm}-${d.getFullYear()}`;
+}
+function diasDeSemana(desdeStr, hastaStr){
+  const dias = [];
+  let d = parseDDMMYYYY(desdeStr);
+  const fin = parseDDMMYYYY(hastaStr);
+  while (d <= fin){
+    dias.push({ fecha: fmtDDMMYYYY(d), label: DIAS_ES[d.getDay()] });
+    d = new Date(d.getFullYear(), d.getMonth(), d.getDate() + 1);
+  }
+  return dias;
+}
 
 // ---------------- Resumen semanal del equipo (agregado desde semanal.json) ----------------
 function renderSemanal(){
@@ -705,13 +770,15 @@ function renderSemanal(){
     return pa.localeCompare(pb);
   });
 
-  semanas.forEach(s => {
+  semanas.forEach((s, i) => {
     const stockVal = s.stockCount > 0 ? s.stockSum : null;
     const consumoVal = s.consumo;
     const max = Math.max(stockVal || 0, consumoVal, 1);
     const diff = stockVal === null ? null : (stockVal - consumoVal);
     const diffTxt = diff === null ? 'Sin dato' : (diff > 0 ? '+' : '') + fmtInt(diff);
     const diffClass = diff === null ? '' : (diff >= 0 ? 'pos' : 'neg');
+    const dias = diasDeSemana(s.desde, s.hasta);
+    const diaBlockId = `dia-team-${i}`;
     const row = document.createElement('div');
     row.className = 'flow-row';
     row.innerHTML = `
@@ -737,6 +804,42 @@ function renderSemanal(){
           <div class="flow-bar-value num">${fmtInt(consumoVal)}</div>
         </div>
       </div>
+      ${dias.length ? `
+      <button type="button" class="week-toggle" data-target="${diaBlockId}" data-count="${dias.length}" data-label="detalle diario">
+        <span class="chev">▾</span> Ver detalle diario (${dias.length})
+      </button>
+      <div class="week-detail" id="${diaBlockId}" hidden>
+        ${dias.map(dia => {
+          const agg = diarioByFecha[dia.fecha];
+          const stockD = (agg && agg.stockCount > 0) ? agg.stockSum : null;
+          const consumoD = agg ? agg.consumo : 0;
+          const maxD = Math.max(stockD || 0, consumoD, 1);
+          const diffD = stockD === null ? null : (stockD - consumoD);
+          const diffTxtD = diffD === null ? 'Sin dato' : (diffD > 0 ? '+' : '') + fmtInt(diffD);
+          const diffClassD = diffD === null ? '' : (diffD >= 0 ? 'pos' : 'neg');
+          return `
+            <div>
+              <div class="week-item-head">
+                <div class="week-item-label">${dia.label} ${dia.fecha}</div>
+                <div class="week-item-diff ${diffClassD} num">${diffTxtD}</div>
+              </div>
+              <div class="flow-bars">
+                <div class="flow-bar-line">
+                  <div class="flow-bar-label">Stock</div>
+                  <div class="flow-bar-track"><div class="flow-bar-fill stock" style="width:${stockD===null?0:(stockD/maxD*100).toFixed(1)}%"></div></div>
+                  <div class="flow-bar-value num">${stockD===null?'—':fmtInt(stockD)}</div>
+                </div>
+                <div class="flow-bar-line">
+                  <div class="flow-bar-label">Consumo</div>
+                  <div class="flow-bar-track"><div class="flow-bar-fill consumo" style="width:${(consumoD/maxD*100).toFixed(1)}%"></div></div>
+                  <div class="flow-bar-value num">${fmtInt(consumoD)}</div>
+                </div>
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
+      ` : ''}
     `;
     list.appendChild(row);
   });

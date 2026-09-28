@@ -1,14 +1,14 @@
 {
     "periodo":  {
                     "desde":  "01-09-2026",
-                    "hasta":  "24-09-2026",
-                    "dias":  22
+                    "hasta":  "27-09-2026",
+                    "dias":  25
                 },
     "tecnicosActivos":  56,
-    "generado":  "28-09-2026 08:41",
+    "generado":  "28-09-2026 10:55",
     "stock":  {
-                  "fecha":  "26-09-2026",
+                  "fecha":  "28-09-2026",
                   "turno":  "AM",
-                  "archivo":  "STOCK TECNICOS 260926 AM.XLSX"
+                  "archivo":  "STOCK TECNICOS 280926 AM.XLSX"
               }
 }

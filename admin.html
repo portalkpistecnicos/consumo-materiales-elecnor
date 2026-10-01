@@ -252,9 +252,33 @@
     text-transform:uppercase; color:var(--text-muted); padding-top:4px;
   }
 
+  /* ---------- Modal: meses cargados ---------- */
+  .modal-overlay{
+    position:fixed; inset:0; background:rgba(8,16,30,0.55); backdrop-filter:blur(2px);
+    display:flex; align-items:center; justify-content:center; padding:20px; z-index:100;
+  }
+  .modal-card{
+    width:100%; max-width:360px; max-height:80vh; overflow-y:auto;
+    background:var(--surface); border-radius:16px; padding:22px; box-shadow:0 20px 60px rgba(0,10,30,0.35);
+  }
+  .modal-head{ display:flex; align-items:flex-start; justify-content:space-between; gap:12px; }
+  .modal-head h3{ font-size:16px; font-weight:700; font-family:"Archivo", system-ui, sans-serif; }
+  .modal-close{
+    appearance:none; border:none; background:none; cursor:pointer; line-height:1;
+    font-size:22px; color:var(--text-muted); padding:0 2px; flex:none;
+  }
+  .modal-close:hover{ color:var(--text); }
+  .modal-sub{ margin:8px 0 16px; font-size:12.5px; color:var(--text-muted); line-height:1.5; }
+  .modal-sub code{ font-family:"IBM Plex Mono", ui-monospace, monospace; font-size:11.5px; }
+  .meses-list{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:7px; }
+  .meses-list li{
+    padding:9px 12px; background:var(--surface-2); border-radius:9px;
+    font-size:13.5px; font-weight:600; color:var(--text);
+  }
+
   /* ---------- Print / PDF ---------- */
   @media print{
-    .login-wrap, .masthead-btns, .admin-tools{ display:none !important; }
+    .login-wrap, .masthead-btns, .admin-tools, .modal-overlay{ display:none !important; }
     body{ background:#fff; }
     .page{ max-width:100%; padding:0; gap:14px; }
     .masthead{ background:#fff !important; color:#142A47 !important; box-shadow:none; border:1px solid #DCE3EE; position:static; }
@@ -303,6 +327,7 @@
         <div class="masthead-updated">Actualizado<b id="metaGenerado">—</b></div>
         <div class="masthead-btns">
           <button type="button" class="ghost-btn" id="themeBtn" aria-label="Cambiar fondo: claro u oscuro">Fondo: <span id="themeBtnLabel">Claro</span></button>
+          <button type="button" class="ghost-btn" id="mesesBtn">Meses cargados</button>
           <button type="button" class="ghost-btn" id="pdfBtn">Descargar PDF</button>
           <button type="button" class="ghost-btn" id="excelBtn">Descargar Excel</button>
           <button type="button" class="logout-btn" id="logoutBtn">Salir</button>
@@ -393,6 +418,17 @@
 
 </div>
 
+<div class="modal-overlay" id="mesesModal" hidden>
+  <div class="modal-card">
+    <div class="modal-head">
+      <h3>Meses con datos cargados</h3>
+      <button type="button" class="modal-close" id="mesesCloseBtn" aria-label="Cerrar">×</button>
+    </div>
+    <p class="modal-sub">Meses para los que existen archivos diarios de consumo de origen (<code>Consumos\</code>), más allá del período activo.</p>
+    <ul class="meses-list" id="mesesList"></ul>
+  </div>
+</div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script>
 const fmtInt = n => new Intl.NumberFormat('es-CL').format(Math.round(n));
@@ -410,6 +446,7 @@ let PERIODO = { desde: "—", hasta: "—", dias: 1 };
 let TECNICOS_ACTIVOS = 0;
 let GENERADO = "—";
 let STOCK_META = null;
+let MESES_CARGADOS = [];
 
 async function loadData(){
   const bust = '?v=' + Date.now();
@@ -426,6 +463,7 @@ async function loadData(){
   TECNICOS_ACTIVOS = meta.tecnicosActivos;
   GENERADO = meta.generado;
   STOCK_META = meta.stock || null;
+  MESES_CARGADOS = meta.mesesCargados || [];
   semanal = semanalData || [];
   semanalByKey = {};
   semanal.forEach(s => { semanalByKey[s.idca + '|' + s.nombre] = s.porSemana || []; });
@@ -514,6 +552,21 @@ loginForm.addEventListener('submit', (e) => {
 });
 
 document.getElementById('pdfBtn').addEventListener('click', () => window.print());
+
+// ---------------- Modal: meses cargados ----------------
+const mesesModal = document.getElementById('mesesModal');
+function openMesesModal(){
+  const list = document.getElementById('mesesList');
+  list.innerHTML = MESES_CARGADOS.length
+    ? MESES_CARGADOS.map(m => `<li>${m}</li>`).join('')
+    : '<li>No se encontraron meses con datos de origen.</li>';
+  mesesModal.hidden = false;
+}
+function closeMesesModal(){ mesesModal.hidden = true; }
+document.getElementById('mesesBtn').addEventListener('click', openMesesModal);
+document.getElementById('mesesCloseBtn').addEventListener('click', closeMesesModal);
+mesesModal.addEventListener('click', (e) => { if (e.target === mesesModal) closeMesesModal(); });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !mesesModal.hidden) closeMesesModal(); });
 
 // ---------------- Header / KPIs ----------------
 function renderHeaderAndKpis(){

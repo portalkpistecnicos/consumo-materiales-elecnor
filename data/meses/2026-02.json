@@ -1,0 +1,3331 @@
+{
+    "mes":  "Febrero 2026",
+    "generado":  "01-10-2026 16:39",
+    "tecnicos":  [
+                     {
+                         "idca":  "1226",
+                         "nombre":  "ABELARDO HIPOLITO VENEGAS HERNANDEZ",
+                         "total":  234,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  42
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  35
+                                      },
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  28
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  26
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  26
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  25
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  20
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  17
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  12
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  2
+                                      },
+                                      {
+                                          "Tipo":  "PROT_EMP_FO_NS",
+                                          "nombre":  "Protector de Empalme FO",
+                                          "consumo":  1
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "19593",
+                         "nombre":  "ALEJANDRO ENRIQUE LAGOS GONZALEZ",
+                         "total":  242,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  46
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  39
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  30
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  28
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  27
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  27
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  18
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  14
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  10
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  3
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "2746",
+                         "nombre":  "ALEJANDRO NICOLAS PARA GOMEZ",
+                         "total":  718,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  167
+                                      },
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  164
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  81
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  64
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  60
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  52
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  46
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  43
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  23
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  11
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  7
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "1944",
+                         "nombre":  "ALEJANDRO SEBASTIAN CISTERNAS MARIN",
+                         "total":  239,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  64
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  31
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  25
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  25
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  25
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  24
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  18
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  10
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  8
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  4
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  4
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_S",
+                                          "nombre":  "Modem Estandar",
+                                          "consumo":  1
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "20281",
+                         "nombre":  "AUGUSTO ANDRES FUENTES TAPIA",
+                         "total":  801,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  186
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  170
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  103
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  72
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  62
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  60
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  59
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  40
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  25
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  17
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  6
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_S",
+                                          "nombre":  "Modem Estandar",
+                                          "consumo":  1
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "18479",
+                         "nombre":  "BENJAMIN ALFREDO MIRANDA IRARRAZABAL",
+                         "total":  407,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  72
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  55
+                                      },
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  54
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  43
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  41
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  41
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  36
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  27
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  17
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  10
+                                      },
+                                      {
+                                          "Tipo":  "PROT_EMP_FO_NS",
+                                          "nombre":  "Protector de Empalme FO",
+                                          "consumo":  9
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  2
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "28430",
+                         "nombre":  "CARLOS HERNAN MUNOZ MATUS",
+                         "total":  545,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  128
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  60
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_INT_FO_NS",
+                                          "nombre":  "Cable Fibra Optica (interior)",
+                                          "consumo":  60
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  48
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  47
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  47
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  38
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  31
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  30
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  22
+                                      },
+                                      {
+                                          "Tipo":  "PROT_EMP_FO_NS",
+                                          "nombre":  "Protector de Empalme FO",
+                                          "consumo":  19
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  8
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  5
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_S",
+                                          "nombre":  "Modem Estandar",
+                                          "consumo":  2
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "28991",
+                         "nombre":  "CHRISTOPHER PATRICK LISBOA BARRERA",
+                         "total":  284,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  59
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  47
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  39
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  32
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  31
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  24
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  18
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  16
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  8
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  7
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_S",
+                                          "nombre":  "Modem Estandar",
+                                          "consumo":  3
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "21626",
+                         "nombre":  "CRISTIAN ANDRES VASQUEZ MUNOZ",
+                         "total":  563,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  117
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  67
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  65
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  64
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  58
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  55
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  52
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  38
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  35
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_S",
+                                          "nombre":  "Modem Estandar",
+                                          "consumo":  6
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  6
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "4310",
+                         "nombre":  "CRISTIAN GUILLERMO GOLOTT ESCUDERO",
+                         "total":  821,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CABLE_INT_FO_NS",
+                                          "nombre":  "Cable Fibra Optica (interior)",
+                                          "consumo":  220
+                                      },
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  146
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  85
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  66
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  62
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  61
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  59
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  40
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  30
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  30
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  8
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  8
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_S",
+                                          "nombre":  "Modem Estandar",
+                                          "consumo":  5
+                                      },
+                                      {
+                                          "Tipo":  "PROT_EMP_FO_NS",
+                                          "nombre":  "Protector de Empalme FO",
+                                          "consumo":  1
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "28344",
+                         "nombre":  "CRISTIAN NICOLAS SERRANO VELLAGAS",
+                         "total":  530,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  108
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  78
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  78
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  74
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  68
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  53
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  29
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  17
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  14
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  8
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  3
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "20496",
+                         "nombre":  "DANIEL ALEXANDER RAMIREZ TORRES",
+                         "total":  646,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  130
+                                      },
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  120
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  86
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  65
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  59
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  57
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  56
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  36
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  30
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  5
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  2
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "18331",
+                         "nombre":  "ESTEBAN DAVID ORTIZ FIGUEROA",
+                         "total":  269,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  100
+                                      },
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  38
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  34
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  21
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  19
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  18
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  16
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  12
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  8
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  3
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "1949",
+                         "nombre":  "FERNANDO ALEXIS HOLM MORALES",
+                         "total":  115,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  38
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  20
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  12
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  11
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  11
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  10
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  8
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  5
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "27820",
+                         "nombre":  "FRANCISCO ERNESTO GUERRA GOMEZ",
+                         "total":  484,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  100
+                                      },
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  98
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_INT_FO_NS",
+                                          "nombre":  "Cable Fibra Optica (interior)",
+                                          "consumo":  82
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  45
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  34
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  31
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  30
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  30
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  17
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  12
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  5
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "22049",
+                         "nombre":  "FRANCO JOSUE DIAZ NUNEZ",
+                         "total":  405,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  103
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  51
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  49
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  48
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  42
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  40
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  26
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  25
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  15
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  5
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  1
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "28313",
+                         "nombre":  "GONZALO ANDRES TAPIA VASCONCELO",
+                         "total":  681,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  191
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  130
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  77
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  57
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  52
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  51
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  47
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  41
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  21
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  8
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  6
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "21970",
+                         "nombre":  "HECTOR DAVID AVALOS RUPCICH",
+                         "total":  280,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CABLE_INT_FO_NS",
+                                          "nombre":  "Cable Fibra Optica (interior)",
+                                          "consumo":  116
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  41
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  31
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  26
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  19
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  18
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  13
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  7
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  5
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  4
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "20206",
+                         "nombre":  "HECTOR FERNANDO QUIROZ TORRES",
+                         "total":  105,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  29
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  18
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  12
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  11
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  11
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  8
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  8
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  7
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_S",
+                                          "nombre":  "Modem Estandar",
+                                          "consumo":  1
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "20404",
+                         "nombre":  "HECTOR JOSE ORTIZ MARQUEZ",
+                         "total":  418,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  112
+                                      },
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  91
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  36
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  33
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  31
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  30
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  29
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  22
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  22
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  7
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  5
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "1855",
+                         "nombre":  "HECTOR LEONARDO MUNOZ MIRANDA",
+                         "total":  621,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  190
+                                      },
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  114
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  78
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  48
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  48
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  44
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  40
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  35
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  22
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  2
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "20290",
+                         "nombre":  "HENRY MURIEL DIAZ TORRIJO",
+                         "total":  561,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  161
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  72
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  61
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  54
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  53
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  51
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  46
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  33
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  17
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  7
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  3
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_S",
+                                          "nombre":  "Modem Estandar",
+                                          "consumo":  3
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "1333",
+                         "nombre":  "IVAN ALEJANDRO CALDERON MUNOZ",
+                         "total":  352,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  160
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_INT_FO_NS",
+                                          "nombre":  "Cable Fibra Optica (interior)",
+                                          "consumo":  50
+                                      },
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  42
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  18
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  17
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  16
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  14
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  14
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  11
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  10
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "3705",
+                         "nombre":  "JAIR JESUS VALENCIA DIAZ",
+                         "total":  653,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  167
+                                      },
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  154
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  76
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  51
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  48
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  46
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  42
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  40
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  23
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  3
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  3
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "28992",
+                         "nombre":  "JONATHAN RICARDO HENRIQUEZ VENEGAS",
+                         "total":  413,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  117
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  54
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  51
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  49
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  36
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  29
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  28
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  20
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  17
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  7
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  5
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "8468",
+                         "nombre":  "JORGE EDUARDO JORQUERA FLORES",
+                         "total":  686,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CABLE_INT_FO_NS",
+                                          "nombre":  "Cable Fibra Optica (interior)",
+                                          "consumo":  100
+                                      },
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  98
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  90
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  89
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  68
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  63
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  61
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  42
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  33
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  23
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  9
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  6
+                                      },
+                                      {
+                                          "Tipo":  "PROT_EMP_FO_NS",
+                                          "nombre":  "Protector de Empalme FO",
+                                          "consumo":  4
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "21162",
+                         "nombre":  "JORGE RENE RAMIREZ DE LA BARRA",
+                         "total":  247,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CABLE_INT_FO_NS",
+                                          "nombre":  "Cable Fibra Optica (interior)",
+                                          "consumo":  110
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  25
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  23
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  20
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  20
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  13
+                                      },
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  12
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  10
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  5
+                                      },
+                                      {
+                                          "Tipo":  "PROT_EMP_FO_NS",
+                                          "nombre":  "Protector de Empalme FO",
+                                          "consumo":  4
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  2
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  2
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_S",
+                                          "nombre":  "Modem Estandar",
+                                          "consumo":  1
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "2481",
+                         "nombre":  "JOSE GERARDO CORNEJO GARRIDO",
+                         "total":  656,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  240
+                                      },
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  111
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  56
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  53
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  47
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  38
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  35
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  33
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  29
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  10
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  4
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "29025",
+                         "nombre":  "JOSE MANUEL SEPULVEDA ROJAS",
+                         "total":  117,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  50
+                                      },
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  20
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  12
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  9
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  9
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  8
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  4
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  3
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  1
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  1
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "622",
+                         "nombre":  "JUAN CARLOS TAPIA GOMEZ",
+                         "total":  859,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  220
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  150
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  86
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  67
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  65
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  61
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  60
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  58
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  55
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_INT_FO_NS",
+                                          "nombre":  "Cable Fibra Optica (interior)",
+                                          "consumo":  18
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_S",
+                                          "nombre":  "Modem Estandar",
+                                          "consumo":  11
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  8
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "28998",
+                         "nombre":  "JUAN ESTEBAN MARTINEZ LOCK",
+                         "total":  338,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  78
+                                      },
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  50
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  49
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  45
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  36
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  28
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  23
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  19
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  6
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  3
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  1
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "22764",
+                         "nombre":  "JUAN HERIBERTO VARGAS ALARCON",
+                         "total":  412,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  91
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  49
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  44
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  40
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_INT_FO_NS",
+                                          "nombre":  "Cable Fibra Optica (interior)",
+                                          "consumo":  40
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  37
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  36
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  31
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  19
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  18
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  5
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  2
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "20998",
+                         "nombre":  "JUAN JOSE MARCANO GONZALEZ",
+                         "total":  535,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  118
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  100
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  58
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  52
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  43
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  42
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  42
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  37
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  26
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  10
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  7
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "19061",
+                         "nombre":  "LUIS ALFONSO VALLEJO GARCIA",
+                         "total":  471,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  96
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  69
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  55
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  51
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  48
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  44
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  44
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  32
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  18
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  10
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  4
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "28431",
+                         "nombre":  "MANUEL DARIO JELDES ARANCIBIA",
+                         "total":  438,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  124
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  67
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  65
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  46
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  41
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  40
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  23
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  19
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  10
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  3
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "2516",
+                         "nombre":  "MARCO MANUEL VEGA VEGA",
+                         "total":  111,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  25
+                                      },
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  20
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  12
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  11
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  11
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  11
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  7
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  6
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  6
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_S",
+                                          "nombre":  "Modem Estandar",
+                                          "consumo":  1
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  1
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "19352",
+                         "nombre":  "MATIAS HERNAN VILLALOBOS RAMOS",
+                         "total":  540,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  156
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  81
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  61
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  58
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  55
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  53
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  34
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  17
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  13
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  7
+                                      },
+                                      {
+                                          "Tipo":  "PROT_EMP_FO_NS",
+                                          "nombre":  "Protector de Empalme FO",
+                                          "consumo":  3
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  2
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "19516",
+                         "nombre":  "MATIAS RODRIGO MONTECINOS POZO",
+                         "total":  668,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  235
+                                      },
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  94
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  69
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  58
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  51
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  45
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  37
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  30
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  16
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  15
+                                      },
+                                      {
+                                          "Tipo":  "PROT_EMP_FO_NS",
+                                          "nombre":  "Protector de Empalme FO",
+                                          "consumo":  12
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  6
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "20728",
+                         "nombre":  "MAURICIO RODOLFO ASTORGA HERRERA",
+                         "total":  277,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  84
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_INT_FO_NS",
+                                          "nombre":  "Cable Fibra Optica (interior)",
+                                          "consumo":  35
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  32
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  27
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  24
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  23
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  22
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  18
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  6
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  4
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_S",
+                                          "nombre":  "Modem Estandar",
+                                          "consumo":  2
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "2495",
+                         "nombre":  "NESTOR FABIAN PASTEN ALARCON",
+                         "total":  542,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  210
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  56
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  48
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  48
+                                      },
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  41
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  38
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  31
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  31
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  25
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  10
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  4
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "22766",
+                         "nombre":  "OSCAR ANDRES JOFRE LE CERF",
+                         "total":  713,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  136
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  110
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  87
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  69
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  63
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  58
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  51
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_INT_FO_NS",
+                                          "nombre":  "Cable Fibra Optica (interior)",
+                                          "consumo":  40
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  33
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  25
+                                      },
+                                      {
+                                          "Tipo":  "PROT_EMP_FO_NS",
+                                          "nombre":  "Protector de Empalme FO",
+                                          "consumo":  17
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  14
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  7
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_S",
+                                          "nombre":  "Modem Estandar",
+                                          "consumo":  3
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "8387",
+                         "nombre":  "PATRICIO CANALES GEVE",
+                         "total":  355,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  95
+                                      },
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  62
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  50
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  27
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  25
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  24
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  23
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  18
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  16
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  10
+                                      },
+                                      {
+                                          "Tipo":  "PROT_EMP_FO_NS",
+                                          "nombre":  "Protector de Empalme FO",
+                                          "consumo":  3
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  2
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "18455",
+                         "nombre":  "PATRICIO EDUARDO DELANO SCHWAIGER",
+                         "total":  558,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  166
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  63
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  61
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  50
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  48
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  46
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  43
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  41
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  24
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  9
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  7
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "22191",
+                         "nombre":  "PEDRO ISAIAS CONCHA JORQUERA",
+                         "total":  559,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  142
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  119
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  52
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  47
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  42
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  40
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  39
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  36
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  26
+                                      },
+                                      {
+                                          "Tipo":  "PROT_EMP_FO_NS",
+                                          "nombre":  "Protector de Empalme FO",
+                                          "consumo":  6
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  4
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  4
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_S",
+                                          "nombre":  "Modem Estandar",
+                                          "consumo":  2
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "20471",
+                         "nombre":  "PROPHETE GABRIEL",
+                         "total":  664,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  105
+                                      },
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  102
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  80
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  68
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  60
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  60
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  53
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  48
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  42
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_INT_FO_NS",
+                                          "nombre":  "Cable Fibra Optica (interior)",
+                                          "consumo":  30
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  12
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  4
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "2520",
+                         "nombre":  "RICHARDS ANTONIO CRUZ CUEVAS",
+                         "total":  296,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  65
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  60
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  31
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  28
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  28
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  22
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  20
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  16
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  14
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  6
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  6
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "18373",
+                         "nombre":  "SANTIAGO EMILIO ANGEL ARIAS",
+                         "total":  873,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "CABLE_INT_FO_NS",
+                                          "nombre":  "Cable Fibra Optica (interior)",
+                                          "consumo":  440
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  145
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  61
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  48
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  41
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  40
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  30
+                                      },
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  20
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  20
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  13
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  5
+                                      },
+                                      {
+                                          "Tipo":  "PROT_EMP_FO_NS",
+                                          "nombre":  "Protector de Empalme FO",
+                                          "consumo":  5
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  4
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_S",
+                                          "nombre":  "Modem Estandar",
+                                          "consumo":  1
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "28993",
+                         "nombre":  "SEBASTIAN ANDRES SANCHEZ CAYUQUEO",
+                         "total":  589,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  135
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  90
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  63
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  60
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  56
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  50
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  48
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  44
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  37
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  6
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "28725",
+                         "nombre":  "SIMON ANDRES SILVA PHILIP",
+                         "total":  570,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  105
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  104
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  63
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  61
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  55
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  51
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  43
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  42
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  41
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_S",
+                                          "nombre":  "Modem Estandar",
+                                          "consumo":  3
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  2
+                                      }
+                                  ]
+                     },
+                     {
+                         "idca":  "21627",
+                         "nombre":  "YUSSEF ALI SAT PINO",
+                         "total":  452,
+                         "flow":  [
+                                      {
+                                          "Tipo":  "SOP_DROP_FO_NS",
+                                          "nombre":  "Soporte Drop FO",
+                                          "consumo":  117
+                                      },
+                                      {
+                                          "Tipo":  "CONECT_CAM_FO_NS",
+                                          "nombre":  "Conector de Campo FO",
+                                          "consumo":  74
+                                      },
+                                      {
+                                          "Tipo":  "ETQ_NFC_NS",
+                                          "nombre":  "Etiqueta NFC",
+                                          "consumo":  46
+                                      },
+                                      {
+                                          "Tipo":  "JUMPER_FO_NS",
+                                          "nombre":  "Jumper Fibra Optica",
+                                          "consumo":  45
+                                      },
+                                      {
+                                          "Tipo":  "MODEM_F_W6_S",
+                                          "nombre":  "Modem WiFi 6",
+                                          "consumo":  45
+                                      },
+                                      {
+                                          "Tipo":  "ROSETA_FO_NS",
+                                          "nombre":  "Roseta Fibra Optica",
+                                          "consumo":  44
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_PRE_CON",
+                                          "nombre":  "Cable Preconectorizado",
+                                          "consumo":  35
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_SD_S",
+                                          "nombre":  "Decodificador IPTV SD",
+                                          "consumo":  20
+                                      },
+                                      {
+                                          "Tipo":  "CABLE_UTP_NS",
+                                          "nombre":  "Cable UTP",
+                                          "consumo":  10
+                                      },
+                                      {
+                                          "Tipo":  "DECO_IPTV_CD_S",
+                                          "nombre":  "Decodificador IPTV CD",
+                                          "consumo":  8
+                                      },
+                                      {
+                                          "Tipo":  "AP_S",
+                                          "nombre":  "Access Point / Repetidor",
+                                          "consumo":  8
+                                      }
+                                  ]
+                     }
+                 ],
+    "materiales":  [
+                       {
+                           "Tipo":  "SOP_DROP_FO_NS",
+                           "nombre":  "Soporte Drop FO",
+                           "Total":  5813,
+                           "Codigos":  [
+                                           "10302520168",
+                                           "10302520170"
+                                       ]
+                       },
+                       {
+                           "Tipo":  "CABLE_UTP_NS",
+                           "nombre":  "Cable UTP",
+                           "Total":  5727,
+                           "Codigos":  [
+                                           "10303680003",
+                                           "10303680012",
+                                           "10303680017"
+                                       ]
+                       },
+                       {
+                           "Tipo":  "CONECT_CAM_FO_NS",
+                           "nombre":  "Conector de Campo FO",
+                           "Total":  3596,
+                           "Codigos":  [
+                                           "10302520120",
+                                           "10302520169"
+                                       ]
+                       },
+                       {
+                           "Tipo":  "JUMPER_FO_NS",
+                           "nombre":  "Jumper Fibra Optica",
+                           "Total":  2735,
+                           "Codigos":  [
+                                           "10302520188",
+                                           "10302520231"
+                                       ]
+                       },
+                       {
+                           "Tipo":  "MODEM_F_W6_S",
+                           "nombre":  "Modem WiFi 6",
+                           "Total":  2721,
+                           "Codigos":  [
+                                           "10306100221",
+                                           "10306100222"
+                                       ]
+                       },
+                       {
+                           "Tipo":  "ETQ_NFC_NS",
+                           "nombre":  "Etiqueta NFC",
+                           "Total":  2540,
+                           "Codigos":  [
+                                           "10309990378",
+                                           "10309990382",
+                                           "10309990384"
+                                       ]
+                       },
+                       {
+                           "Tipo":  "CABLE_INT_FO_NS",
+                           "nombre":  "Cable Fibra Optica (interior)",
+                           "Total":  2253,
+                           "Codigos":  [
+                                           "10302530362",
+                                           "10302530363"
+                                       ]
+                       },
+                       {
+                           "Tipo":  "ROSETA_FO_NS",
+                           "nombre":  "Roseta Fibra Optica",
+                           "Total":  2224,
+                           "Codigos":  [
+                                           "10302520106",
+                                           "10302520189",
+                                           "10302520199"
+                                       ]
+                       },
+                       {
+                           "Tipo":  "CABLE_PRE_CON",
+                           "nombre":  "Cable Preconectorizado",
+                           "Total":  1582,
+                           "Codigos":  [
+                                           "10302520113",
+                                           "10302520122",
+                                           "10302520123",
+                                           "10302520126",
+                                           "10302520173",
+                                           "10302520186",
+                                           "10302520227",
+                                           "10302520228",
+                                           "10302520245",
+                                           "10302520246",
+                                           "10302520247",
+                                           "10302520248",
+                                           "10302520249",
+                                           "10302520250",
+                                           "10302520251",
+                                           "10302520252",
+                                           "10302520253"
+                                       ]
+                       },
+                       {
+                           "Tipo":  "DECO_IPTV_SD_S",
+                           "nombre":  "Decodificador IPTV SD",
+                           "Total":  1376,
+                           "Codigos":  [
+                                           "10307110134",
+                                           "10307110155",
+                                           "10307110158",
+                                           "10307110164"
+                                       ]
+                       },
+                       {
+                           "Tipo":  "AP_S",
+                           "nombre":  "Access Point / Repetidor",
+                           "Total":  319,
+                           "Codigos":  [
+                                           "10307180117",
+                                           "10307180162"
+                                       ]
+                       },
+                       {
+                           "Tipo":  "DECO_IPTV_CD_S",
+                           "nombre":  "Decodificador IPTV CD",
+                           "Total":  312,
+                           "Codigos":  [
+                                           "10307110144",
+                                           "10307110151"
+                                       ]
+                       },
+                       {
+                           "Tipo":  "PROT_EMP_FO_NS",
+                           "nombre":  "Protector de Empalme FO",
+                           "Total":  102,
+                           "Codigos":  [
+                                           "10302520061",
+                                           "10302520191",
+                                           "10302520198"
+                                       ]
+                       },
+                       {
+                           "Tipo":  "MODEM_F_S",
+                           "nombre":  "Modem Estandar",
+                           "Total":  92,
+                           "Codigos":  [
+                                           "10306100144",
+                                           "10306100187",
+                                           "10306100198"
+                                       ]
+                       }
+                   ]
+}

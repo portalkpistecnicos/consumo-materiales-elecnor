@@ -5,20 +5,52 @@
                     "dias":  28
                 },
     "tecnicosActivos":  56,
-    "generado":  "01-10-2026 16:05",
+    "generado":  "02-10-2026 11:02",
     "stock":  {
-                  "fecha":  "30-09-2026",
-                  "turno":  "PM",
-                  "archivo":  "STOCK TECNICOS 300926 PM.XLSX"
+                  "fecha":  "02-10-2026",
+                  "turno":  "AM",
+                  "archivo":  "STOCK TECNICOS 021026 AM.XLSX"
               },
     "mesesCargados":  [
-                          "Febrero 2026",
-                          "Marzo 2026",
-                          "Abril 2026",
-                          "Mayo 2026",
-                          "Junio 2026",
-                          "Julio 2026",
-                          "Agosto 2026",
-                          "Septiembre 2026"
+                          {
+                              "label":  "Febrero 2026",
+                              "key":  "2026-02",
+                              "activo":  false
+                          },
+                          {
+                              "label":  "Marzo 2026",
+                              "key":  "2026-03",
+                              "activo":  false
+                          },
+                          {
+                              "label":  "Abril 2026",
+                              "key":  "2026-04",
+                              "activo":  false
+                          },
+                          {
+                              "label":  "Mayo 2026",
+                              "key":  "2026-05",
+                              "activo":  false
+                          },
+                          {
+                              "label":  "Junio 2026",
+                              "key":  "2026-06",
+                              "activo":  false
+                          },
+                          {
+                              "label":  "Julio 2026",
+                              "key":  "2026-07",
+                              "activo":  false
+                          },
+                          {
+                              "label":  "Agosto 2026",
+                              "key":  "2026-08",
+                              "activo":  false
+                          },
+                          {
+                              "label":  "Septiembre 2026",
+                              "key":  "2026-09",
+                              "activo":  false
+                          }
                       ]
 }

@@ -258,7 +258,7 @@
     display:flex; align-items:center; justify-content:center; padding:20px; z-index:100;
   }
   .modal-card{
-    width:100%; max-width:360px; max-height:80vh; overflow-y:auto;
+    width:100%; max-width:460px; max-height:80vh; overflow-y:auto;
     background:var(--surface); border-radius:16px; padding:22px; box-shadow:0 20px 60px rgba(0,10,30,0.35);
   }
   .modal-head{ display:flex; align-items:flex-start; justify-content:space-between; gap:12px; }
@@ -271,10 +271,18 @@
   .modal-sub{ margin:8px 0 16px; font-size:12.5px; color:var(--text-muted); line-height:1.5; }
   .modal-sub code{ font-family:"IBM Plex Mono", ui-monospace, monospace; font-size:11.5px; }
   .meses-list{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:7px; }
-  .meses-list li{
+  .meses-list li{ display:flex; }
+  .mes-item{
+    flex:1; text-align:left; appearance:none; border:none; cursor:pointer; font:inherit;
     padding:9px 12px; background:var(--surface-2); border-radius:9px;
     font-size:13.5px; font-weight:600; color:var(--text);
+    display:flex; align-items:center; justify-content:space-between; gap:8px;
   }
+  .mes-item:hover{ background:var(--border); }
+  .mes-item.activo{ cursor:default; color:var(--text-muted); }
+  .mes-item.activo:hover{ background:var(--surface-2); }
+  .mes-item .tag{ font-size:10px; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; color:var(--brand-orange); }
+  .mes-item .chev{ font-size:11px; color:var(--text-muted); }
 
   /* ---------- Print / PDF ---------- */
   @media print{
@@ -421,11 +429,26 @@
 <div class="modal-overlay" id="mesesModal" hidden>
   <div class="modal-card">
     <div class="modal-head">
-      <h3>Meses con datos cargados</h3>
+      <h3 id="mesesTitle">Meses con datos cargados</h3>
       <button type="button" class="modal-close" id="mesesCloseBtn" aria-label="Cerrar">×</button>
     </div>
-    <p class="modal-sub">Meses para los que existen archivos diarios de consumo de origen (<code>Consumos\</code>), más allá del período activo.</p>
-    <ul class="meses-list" id="mesesList"></ul>
+
+    <div id="mesesListView">
+      <p class="modal-sub">Meses para los que existen archivos diarios de consumo de origen (<code>Consumos\</code>). Toca un mes pasado para revisar su consumo (sin stock histórico, no se registraba antes).</p>
+      <ul class="meses-list" id="mesesList"></ul>
+    </div>
+
+    <div id="mesesDetailView" hidden>
+      <button type="button" class="week-toggle" id="mesesBackBtn" style="padding:0 0 12px;">
+        <span class="chev" style="transform:rotate(90deg);">▾</span> Volver a la lista de meses
+      </button>
+      <p class="modal-sub" id="mesesDetailSub"></p>
+      <div class="searchbox" style="max-width:none; margin-bottom:12px;">
+        <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="mesesSearchInput" placeholder="Buscar técnico…">
+      </div>
+      <div class="flow-list" id="mesesTecList"></div>
+    </div>
   </div>
 </div>
 
@@ -555,18 +578,131 @@ document.getElementById('pdfBtn').addEventListener('click', () => window.print()
 
 // ---------------- Modal: meses cargados ----------------
 const mesesModal = document.getElementById('mesesModal');
-function openMesesModal(){
+const mesesTitle = document.getElementById('mesesTitle');
+const mesesListView = document.getElementById('mesesListView');
+const mesesDetailView = document.getElementById('mesesDetailView');
+const mesesArchivoCache = {};  // key -> data del mes (fetch una sola vez)
+let mesesTecActual = [];        // tecnicos del mes actualmente mostrado en el detalle
+let mesesQuery = '';
+
+function showMesesList(){
+  mesesTitle.textContent = 'Meses con datos cargados';
+  mesesListView.hidden = false;
+  mesesDetailView.hidden = true;
   const list = document.getElementById('mesesList');
-  list.innerHTML = MESES_CARGADOS.length
-    ? MESES_CARGADOS.map(m => `<li>${m}</li>`).join('')
-    : '<li>No se encontraron meses con datos de origen.</li>';
+  if (!MESES_CARGADOS.length){
+    list.innerHTML = '<li>No se encontraron meses con datos de origen.</li>';
+    return;
+  }
+  list.innerHTML = MESES_CARGADOS.map(m => {
+    if (m.activo){
+      return `<li><span class="mes-item activo">${m.label} <span class="tag">Activo</span></span></li>`;
+    }
+    return `<li><button type="button" class="mes-item" data-key="${m.key}" data-label="${m.label}">${m.label} <span class="chev">›</span></button></li>`;
+  }).join('');
+}
+
+function openMesesModal(){
+  showMesesList();
   mesesModal.hidden = false;
 }
 function closeMesesModal(){ mesesModal.hidden = true; }
+
+async function openMesDetail(key, label){
+  mesesTitle.textContent = label;
+  mesesListView.hidden = true;
+  mesesDetailView.hidden = false;
+  const sub = document.getElementById('mesesDetailSub');
+  const tecList = document.getElementById('mesesTecList');
+  mesesQuery = '';
+  document.getElementById('mesesSearchInput').value = '';
+  sub.textContent = 'Cargando…';
+  tecList.innerHTML = '';
+
+  try {
+    if (!mesesArchivoCache[key]){
+      const r = await fetch(`data/meses/${key}.json?v=${Date.now()}`);
+      if (!r.ok) throw new Error('sin archivo');
+      mesesArchivoCache[key] = await r.json();
+    }
+    const data = mesesArchivoCache[key];
+    mesesTecActual = data.tecnicos || [];
+    const totalMes = mesesTecActual.reduce((s,t) => s + (t.total || 0), 0);
+    sub.innerHTML = `<b class="num" style="color:var(--text);">${fmtInt(totalMes)}</b> unidades consumidas en total · ${mesesTecActual.length} técnicos con movimiento · generado ${data.generado}. Sin dato de stock (no se registraba este mes).`;
+    renderMesesTecList();
+  } catch(e){
+    sub.textContent = 'No se pudo cargar el archivo de este mes.';
+  }
+}
+
+function renderMesesTecList(){
+  const tecList = document.getElementById('mesesTecList');
+  let data = mesesTecActual;
+  if (mesesQuery){
+    data = data.filter(t => t.nombre.toLowerCase().includes(mesesQuery) || String(t.idca).includes(mesesQuery));
+  }
+  data = [...data].sort((a,b) => (b.total||0) - (a.total||0));
+  if (!data.length){
+    tecList.innerHTML = '<div class="empty-note">Sin coincidencias.</div>';
+    return;
+  }
+  tecList.innerHTML = data.map((t,i) => {
+    const flow = t.flow || [];
+    const maxF = Math.max(...flow.map(f => f.consumo || 0), 1);
+    const blockId = `mes-mat-${i}`;
+    return `
+      <div class="flow-row">
+        <div class="flow-row-head">
+          <div>
+            <div class="mat-name">${t.nombre}</div>
+            <div class="mat-code">IDCA ${t.idca} · ${flow.length} materiales</div>
+          </div>
+          <div class="flow-diff">
+            <div class="flow-diff-value num">${fmtInt(t.total)}</div>
+            <div class="flow-diff-label">Consumido</div>
+          </div>
+        </div>
+        ${flow.length ? `
+        <button type="button" class="week-toggle" data-target="${blockId}" data-count="${flow.length}" data-label="materiales">
+          <span class="chev">▾</span> Ver materiales (${flow.length})
+        </button>
+        <div class="week-detail" id="${blockId}" hidden>
+          ${flow.map(f => `
+            <div>
+              <div class="flow-row-head">
+                <div class="mat-name">${f.nombre}</div>
+              </div>
+              <div class="flow-bars">
+                <div class="flow-bar-line">
+                  <div class="flow-bar-label">Consumo</div>
+                  <div class="flow-bar-track"><div class="flow-bar-fill consumo" style="width:${(f.consumo/maxF*100).toFixed(1)}%"></div></div>
+                  <div class="flow-bar-value num">${fmtInt(f.consumo)}</div>
+                </div>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+        ` : ''}
+      </div>
+    `;
+  }).join('');
+}
+
 document.getElementById('mesesBtn').addEventListener('click', openMesesModal);
 document.getElementById('mesesCloseBtn').addEventListener('click', closeMesesModal);
+document.getElementById('mesesBackBtn').addEventListener('click', showMesesList);
 mesesModal.addEventListener('click', (e) => { if (e.target === mesesModal) closeMesesModal(); });
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !mesesModal.hidden) closeMesesModal(); });
+document.getElementById('mesesList').addEventListener('click', (e) => {
+  const btn = e.target.closest('.mes-item[data-key]');
+  if (!btn) return;
+  openMesDetail(btn.dataset.key, btn.dataset.label);
+});
+document.getElementById('mesesSearchInput').addEventListener('input', (e) => {
+  mesesQuery = e.target.value.trim().toLowerCase();
+  renderMesesTecList();
+});
+bindWeekToggleDelegation(document.getElementById('mesesTecList'));
 
 // ---------------- Header / KPIs ----------------
 function renderHeaderAndKpis(){

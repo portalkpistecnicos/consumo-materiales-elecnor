@@ -1,11 +1,11 @@
 {
     "periodo":  {
-                    "desde":  "01-09-2026",
-                    "hasta":  "30-09-2026",
-                    "dias":  28
+                    "desde":  "01-10-2026",
+                    "hasta":  "01-10-2026",
+                    "dias":  1
                 },
-    "tecnicosActivos":  56,
-    "generado":  "02-10-2026 11:02",
+    "tecnicosActivos":  35,
+    "generado":  "03-10-2026 11:00",
     "stock":  {
                   "fecha":  "02-10-2026",
                   "turno":  "AM",
@@ -51,6 +51,11 @@
                               "label":  "Septiembre 2026",
                               "key":  "2026-09",
                               "activo":  false
+                          },
+                          {
+                              "label":  "Octubre 2026",
+                              "key":  "2026-10",
+                              "activo":  true
                           }
                       ]
 }

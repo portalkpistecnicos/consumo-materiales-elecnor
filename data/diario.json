@@ -44,6 +44,48 @@
                            "consumo":  0,
                            "stock":  1072,
                            "diferencia":  1072
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  0,
+                           "stock":  837,
+                           "diferencia":  837
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  837,
+                           "diferencia":  837
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  837,
+                           "diferencia":  837
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  837,
+                           "diferencia":  837
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  837,
+                           "diferencia":  837
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  837,
+                           "diferencia":  837
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  837,
+                           "diferencia":  837
                        }
                    ]
     },
@@ -92,6 +134,48 @@
                            "consumo":  0,
                            "stock":  300,
                            "diferencia":  300
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  10,
+                           "stock":  256,
+                           "diferencia":  246
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  256,
+                           "diferencia":  256
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  256,
+                           "diferencia":  256
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  256,
+                           "diferencia":  256
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  256,
+                           "diferencia":  256
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  256,
+                           "diferencia":  256
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  256,
+                           "diferencia":  256
                        }
                    ]
     },
@@ -140,6 +224,48 @@
                            "consumo":  0,
                            "stock":  477,
                            "diferencia":  477
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  0,
+                           "stock":  455,
+                           "diferencia":  455
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  455,
+                           "diferencia":  455
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  455,
+                           "diferencia":  455
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  455,
+                           "diferencia":  455
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  455,
+                           "diferencia":  455
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  455,
+                           "diferencia":  455
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  455,
+                           "diferencia":  455
                        }
                    ]
     },
@@ -188,6 +314,48 @@
                            "consumo":  0,
                            "stock":  632,
                            "diferencia":  632
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  58,
+                           "stock":  605,
+                           "diferencia":  547
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  605,
+                           "diferencia":  605
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  605,
+                           "diferencia":  605
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  605,
+                           "diferencia":  605
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  605,
+                           "diferencia":  605
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  605,
+                           "diferencia":  605
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  605,
+                           "diferencia":  605
                        }
                    ]
     },
@@ -233,6 +401,48 @@
                        },
                        {
                            "fecha":  "04-10-2026",
+                           "consumo":  0,
+                           "stock":  30,
+                           "diferencia":  30
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  0,
+                           "stock":  30,
+                           "diferencia":  30
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  30,
+                           "diferencia":  30
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  30,
+                           "diferencia":  30
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  30,
+                           "diferencia":  30
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  30,
+                           "diferencia":  30
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  30,
+                           "diferencia":  30
+                       },
+                       {
+                           "fecha":  "11-10-2026",
                            "consumo":  0,
                            "stock":  30,
                            "diferencia":  30
@@ -284,6 +494,48 @@
                            "consumo":  0,
                            "stock":  282,
                            "diferencia":  282
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  8,
+                           "stock":  275,
+                           "diferencia":  267
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  275,
+                           "diferencia":  275
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  275,
+                           "diferencia":  275
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  275,
+                           "diferencia":  275
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  275,
+                           "diferencia":  275
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  275,
+                           "diferencia":  275
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  275,
+                           "diferencia":  275
                        }
                    ]
     },
@@ -332,6 +584,48 @@
                            "consumo":  0,
                            "stock":  483,
                            "diferencia":  483
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  18,
+                           "stock":  454,
+                           "diferencia":  436
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  454,
+                           "diferencia":  454
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  454,
+                           "diferencia":  454
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  454,
+                           "diferencia":  454
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  454,
+                           "diferencia":  454
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  454,
+                           "diferencia":  454
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  454,
+                           "diferencia":  454
                        }
                    ]
     },
@@ -380,6 +674,48 @@
                            "consumo":  0,
                            "stock":  648,
                            "diferencia":  648
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  0,
+                           "stock":  825,
+                           "diferencia":  825
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  825,
+                           "diferencia":  825
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  825,
+                           "diferencia":  825
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  825,
+                           "diferencia":  825
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  825,
+                           "diferencia":  825
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  825,
+                           "diferencia":  825
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  825,
+                           "diferencia":  825
                        }
                    ]
     },
@@ -428,6 +764,48 @@
                            "consumo":  0,
                            "stock":  314,
                            "diferencia":  314
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  6,
+                           "stock":  246,
+                           "diferencia":  240
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  246,
+                           "diferencia":  246
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  246,
+                           "diferencia":  246
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  246,
+                           "diferencia":  246
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  246,
+                           "diferencia":  246
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  246,
+                           "diferencia":  246
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  246,
+                           "diferencia":  246
                        }
                    ]
     },
@@ -476,6 +854,48 @@
                            "consumo":  0,
                            "stock":  156,
                            "diferencia":  156
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  11,
+                           "stock":  249,
+                           "diferencia":  238
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  249,
+                           "diferencia":  249
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  249,
+                           "diferencia":  249
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  249,
+                           "diferencia":  249
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  249,
+                           "diferencia":  249
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  249,
+                           "diferencia":  249
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  249,
+                           "diferencia":  249
                        }
                    ]
     },
@@ -524,6 +944,48 @@
                            "consumo":  0,
                            "stock":  568,
                            "diferencia":  568
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  0,
+                           "stock":  494,
+                           "diferencia":  494
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  494,
+                           "diferencia":  494
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  494,
+                           "diferencia":  494
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  494,
+                           "diferencia":  494
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  494,
+                           "diferencia":  494
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  494,
+                           "diferencia":  494
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  494,
+                           "diferencia":  494
                        }
                    ]
     },
@@ -572,6 +1034,48 @@
                            "consumo":  0,
                            "stock":  547,
                            "diferencia":  547
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  0,
+                           "stock":  444,
+                           "diferencia":  444
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  444,
+                           "diferencia":  444
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  444,
+                           "diferencia":  444
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  444,
+                           "diferencia":  444
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  444,
+                           "diferencia":  444
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  444,
+                           "diferencia":  444
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  444,
+                           "diferencia":  444
                        }
                    ]
     },
@@ -620,6 +1124,48 @@
                            "consumo":  39,
                            "stock":  273,
                            "diferencia":  234
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  0,
+                           "stock":  197,
+                           "diferencia":  197
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  197,
+                           "diferencia":  197
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  197,
+                           "diferencia":  197
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  197,
+                           "diferencia":  197
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  197,
+                           "diferencia":  197
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  197,
+                           "diferencia":  197
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  197,
+                           "diferencia":  197
                        }
                    ]
     },
@@ -668,6 +1214,48 @@
                            "consumo":  0,
                            "stock":  430,
                            "diferencia":  430
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  0,
+                           "stock":  313,
+                           "diferencia":  313
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  313,
+                           "diferencia":  313
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  313,
+                           "diferencia":  313
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  313,
+                           "diferencia":  313
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  313,
+                           "diferencia":  313
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  313,
+                           "diferencia":  313
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  313,
+                           "diferencia":  313
                        }
                    ]
     },
@@ -716,6 +1304,48 @@
                            "consumo":  0,
                            "stock":  925,
                            "diferencia":  925
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  0,
+                           "stock":  913,
+                           "diferencia":  913
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  913,
+                           "diferencia":  913
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  913,
+                           "diferencia":  913
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  913,
+                           "diferencia":  913
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  913,
+                           "diferencia":  913
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  913,
+                           "diferencia":  913
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  913,
+                           "diferencia":  913
                        }
                    ]
     },
@@ -764,6 +1394,48 @@
                            "consumo":  0,
                            "stock":  796,
                            "diferencia":  796
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  0,
+                           "stock":  775,
+                           "diferencia":  775
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  775,
+                           "diferencia":  775
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  775,
+                           "diferencia":  775
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  775,
+                           "diferencia":  775
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  775,
+                           "diferencia":  775
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  775,
+                           "diferencia":  775
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  775,
+                           "diferencia":  775
                        }
                    ]
     },
@@ -812,6 +1484,48 @@
                            "consumo":  0,
                            "stock":  412,
                            "diferencia":  412
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  13,
+                           "stock":  490,
+                           "diferencia":  477
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  490,
+                           "diferencia":  490
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  490,
+                           "diferencia":  490
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  490,
+                           "diferencia":  490
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  490,
+                           "diferencia":  490
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  490,
+                           "diferencia":  490
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  490,
+                           "diferencia":  490
                        }
                    ]
     },
@@ -860,6 +1574,48 @@
                            "consumo":  0,
                            "stock":  339,
                            "diferencia":  339
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  15,
+                           "stock":  312,
+                           "diferencia":  297
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  312,
+                           "diferencia":  312
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  312,
+                           "diferencia":  312
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  312,
+                           "diferencia":  312
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  312,
+                           "diferencia":  312
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  312,
+                           "diferencia":  312
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  312,
+                           "diferencia":  312
                        }
                    ]
     },
@@ -908,6 +1664,48 @@
                            "consumo":  0,
                            "stock":  466,
                            "diferencia":  466
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  11,
+                           "stock":  444,
+                           "diferencia":  433
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  444,
+                           "diferencia":  444
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  444,
+                           "diferencia":  444
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  444,
+                           "diferencia":  444
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  444,
+                           "diferencia":  444
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  444,
+                           "diferencia":  444
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  444,
+                           "diferencia":  444
                        }
                    ]
     },
@@ -956,6 +1754,48 @@
                            "consumo":  0,
                            "stock":  142,
                            "diferencia":  142
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  25,
+                           "stock":  114,
+                           "diferencia":  89
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  114,
+                           "diferencia":  114
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  114,
+                           "diferencia":  114
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  114,
+                           "diferencia":  114
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  114,
+                           "diferencia":  114
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  114,
+                           "diferencia":  114
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  114,
+                           "diferencia":  114
                        }
                    ]
     },
@@ -1004,6 +1844,48 @@
                            "consumo":  0,
                            "stock":  448,
                            "diferencia":  448
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  1,
+                           "stock":  401,
+                           "diferencia":  400
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  401,
+                           "diferencia":  401
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  401,
+                           "diferencia":  401
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  401,
+                           "diferencia":  401
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  401,
+                           "diferencia":  401
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  401,
+                           "diferencia":  401
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  401,
+                           "diferencia":  401
                        }
                    ]
     },
@@ -1052,6 +1934,48 @@
                            "consumo":  0,
                            "stock":  634,
                            "diferencia":  634
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  0,
+                           "stock":  609,
+                           "diferencia":  609
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  609,
+                           "diferencia":  609
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  609,
+                           "diferencia":  609
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  609,
+                           "diferencia":  609
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  609,
+                           "diferencia":  609
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  609,
+                           "diferencia":  609
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  609,
+                           "diferencia":  609
                        }
                    ]
     },
@@ -1100,6 +2024,48 @@
                            "consumo":  0,
                            "stock":  665,
                            "diferencia":  665
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  6,
+                           "stock":  619,
+                           "diferencia":  613
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  619,
+                           "diferencia":  619
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  619,
+                           "diferencia":  619
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  619,
+                           "diferencia":  619
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  619,
+                           "diferencia":  619
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  619,
+                           "diferencia":  619
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  619,
+                           "diferencia":  619
                        }
                    ]
     },
@@ -1148,6 +2114,48 @@
                            "consumo":  0,
                            "stock":  846,
                            "diferencia":  846
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  9,
+                           "stock":  842,
+                           "diferencia":  833
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  842,
+                           "diferencia":  842
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  842,
+                           "diferencia":  842
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  842,
+                           "diferencia":  842
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  842,
+                           "diferencia":  842
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  842,
+                           "diferencia":  842
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  842,
+                           "diferencia":  842
                        }
                    ]
     },
@@ -1196,6 +2204,48 @@
                            "consumo":  0,
                            "stock":  449,
                            "diferencia":  449
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  0,
+                           "stock":  463,
+                           "diferencia":  463
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  463,
+                           "diferencia":  463
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  463,
+                           "diferencia":  463
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  463,
+                           "diferencia":  463
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  463,
+                           "diferencia":  463
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  463,
+                           "diferencia":  463
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  463,
+                           "diferencia":  463
                        }
                    ]
     },
@@ -1244,6 +2294,48 @@
                            "consumo":  0,
                            "stock":  966,
                            "diferencia":  966
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  163,
+                           "stock":  908,
+                           "diferencia":  745
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  908,
+                           "diferencia":  908
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  908,
+                           "diferencia":  908
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  908,
+                           "diferencia":  908
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  908,
+                           "diferencia":  908
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  908,
+                           "diferencia":  908
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  908,
+                           "diferencia":  908
                        }
                    ]
     },
@@ -1292,6 +2384,48 @@
                            "consumo":  3,
                            "stock":  332,
                            "diferencia":  329
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  47,
+                           "stock":  464,
+                           "diferencia":  417
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  464,
+                           "diferencia":  464
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  464,
+                           "diferencia":  464
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  464,
+                           "diferencia":  464
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  464,
+                           "diferencia":  464
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  464,
+                           "diferencia":  464
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  464,
+                           "diferencia":  464
                        }
                    ]
     },
@@ -1340,6 +2474,48 @@
                            "consumo":  0,
                            "stock":  764,
                            "diferencia":  764
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  73,
+                           "stock":  584,
+                           "diferencia":  511
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  584,
+                           "diferencia":  584
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  584,
+                           "diferencia":  584
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  584,
+                           "diferencia":  584
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  584,
+                           "diferencia":  584
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  584,
+                           "diferencia":  584
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  584,
+                           "diferencia":  584
                        }
                    ]
     },
@@ -1388,6 +2564,48 @@
                            "consumo":  0,
                            "stock":  710,
                            "diferencia":  710
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  0,
+                           "stock":  709,
+                           "diferencia":  709
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  709,
+                           "diferencia":  709
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  709,
+                           "diferencia":  709
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  709,
+                           "diferencia":  709
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  709,
+                           "diferencia":  709
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  709,
+                           "diferencia":  709
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  709,
+                           "diferencia":  709
                        }
                    ]
     },
@@ -1436,6 +2654,48 @@
                            "consumo":  0,
                            "stock":  621,
                            "diferencia":  621
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  3,
+                           "stock":  451,
+                           "diferencia":  448
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  451,
+                           "diferencia":  451
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  451,
+                           "diferencia":  451
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  451,
+                           "diferencia":  451
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  451,
+                           "diferencia":  451
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  451,
+                           "diferencia":  451
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  451,
+                           "diferencia":  451
                        }
                    ]
     },
@@ -1484,6 +2744,48 @@
                            "consumo":  0,
                            "stock":  371,
                            "diferencia":  371
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  0,
+                           "stock":  293,
+                           "diferencia":  293
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  293,
+                           "diferencia":  293
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  293,
+                           "diferencia":  293
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  293,
+                           "diferencia":  293
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  293,
+                           "diferencia":  293
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  293,
+                           "diferencia":  293
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  293,
+                           "diferencia":  293
                        }
                    ]
     },
@@ -1532,6 +2834,48 @@
                            "consumo":  0,
                            "stock":  455,
                            "diferencia":  455
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  38,
+                           "stock":  571,
+                           "diferencia":  533
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  571,
+                           "diferencia":  571
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  571,
+                           "diferencia":  571
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  571,
+                           "diferencia":  571
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  571,
+                           "diferencia":  571
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  571,
+                           "diferencia":  571
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  571,
+                           "diferencia":  571
                        }
                    ]
     },
@@ -1580,6 +2924,48 @@
                            "consumo":  0,
                            "stock":  431,
                            "diferencia":  431
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  36,
+                           "stock":  194,
+                           "diferencia":  158
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  194,
+                           "diferencia":  194
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  194,
+                           "diferencia":  194
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  194,
+                           "diferencia":  194
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  194,
+                           "diferencia":  194
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  194,
+                           "diferencia":  194
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  194,
+                           "diferencia":  194
                        }
                    ]
     },
@@ -1628,6 +3014,48 @@
                            "consumo":  9,
                            "stock":  722,
                            "diferencia":  713
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  30,
+                           "stock":  965,
+                           "diferencia":  935
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  965,
+                           "diferencia":  965
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  965,
+                           "diferencia":  965
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  965,
+                           "diferencia":  965
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  965,
+                           "diferencia":  965
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  965,
+                           "diferencia":  965
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  965,
+                           "diferencia":  965
                        }
                    ]
     },
@@ -1676,6 +3104,48 @@
                            "consumo":  0,
                            "stock":  229,
                            "diferencia":  229
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  4,
+                           "stock":  178,
+                           "diferencia":  174
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  178,
+                           "diferencia":  178
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  178,
+                           "diferencia":  178
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  178,
+                           "diferencia":  178
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  178,
+                           "diferencia":  178
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  178,
+                           "diferencia":  178
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  178,
+                           "diferencia":  178
                        }
                    ]
     },
@@ -1724,6 +3194,48 @@
                            "consumo":  0,
                            "stock":  579,
                            "diferencia":  579
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  2,
+                           "stock":  563,
+                           "diferencia":  561
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  563,
+                           "diferencia":  563
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  563,
+                           "diferencia":  563
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  563,
+                           "diferencia":  563
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  563,
+                           "diferencia":  563
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  563,
+                           "diferencia":  563
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  563,
+                           "diferencia":  563
                        }
                    ]
     },
@@ -1769,6 +3281,48 @@
                        },
                        {
                            "fecha":  "04-10-2026",
+                           "consumo":  0,
+                           "stock":  419,
+                           "diferencia":  419
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  0,
+                           "stock":  419,
+                           "diferencia":  419
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  419,
+                           "diferencia":  419
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  419,
+                           "diferencia":  419
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  419,
+                           "diferencia":  419
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  419,
+                           "diferencia":  419
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  419,
+                           "diferencia":  419
+                       },
+                       {
+                           "fecha":  "11-10-2026",
                            "consumo":  0,
                            "stock":  419,
                            "diferencia":  419
@@ -1820,6 +3374,48 @@
                            "consumo":  0,
                            "stock":  242,
                            "diferencia":  242
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  2,
+                           "stock":  212,
+                           "diferencia":  210
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  212,
+                           "diferencia":  212
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  212,
+                           "diferencia":  212
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  212,
+                           "diferencia":  212
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  212,
+                           "diferencia":  212
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  212,
+                           "diferencia":  212
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  212,
+                           "diferencia":  212
                        }
                    ]
     },
@@ -1868,6 +3464,48 @@
                            "consumo":  0,
                            "stock":  518,
                            "diferencia":  518
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  7,
+                           "stock":  484,
+                           "diferencia":  477
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  484,
+                           "diferencia":  484
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  484,
+                           "diferencia":  484
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  484,
+                           "diferencia":  484
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  484,
+                           "diferencia":  484
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  484,
+                           "diferencia":  484
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  484,
+                           "diferencia":  484
                        }
                    ]
     },
@@ -1916,6 +3554,48 @@
                            "consumo":  0,
                            "stock":  534,
                            "diferencia":  534
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  0,
+                           "stock":  498,
+                           "diferencia":  498
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  498,
+                           "diferencia":  498
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  498,
+                           "diferencia":  498
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  498,
+                           "diferencia":  498
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  498,
+                           "diferencia":  498
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  498,
+                           "diferencia":  498
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  498,
+                           "diferencia":  498
                        }
                    ]
     },
@@ -1964,6 +3644,48 @@
                            "consumo":  0,
                            "stock":  700,
                            "diferencia":  700
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  5,
+                           "stock":  540,
+                           "diferencia":  535
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  540,
+                           "diferencia":  540
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  540,
+                           "diferencia":  540
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  540,
+                           "diferencia":  540
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  540,
+                           "diferencia":  540
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  540,
+                           "diferencia":  540
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  540,
+                           "diferencia":  540
                        }
                    ]
     },
@@ -2012,6 +3734,48 @@
                            "consumo":  0,
                            "stock":  396,
                            "diferencia":  396
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  1,
+                           "stock":  239,
+                           "diferencia":  238
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  239,
+                           "diferencia":  239
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  239,
+                           "diferencia":  239
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  239,
+                           "diferencia":  239
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  239,
+                           "diferencia":  239
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  239,
+                           "diferencia":  239
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  239,
+                           "diferencia":  239
                        }
                    ]
     },
@@ -2057,6 +3821,48 @@
                        },
                        {
                            "fecha":  "04-10-2026",
+                           "consumo":  0,
+                           "stock":  400,
+                           "diferencia":  400
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  0,
+                           "stock":  400,
+                           "diferencia":  400
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  400,
+                           "diferencia":  400
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  400,
+                           "diferencia":  400
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  400,
+                           "diferencia":  400
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  400,
+                           "diferencia":  400
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  400,
+                           "diferencia":  400
+                       },
+                       {
+                           "fecha":  "11-10-2026",
                            "consumo":  0,
                            "stock":  400,
                            "diferencia":  400
@@ -2108,6 +3914,48 @@
                            "consumo":  0,
                            "stock":  267,
                            "diferencia":  267
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  114,
+                           "stock":  254,
+                           "diferencia":  140
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  254,
+                           "diferencia":  254
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  254,
+                           "diferencia":  254
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  254,
+                           "diferencia":  254
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  254,
+                           "diferencia":  254
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  254,
+                           "diferencia":  254
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  254,
+                           "diferencia":  254
                        }
                    ]
     },
@@ -2156,6 +4004,48 @@
                            "consumo":  29,
                            "stock":  49,
                            "diferencia":  20
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  5,
+                           "stock":  321,
+                           "diferencia":  316
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  321,
+                           "diferencia":  321
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  321,
+                           "diferencia":  321
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  321,
+                           "diferencia":  321
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  321,
+                           "diferencia":  321
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  321,
+                           "diferencia":  321
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  321,
+                           "diferencia":  321
                        }
                    ]
     },
@@ -2204,6 +4094,48 @@
                            "consumo":  0,
                            "stock":  519,
                            "diferencia":  519
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  6,
+                           "stock":  510,
+                           "diferencia":  504
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  510,
+                           "diferencia":  510
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  510,
+                           "diferencia":  510
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  510,
+                           "diferencia":  510
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  510,
+                           "diferencia":  510
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  510,
+                           "diferencia":  510
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  510,
+                           "diferencia":  510
                        }
                    ]
     },
@@ -2252,6 +4184,48 @@
                            "consumo":  0,
                            "stock":  495,
                            "diferencia":  495
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  1,
+                           "stock":  411,
+                           "diferencia":  410
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  411,
+                           "diferencia":  411
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  411,
+                           "diferencia":  411
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  411,
+                           "diferencia":  411
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  411,
+                           "diferencia":  411
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  411,
+                           "diferencia":  411
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  411,
+                           "diferencia":  411
                        }
                    ]
     },
@@ -2297,6 +4271,48 @@
                        },
                        {
                            "fecha":  "04-10-2026",
+                           "consumo":  0,
+                           "stock":  272,
+                           "diferencia":  272
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  0,
+                           "stock":  272,
+                           "diferencia":  272
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  272,
+                           "diferencia":  272
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  272,
+                           "diferencia":  272
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  272,
+                           "diferencia":  272
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  272,
+                           "diferencia":  272
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  272,
+                           "diferencia":  272
+                       },
+                       {
+                           "fecha":  "11-10-2026",
                            "consumo":  0,
                            "stock":  272,
                            "diferencia":  272
@@ -2348,6 +4364,48 @@
                            "consumo":  0,
                            "stock":  608,
                            "diferencia":  608
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  4,
+                           "stock":  482,
+                           "diferencia":  478
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  482,
+                           "diferencia":  482
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  482,
+                           "diferencia":  482
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  482,
+                           "diferencia":  482
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  482,
+                           "diferencia":  482
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  482,
+                           "diferencia":  482
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  482,
+                           "diferencia":  482
                        }
                    ]
     },
@@ -2396,6 +4454,48 @@
                            "consumo":  0,
                            "stock":  457,
                            "diferencia":  457
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  24,
+                           "stock":  186,
+                           "diferencia":  162
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  186,
+                           "diferencia":  186
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  186,
+                           "diferencia":  186
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  186,
+                           "diferencia":  186
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  186,
+                           "diferencia":  186
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  186,
+                           "diferencia":  186
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  186,
+                           "diferencia":  186
                        }
                    ]
     },
@@ -2444,6 +4544,48 @@
                            "consumo":  0,
                            "stock":  604,
                            "diferencia":  604
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  0,
+                           "stock":  520,
+                           "diferencia":  520
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  520,
+                           "diferencia":  520
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  520,
+                           "diferencia":  520
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  520,
+                           "diferencia":  520
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  520,
+                           "diferencia":  520
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  520,
+                           "diferencia":  520
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  520,
+                           "diferencia":  520
                        }
                    ]
     },
@@ -2492,6 +4634,48 @@
                            "consumo":  0,
                            "stock":  340,
                            "diferencia":  340
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  35,
+                           "stock":  426,
+                           "diferencia":  391
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  426,
+                           "diferencia":  426
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  426,
+                           "diferencia":  426
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  426,
+                           "diferencia":  426
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  426,
+                           "diferencia":  426
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  426,
+                           "diferencia":  426
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  426,
+                           "diferencia":  426
                        }
                    ]
     },
@@ -2540,6 +4724,48 @@
                            "consumo":  0,
                            "stock":  447,
                            "diferencia":  447
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  78,
+                           "stock":  277,
+                           "diferencia":  199
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  277,
+                           "diferencia":  277
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  277,
+                           "diferencia":  277
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  277,
+                           "diferencia":  277
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  277,
+                           "diferencia":  277
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  277,
+                           "diferencia":  277
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  277,
+                           "diferencia":  277
                        }
                    ]
     },
@@ -2588,6 +4814,48 @@
                            "consumo":  0,
                            "stock":  699,
                            "diferencia":  699
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  7,
+                           "stock":  442,
+                           "diferencia":  435
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  442,
+                           "diferencia":  442
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  442,
+                           "diferencia":  442
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  442,
+                           "diferencia":  442
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  442,
+                           "diferencia":  442
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  442,
+                           "diferencia":  442
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  442,
+                           "diferencia":  442
                        }
                    ]
     },
@@ -2636,6 +4904,48 @@
                            "consumo":  0,
                            "stock":  703,
                            "diferencia":  703
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  143,
+                           "stock":  589,
+                           "diferencia":  446
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  589,
+                           "diferencia":  589
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  589,
+                           "diferencia":  589
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  589,
+                           "diferencia":  589
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  589,
+                           "diferencia":  589
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  589,
+                           "diferencia":  589
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  589,
+                           "diferencia":  589
                        }
                    ]
     },
@@ -2684,6 +4994,48 @@
                            "consumo":  0,
                            "stock":  763,
                            "diferencia":  763
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  0,
+                           "stock":  720,
+                           "diferencia":  720
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  720,
+                           "diferencia":  720
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  720,
+                           "diferencia":  720
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  720,
+                           "diferencia":  720
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  720,
+                           "diferencia":  720
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  720,
+                           "diferencia":  720
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  720,
+                           "diferencia":  720
                        }
                    ]
     },
@@ -2729,6 +5081,48 @@
                        },
                        {
                            "fecha":  "04-10-2026",
+                           "consumo":  0,
+                           "stock":  0,
+                           "diferencia":  0
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  0,
+                           "stock":  0,
+                           "diferencia":  0
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  0,
+                           "diferencia":  0
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  0,
+                           "diferencia":  0
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  0,
+                           "diferencia":  0
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  0,
+                           "diferencia":  0
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  0,
+                           "diferencia":  0
+                       },
+                       {
+                           "fecha":  "11-10-2026",
                            "consumo":  0,
                            "stock":  0,
                            "diferencia":  0
@@ -2780,6 +5174,48 @@
                            "consumo":  0,
                            "stock":  971,
                            "diferencia":  971
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  38,
+                           "stock":  764,
+                           "diferencia":  726
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  764,
+                           "diferencia":  764
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  764,
+                           "diferencia":  764
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  764,
+                           "diferencia":  764
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  764,
+                           "diferencia":  764
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  764,
+                           "diferencia":  764
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  764,
+                           "diferencia":  764
                        }
                    ]
     },
@@ -2828,6 +5264,48 @@
                            "consumo":  0,
                            "stock":  456,
                            "diferencia":  456
+                       },
+                       {
+                           "fecha":  "05-10-2026",
+                           "consumo":  52,
+                           "stock":  398,
+                           "diferencia":  346
+                       },
+                       {
+                           "fecha":  "06-10-2026",
+                           "consumo":  0,
+                           "stock":  398,
+                           "diferencia":  398
+                       },
+                       {
+                           "fecha":  "07-10-2026",
+                           "consumo":  0,
+                           "stock":  398,
+                           "diferencia":  398
+                       },
+                       {
+                           "fecha":  "08-10-2026",
+                           "consumo":  0,
+                           "stock":  398,
+                           "diferencia":  398
+                       },
+                       {
+                           "fecha":  "09-10-2026",
+                           "consumo":  0,
+                           "stock":  398,
+                           "diferencia":  398
+                       },
+                       {
+                           "fecha":  "10-10-2026",
+                           "consumo":  0,
+                           "stock":  398,
+                           "diferencia":  398
+                       },
+                       {
+                           "fecha":  "11-10-2026",
+                           "consumo":  0,
+                           "stock":  398,
+                           "diferencia":  398
                        }
                    ]
     }

@@ -5,11 +5,11 @@
                     "dias":  13
                 },
     "tecnicosActivos":  55,
-    "generado":  "14-10-2026 11:01",
+    "generado":  "15-10-2026 11:01",
     "stock":  {
-                  "fecha":  "08-10-2026",
+                  "fecha":  "15-10-2026",
                   "turno":  "AM",
-                  "archivo":  "STOCK TECNICOS 081026 AM.XLSX"
+                  "archivo":  "STOCK TECNICOS 151026 AM.XLSX"
               },
     "mesesCargados":  [
                           {

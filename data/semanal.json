@@ -4,39 +4,18 @@
         "nombre":  "ABELARDO HIPOLITO VENEGAS HERNANDEZ",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  43,
-                              "stock":  1072,
-                              "diferencia":  1029
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  43,
-                              "stock":  1093,
-                              "diferencia":  1050
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  84,
-                              "stock":  1023,
-                              "diferencia":  939
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  82,
-                              "stock":  773,
-                              "diferencia":  691
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  95,
+                              "consumo":  0,
                               "stock":  560,
-                              "diferencia":  465
+                              "diferencia":  560
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  3,
+                              "stock":  455,
+                              "diferencia":  452
                           }
                       ]
     },
@@ -45,39 +24,18 @@
         "nombre":  "ALEJANDRO ENRIQUE LAGOS GONZALEZ",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  16,
-                              "stock":  300,
-                              "diferencia":  284
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  31,
-                              "stock":  224,
-                              "diferencia":  193
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  28,
-                              "stock":  254,
-                              "diferencia":  226
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  205,
-                              "stock":  445,
-                              "diferencia":  240
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  128,
+                              "consumo":  0,
                               "stock":  599,
-                              "diferencia":  471
+                              "diferencia":  599
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  5,
+                              "stock":  621,
+                              "diferencia":  616
                           }
                       ]
     },
@@ -86,36 +44,15 @@
         "nombre":  "ALEJANDRO NICOLAS PARA GOMEZ",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  6,
-                              "stock":  477,
-                              "diferencia":  471
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  8,
-                              "stock":  672,
-                              "diferencia":  664
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  64,
-                              "stock":  388,
-                              "diferencia":  324
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  13,
-                              "stock":  902,
-                              "diferencia":  889
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
+                              "consumo":  0,
+                              "stock":  578,
+                              "diferencia":  578
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
                               "consumo":  0,
                               "stock":  578,
                               "diferencia":  578
@@ -127,39 +64,18 @@
         "nombre":  "ALEJANDRO SEBASTIAN CISTERNAS MARIN",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  9,
-                              "stock":  632,
-                              "diferencia":  623
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  257,
-                              "stock":  509,
-                              "diferencia":  252
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  5,
-                              "stock":  741,
-                              "diferencia":  736
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  81,
-                              "stock":  855,
-                              "diferencia":  774
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  249,
+                              "consumo":  0,
                               "stock":  422,
-                              "diferencia":  173
+                              "diferencia":  422
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  140,
+                              "stock":  238,
+                              "diferencia":  98
                           }
                       ]
     },
@@ -168,36 +84,15 @@
         "nombre":  "AUGUSTO ANDRES FUENTES TAPIA",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  0,
-                              "stock":  30,
-                              "diferencia":  30
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  0,
-                              "stock":  30,
-                              "diferencia":  30
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  0,
-                              "stock":  30,
-                              "diferencia":  30
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  0,
-                              "stock":  30,
-                              "diferencia":  30
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
+                              "consumo":  0,
+                              "stock":  30,
+                              "diferencia":  30
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
                               "consumo":  0,
                               "stock":  30,
                               "diferencia":  30
@@ -209,39 +104,18 @@
         "nombre":  "BASTIAN IGNACIO RIOS MADRID",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  10,
-                              "stock":  282,
-                              "diferencia":  272
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  166,
-                              "stock":  894,
-                              "diferencia":  728
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  14,
-                              "stock":  486,
-                              "diferencia":  472
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  248,
-                              "stock":  319,
-                              "diferencia":  71
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  292,
+                              "consumo":  0,
                               "stock":  320,
-                              "diferencia":  28
+                              "diferencia":  320
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  2,
+                              "stock":  619,
+                              "diferencia":  617
                           }
                       ]
     },
@@ -250,39 +124,18 @@
         "nombre":  "BENJAMIN ALFREDO MIRANDA IRARRAZABAL",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  13,
-                              "stock":  483,
-                              "diferencia":  470
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  29,
-                              "stock":  505,
-                              "diferencia":  476
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  40,
-                              "stock":  338,
-                              "diferencia":  298
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  14,
-                              "stock":  189,
-                              "diferencia":  175
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  32,
+                              "consumo":  0,
                               "stock":  186,
-                              "diferencia":  154
+                              "diferencia":  186
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  0,
+                              "stock":  185,
+                              "diferencia":  185
                           }
                       ]
     },
@@ -291,39 +144,18 @@
         "nombre":  "CARLOS HERNAN MUNOZ MATUS",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  78,
-                              "stock":  648,
-                              "diferencia":  570
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  163,
-                              "stock":  595,
-                              "diferencia":  432
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  140,
-                              "stock":  540,
-                              "diferencia":  400
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  6,
-                              "stock":  1205,
-                              "diferencia":  1199
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  318,
+                              "consumo":  0,
                               "stock":  856,
-                              "diferencia":  538
+                              "diferencia":  856
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  4,
+                              "stock":  443,
+                              "diferencia":  439
                           }
                       ]
     },
@@ -332,39 +164,18 @@
         "nombre":  "CHRISTOPHER PATRICK LISBOA BARRERA",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  0,
-                              "stock":  314,
-                              "diferencia":  314
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  30,
-                              "stock":  181,
-                              "diferencia":  151
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  43,
-                              "stock":  278,
-                              "diferencia":  235
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  48,
-                              "stock":  481,
-                              "diferencia":  433
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  115,
+                              "consumo":  0,
                               "stock":  321,
-                              "diferencia":  206
+                              "diferencia":  321
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  0,
+                              "stock":  218,
+                              "diferencia":  218
                           }
                       ]
     },
@@ -373,39 +184,18 @@
         "nombre":  "CRISTIAN ANDRES VASQUEZ MUNOZ",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  17,
-                              "stock":  156,
-                              "diferencia":  139
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  40,
-                              "stock":  205,
-                              "diferencia":  165
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  18,
-                              "stock":  132,
-                              "diferencia":  114
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  21,
-                              "stock":  303,
-                              "diferencia":  282
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  7,
+                              "consumo":  0,
                               "stock":  464,
-                              "diferencia":  457
+                              "diferencia":  464
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  7,
+                              "stock":  189,
+                              "diferencia":  182
                           }
                       ]
     },
@@ -414,39 +204,18 @@
         "nombre":  "CRISTIAN GUILLERMO GOLOTT ESCUDERO",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  40,
-                              "stock":  568,
-                              "diferencia":  528
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  11,
-                              "stock":  454,
-                              "diferencia":  443
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  9,
-                              "stock":  348,
-                              "diferencia":  339
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  133,
-                              "stock":  945,
-                              "diferencia":  812
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  162,
+                              "consumo":  0,
                               "stock":  586,
-                              "diferencia":  424
+                              "diferencia":  586
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  31,
+                              "stock":  542,
+                              "diferencia":  511
                           }
                       ]
     },
@@ -455,39 +224,18 @@
         "nombre":  "CRISTIAN NICOLAS SERRANO VELLAGAS",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  11,
-                              "stock":  547,
-                              "diferencia":  536
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  26,
-                              "stock":  80,
-                              "diferencia":  54
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  20,
-                              "stock":  1234,
-                              "diferencia":  1214
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  15,
-                              "stock":  565,
-                              "diferencia":  550
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  329,
+                              "consumo":  0,
                               "stock":  41,
-                              "diferencia":  -288
+                              "diferencia":  41
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  3,
+                              "stock":  35,
+                              "diferencia":  32
                           }
                       ]
     },
@@ -496,39 +244,18 @@
         "nombre":  "DANIEL ALEXANDER RAMIREZ TORRES",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  45,
-                              "stock":  273,
-                              "diferencia":  228
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  50,
-                              "stock":  158,
-                              "diferencia":  108
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  149,
-                              "stock":  636,
-                              "diferencia":  487
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  65,
-                              "stock":  478,
-                              "diferencia":  413
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  100,
+                              "consumo":  0,
                               "stock":  609,
-                              "diferencia":  509
+                              "diferencia":  609
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  52,
+                              "stock":  336,
+                              "diferencia":  284
                           }
                       ]
     },
@@ -537,39 +264,18 @@
         "nombre":  "ESTEBAN DAVID ORTIZ FIGUEROA",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  123,
-                              "stock":  430,
-                              "diferencia":  307
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  25,
-                              "stock":  316,
-                              "diferencia":  291
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  27,
-                              "stock":  273,
-                              "diferencia":  246
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  18,
-                              "stock":  501,
-                              "diferencia":  483
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  5,
+                              "consumo":  0,
                               "stock":  310,
-                              "diferencia":  305
+                              "diferencia":  310
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  5,
+                              "stock":  239,
+                              "diferencia":  234
                           }
                       ]
     },
@@ -578,39 +284,18 @@
         "nombre":  "FABIAN GONZALO SAAVEDRA VILCHES",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  26,
-                              "stock":  925,
-                              "diferencia":  899
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  8,
-                              "stock":  926,
-                              "diferencia":  918
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  55,
-                              "stock":  881,
-                              "diferencia":  826
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  11,
-                              "stock":  897,
-                              "diferencia":  886
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  172,
+                              "consumo":  0,
                               "stock":  473,
-                              "diferencia":  301
+                              "diferencia":  473
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  4,
+                              "stock":  578,
+                              "diferencia":  574
                           }
                       ]
     },
@@ -619,39 +304,18 @@
         "nombre":  "FERNANDO ALEXIS HOLM MORALES",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  21,
-                              "stock":  796,
-                              "diferencia":  775
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  81,
-                              "stock":  833,
-                              "diferencia":  752
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  520,
-                              "stock":  725,
-                              "diferencia":  205
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  718,
-                              "stock":  580,
-                              "diferencia":  -138
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  290,
+                              "consumo":  0,
                               "stock":  274,
-                              "diferencia":  -16
+                              "diferencia":  274
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  0,
+                              "stock":  509,
+                              "diferencia":  509
                           }
                       ]
     },
@@ -660,39 +324,18 @@
         "nombre":  "FRANCISCO ERNESTO GUERRA GOMEZ",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  38,
-                              "stock":  412,
-                              "diferencia":  374
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  56,
-                              "stock":  207,
-                              "diferencia":  151
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  176,
-                              "stock":  1108,
-                              "diferencia":  932
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  8,
-                              "stock":  681,
-                              "diferencia":  673
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  6,
+                              "consumo":  0,
                               "stock":  146,
-                              "diferencia":  140
+                              "diferencia":  146
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  21,
+                              "stock":  27,
+                              "diferencia":  6
                           }
                       ]
     },
@@ -701,39 +344,18 @@
         "nombre":  "FRANCISCO ESTEBAN CARMONA CASTRO",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  0,
-                              "stock":  339,
-                              "diferencia":  339
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  59,
-                              "stock":  672,
-                              "diferencia":  613
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  37,
-                              "stock":  1254,
-                              "diferencia":  1217
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  0,
-                              "stock":  1929,
-                              "diferencia":  1929
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
                               "consumo":  0,
                               "stock":  1626,
                               "diferencia":  1626
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  0,
+                              "stock":  1348.65,
+                              "diferencia":  1348.65
                           }
                       ]
     },
@@ -742,39 +364,18 @@
         "nombre":  "FRANCO JOSUE DIAZ NUNEZ",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  10,
-                              "stock":  466,
-                              "diferencia":  456
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  33,
-                              "stock":  464,
-                              "diferencia":  431
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  17,
-                              "stock":  283,
-                              "diferencia":  266
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  8,
-                              "stock":  320,
-                              "diferencia":  312
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  23,
+                              "consumo":  0,
                               "stock":  328,
-                              "diferencia":  305
+                              "diferencia":  328
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  0,
+                              "stock":  317,
+                              "diferencia":  317
                           }
                       ]
     },
@@ -783,39 +384,18 @@
         "nombre":  "GONZALO ANDRES TAPIA VASCONCELO",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  18,
-                              "stock":  142,
-                              "diferencia":  124
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  75,
-                              "stock":  213,
-                              "diferencia":  138
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  57,
-                              "stock":  728,
-                              "diferencia":  671
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  263,
-                              "stock":  782,
-                              "diferencia":  519
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  316,
+                              "consumo":  0,
                               "stock":  381,
-                              "diferencia":  65
+                              "diferencia":  381
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  91,
+                              "stock":  458,
+                              "diferencia":  367
                           }
                       ]
     },
@@ -824,39 +404,18 @@
         "nombre":  "HECTOR DAVID AVALOS RUPCICH",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  29,
-                              "stock":  448,
-                              "diferencia":  419
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  7,
-                              "stock":  375,
-                              "diferencia":  368
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  5,
-                              "stock":  766,
-                              "diferencia":  761
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  9,
-                              "stock":  757,
-                              "diferencia":  748
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  8,
+                              "consumo":  0,
                               "stock":  760,
-                              "diferencia":  752
+                              "diferencia":  760
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  36,
+                              "stock":  674,
+                              "diferencia":  638
                           }
                       ]
     },
@@ -865,39 +424,18 @@
         "nombre":  "HECTOR FERNANDO QUIROZ TORRES",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  7,
-                              "stock":  634,
-                              "diferencia":  627
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  67,
-                              "stock":  461,
-                              "diferencia":  394
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  462,
-                              "stock":  492,
-                              "diferencia":  30
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  61,
-                              "stock":  1055,
-                              "diferencia":  994
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  378,
+                              "consumo":  0,
                               "stock":  590,
-                              "diferencia":  212
+                              "diferencia":  590
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  0,
+                              "stock":  345,
+                              "diferencia":  345
                           }
                       ]
     },
@@ -906,39 +444,18 @@
         "nombre":  "HECTOR JOSE ORTIZ MARQUEZ",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  36,
-                              "stock":  665,
-                              "diferencia":  629
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  40,
-                              "stock":  595,
-                              "diferencia":  555
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  29,
-                              "stock":  571,
-                              "diferencia":  542
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  187,
-                              "stock":  315,
-                              "diferencia":  128
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  24,
+                              "consumo":  0,
                               "stock":  213,
-                              "diferencia":  189
+                              "diferencia":  213
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  10,
+                              "stock":  196,
+                              "diferencia":  186
                           }
                       ]
     },
@@ -947,39 +464,18 @@
         "nombre":  "HECTOR LEONARDO MUNOZ MIRANDA",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  13,
-                              "stock":  846,
-                              "diferencia":  833
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  128,
-                              "stock":  1151,
-                              "diferencia":  1023
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  136,
-                              "stock":  605,
-                              "diferencia":  469
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  79,
-                              "stock":  527,
-                              "diferencia":  448
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  40,
+                              "consumo":  0,
                               "stock":  420,
-                              "diferencia":  380
+                              "diferencia":  420
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  6,
+                              "stock":  332,
+                              "diferencia":  326
                           }
                       ]
     },
@@ -988,39 +484,18 @@
         "nombre":  "HENRY MURIEL DIAZ TORRIJO",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  8,
-                              "stock":  449,
-                              "diferencia":  441
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  10,
-                              "stock":  189,
-                              "diferencia":  179
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  26,
-                              "stock":  500,
-                              "diferencia":  474
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  155,
-                              "stock":  337,
-                              "diferencia":  182
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  392,
+                              "consumo":  0,
                               "stock":  257,
-                              "diferencia":  -135
+                              "diferencia":  257
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  0,
+                              "stock":  232,
+                              "diferencia":  232
                           }
                       ]
     },
@@ -1029,39 +504,18 @@
         "nombre":  "IVAN ALEJANDRO CALDERON MUNOZ",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  141,
-                              "stock":  966,
-                              "diferencia":  825
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  315,
-                              "stock":  1003,
-                              "diferencia":  688
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  4,
-                              "stock":  547,
-                              "diferencia":  543
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  475,
-                              "stock":  652,
-                              "diferencia":  177
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  144,
+                              "consumo":  0,
                               "stock":  1187,
-                              "diferencia":  1043
+                              "diferencia":  1187
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  188,
+                              "stock":  901,
+                              "diferencia":  713
                           }
                       ]
     },
@@ -1070,39 +524,18 @@
         "nombre":  "JAIME ALEJANDRO FIGUEROA PINO",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  338,
-                              "stock":  332,
-                              "diferencia":  -6
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  151,
-                              "stock":  595,
-                              "diferencia":  444
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  393,
-                              "stock":  1175,
-                              "diferencia":  782
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  306,
-                              "stock":  1541,
-                              "diferencia":  1235
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  516,
+                              "consumo":  0,
                               "stock":  1347,
-                              "diferencia":  831
+                              "diferencia":  1347
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  62,
+                              "stock":  1769,
+                              "diferencia":  1707
                           }
                       ]
     },
@@ -1111,39 +544,18 @@
         "nombre":  "JAIR JESUS VALENCIA DIAZ",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  158,
-                              "stock":  764,
-                              "diferencia":  606
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  217,
-                              "stock":  636,
-                              "diferencia":  419
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  269,
-                              "stock":  796,
-                              "diferencia":  527
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  298,
-                              "stock":  879,
-                              "diferencia":  581
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  333,
+                              "consumo":  0,
                               "stock":  654,
-                              "diferencia":  321
+                              "diferencia":  654
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  72,
+                              "stock":  147,
+                              "diferencia":  75
                           }
                       ]
     },
@@ -1152,39 +564,18 @@
         "nombre":  "JAVIER ANDRE PARRA ROJAS",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  0,
-                              "stock":  710,
-                              "diferencia":  710
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  2,
-                              "stock":  461,
-                              "diferencia":  459
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  139,
-                              "stock":  172,
-                              "diferencia":  33
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  320,
-                              "stock":  339,
-                              "diferencia":  19
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  178,
+                              "consumo":  0,
                               "stock":  559,
-                              "diferencia":  381
+                              "diferencia":  559
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  0,
+                              "stock":  3,
+                              "diferencia":  3
                           }
                       ]
     },
@@ -1193,39 +584,18 @@
         "nombre":  "JONATHAN RICARDO HENRIQUEZ VENEGAS",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  8,
-                              "stock":  621,
-                              "diferencia":  613
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  31,
-                              "stock":  766,
-                              "diferencia":  735
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  25,
-                              "stock":  394,
-                              "diferencia":  369
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  224,
-                              "stock":  516,
-                              "diferencia":  292
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  27,
+                              "consumo":  0,
                               "stock":  626,
-                              "diferencia":  599
+                              "diferencia":  626
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  0,
+                              "stock":  492,
+                              "diferencia":  492
                           }
                       ]
     },
@@ -1234,39 +604,18 @@
         "nombre":  "JORGE EDUARDO JORQUERA FLORES",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  62,
-                              "stock":  371,
-                              "diferencia":  309
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  9,
-                              "stock":  273,
-                              "diferencia":  264
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  17,
-                              "stock":  58,
-                              "diferencia":  41
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  43,
-                              "stock":  664,
-                              "diferencia":  621
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  31,
+                              "consumo":  0,
                               "stock":  151,
-                              "diferencia":  120
+                              "diferencia":  151
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  21,
+                              "stock":  119,
+                              "diferencia":  98
                           }
                       ]
     },
@@ -1275,39 +624,18 @@
         "nombre":  "JORGE RENE RAMIREZ DE LA BARRA",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  16,
-                              "stock":  455,
-                              "diferencia":  439
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  48,
-                              "stock":  549,
-                              "diferencia":  501
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  46,
-                              "stock":  362,
-                              "diferencia":  316
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  25,
-                              "stock":  405,
-                              "diferencia":  380
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  16,
+                              "consumo":  0,
                               "stock":  341,
-                              "diferencia":  325
+                              "diferencia":  341
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  7,
+                              "stock":  291,
+                              "diferencia":  284
                           }
                       ]
     },
@@ -1316,39 +644,18 @@
         "nombre":  "JOSE GERARDO CORNEJO GARRIDO",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  217,
-                              "stock":  431,
-                              "diferencia":  214
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  58,
-                              "stock":  274,
-                              "diferencia":  216
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  24,
-                              "stock":  241,
-                              "diferencia":  217
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  196,
-                              "stock":  383,
-                              "diferencia":  187
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  227,
+                              "consumo":  0,
                               "stock":  854,
-                              "diferencia":  627
+                              "diferencia":  854
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  147,
+                              "stock":  282,
+                              "diferencia":  135
                           }
                       ]
     },
@@ -1357,39 +664,18 @@
         "nombre":  "JOSE LUIS MUNOZ RAMOS",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  14,
-                              "stock":  722,
-                              "diferencia":  708
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  215,
-                              "stock":  1220,
-                              "diferencia":  1005
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  88,
-                              "stock":  1010,
-                              "diferencia":  922
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  107,
-                              "stock":  859,
-                              "diferencia":  752
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  57,
+                              "consumo":  0,
                               "stock":  967,
-                              "diferencia":  910
+                              "diferencia":  967
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  3,
+                              "stock":  901,
+                              "diferencia":  898
                           }
                       ]
     },
@@ -1398,39 +684,18 @@
         "nombre":  "JOSE MANUEL SEPULVEDA ROJAS",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  60,
-                              "stock":  229,
-                              "diferencia":  169
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  96,
-                              "stock":  360,
-                              "diferencia":  264
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  99,
-                              "stock":  156,
-                              "diferencia":  57
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  157,
-                              "stock":  592,
-                              "diferencia":  435
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  195,
+                              "consumo":  0,
                               "stock":  478,
-                              "diferencia":  283
+                              "diferencia":  478
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  69,
+                              "stock":  280,
+                              "diferencia":  211
                           }
                       ]
     },
@@ -1439,39 +704,18 @@
         "nombre":  "JOSUE ORELLANA ALARCON",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  5,
-                              "stock":  579,
-                              "diferencia":  574
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  21,
-                              "stock":  458,
-                              "diferencia":  437
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  17,
-                              "stock":  336,
-                              "diferencia":  319
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  149,
-                              "stock":  354,
-                              "diferencia":  205
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  57,
+                              "consumo":  0,
                               "stock":  428,
-                              "diferencia":  371
+                              "diferencia":  428
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  0,
+                              "stock":  3,
+                              "diferencia":  3
                           }
                       ]
     },
@@ -1480,36 +724,15 @@
         "nombre":  "JUAN CARLOS TAPIA GOMEZ",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  0,
-                              "stock":  419,
-                              "diferencia":  419
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  0,
-                              "stock":  419,
-                              "diferencia":  419
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  0,
-                              "stock":  419,
-                              "diferencia":  419
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  0,
-                              "stock":  419,
-                              "diferencia":  419
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
+                              "consumo":  0,
+                              "stock":  419,
+                              "diferencia":  419
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
                               "consumo":  0,
                               "stock":  419,
                               "diferencia":  419
@@ -1521,39 +744,18 @@
         "nombre":  "JUAN ESTEBAN MARTINEZ LOCK",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  15,
-                              "stock":  242,
-                              "diferencia":  227
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  5,
-                              "stock":  571,
-                              "diferencia":  566
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  88,
-                              "stock":  433,
-                              "diferencia":  345
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  193,
-                              "stock":  155,
-                              "diferencia":  -38
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  393,
+                              "consumo":  0,
                               "stock":  333,
-                              "diferencia":  -60
+                              "diferencia":  333
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  304,
+                              "stock":  148,
+                              "diferencia":  -156
                           }
                       ]
     },
@@ -1562,39 +764,18 @@
         "nombre":  "JUAN HERIBERTO VARGAS ALARCON",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  32,
-                              "stock":  518,
-                              "diferencia":  486
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  18,
-                              "stock":  541,
-                              "diferencia":  523
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  8,
-                              "stock":  520,
-                              "diferencia":  512
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  36,
-                              "stock":  838,
-                              "diferencia":  802
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  48,
+                              "consumo":  0,
                               "stock":  505,
-                              "diferencia":  457
+                              "diferencia":  505
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  6,
+                              "stock":  183,
+                              "diferencia":  177
                           }
                       ]
     },
@@ -1603,39 +784,18 @@
         "nombre":  "JUAN JOSE MARCANO GONZALEZ",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  6,
-                              "stock":  534,
-                              "diferencia":  528
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  79,
-                              "stock":  305,
-                              "diferencia":  226
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  29,
-                              "stock":  263,
-                              "diferencia":  234
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  22,
-                              "stock":  305,
-                              "diferencia":  283
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  35,
+                              "consumo":  0,
                               "stock":  249,
-                              "diferencia":  214
+                              "diferencia":  249
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  10,
+                              "stock":  183,
+                              "diferencia":  173
                           }
                       ]
     },
@@ -1644,39 +804,18 @@
         "nombre":  "LUIS ALFONSO VALLEJO GARCIA",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  13,
-                              "stock":  700,
-                              "diferencia":  687
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  26,
-                              "stock":  788,
-                              "diferencia":  762
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  185,
-                              "stock":  647,
-                              "diferencia":  462
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  54,
-                              "stock":  552,
-                              "diferencia":  498
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  30,
+                              "consumo":  1,
                               "stock":  350,
-                              "diferencia":  320
+                              "diferencia":  349
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  0,
+                              "stock":  585,
+                              "diferencia":  585
                           }
                       ]
     },
@@ -1685,39 +824,18 @@
         "nombre":  "MANUEL DARIO JELDES ARANCIBIA",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  232,
-                              "stock":  396,
-                              "diferencia":  164
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  11,
-                              "stock":  138,
-                              "diferencia":  127
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  8,
-                              "stock":  177,
-                              "diferencia":  169
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  48,
-                              "stock":  199,
-                              "diferencia":  151
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  37,
+                              "consumo":  0,
                               "stock":  155,
-                              "diferencia":  118
+                              "diferencia":  155
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  4,
+                              "stock":  726,
+                              "diferencia":  722
                           }
                       ]
     },
@@ -1726,39 +844,18 @@
         "nombre":  "MARCO MANUEL VEGA VEGA",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  0,
-                              "stock":  400,
-                              "diferencia":  400
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  0,
-                              "stock":  400,
-                              "diferencia":  400
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  36,
-                              "stock":  461,
-                              "diferencia":  425
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  0,
-                              "stock":  780,
-                              "diferencia":  780
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  10,
+                              "consumo":  0,
                               "stock":  632,
-                              "diferencia":  622
+                              "diferencia":  632
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  127,
+                              "stock":  359,
+                              "diferencia":  232
                           }
                       ]
     },
@@ -1767,39 +864,18 @@
         "nombre":  "MATIAS HERNAN VILLALOBOS RAMOS",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  6,
-                              "stock":  267,
-                              "diferencia":  261
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  136,
-                              "stock":  178,
-                              "diferencia":  42
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  166,
-                              "stock":  508,
-                              "diferencia":  342
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  266,
-                              "stock":  143,
-                              "diferencia":  -123
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  248,
+                              "consumo":  0,
                               "stock":  546,
-                              "diferencia":  298
+                              "diferencia":  546
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  118,
+                              "stock":  318,
+                              "diferencia":  200
                           }
                       ]
     },
@@ -1808,39 +884,18 @@
         "nombre":  "MATIAS RODRIGO MONTECINOS POZO",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  54,
-                              "stock":  49,
-                              "diferencia":  -5
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  60,
-                              "stock":  90,
-                              "diferencia":  30
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  106,
-                              "stock":  93,
-                              "diferencia":  -13
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  322,
-                              "stock":  535,
-                              "diferencia":  213
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  122,
+                              "consumo":  0,
                               "stock":  330,
-                              "diferencia":  208
+                              "diferencia":  330
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  81,
+                              "stock":  142,
+                              "diferencia":  61
                           }
                       ]
     },
@@ -1849,39 +904,18 @@
         "nombre":  "MATIAS RUBEN RUBINA BURGOS",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  26,
-                              "stock":  519,
-                              "diferencia":  493
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  15,
-                              "stock":  448,
-                              "diferencia":  433
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  3,
-                              "stock":  482,
-                              "diferencia":  479
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  48,
-                              "stock":  324,
-                              "diferencia":  276
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  18,
+                              "consumo":  0,
                               "stock":  268,
-                              "diferencia":  250
+                              "diferencia":  268
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  0,
+                              "stock":  3,
+                              "diferencia":  3
                           }
                       ]
     },
@@ -1890,39 +924,18 @@
         "nombre":  "MAURICIO RODOLFO ASTORGA HERRERA",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  79,
-                              "stock":  495,
-                              "diferencia":  416
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  189,
-                              "stock":  465,
-                              "diferencia":  276
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  82,
-                              "stock":  340,
-                              "diferencia":  258
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  17,
-                              "stock":  685,
-                              "diferencia":  668
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  7,
+                              "consumo":  0,
                               "stock":  834,
-                              "diferencia":  827
+                              "diferencia":  834
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  57,
+                              "stock":  682,
+                              "diferencia":  625
                           }
                       ]
     },
@@ -1931,36 +944,15 @@
         "nombre":  "NESTOR FABIAN PASTEN ALARCON",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  0,
-                              "stock":  272,
-                              "diferencia":  272
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  0,
-                              "stock":  272,
-                              "diferencia":  272
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  0,
-                              "stock":  272,
-                              "diferencia":  272
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  0,
-                              "stock":  272,
-                              "diferencia":  272
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
+                              "consumo":  0,
+                              "stock":  2,
+                              "diferencia":  2
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
                               "consumo":  0,
                               "stock":  2,
                               "diferencia":  2
@@ -1972,39 +964,18 @@
         "nombre":  "OSCAR ANDRES JOFRE LE CERF",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  7,
-                              "stock":  608,
-                              "diferencia":  601
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  268,
-                              "stock":  545,
-                              "diferencia":  277
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  277,
-                              "stock":  1107,
-                              "diferencia":  830
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  45,
-                              "stock":  721,
-                              "diferencia":  676
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  46,
+                              "consumo":  0,
                               "stock":  1044,
-                              "diferencia":  998
+                              "diferencia":  1044
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  2,
+                              "stock":  440,
+                              "diferencia":  438
                           }
                       ]
     },
@@ -2013,39 +984,18 @@
         "nombre":  "PATRICIO CANALES GEVE",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  81,
-                              "stock":  457,
-                              "diferencia":  376
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  177,
-                              "stock":  179,
-                              "diferencia":  2
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  2,
-                              "stock":  360,
-                              "diferencia":  358
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  0,
-                              "stock":  358,
-                              "diferencia":  358
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
                               "consumo":  0,
                               "stock":  349,
                               "diferencia":  349
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  0,
+                              "stock":  348,
+                              "diferencia":  348
                           }
                       ]
     },
@@ -2054,39 +1004,18 @@
         "nombre":  "PATRICIO EDUARDO DELANO SCHWAIGER",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  92,
-                              "stock":  604,
-                              "diferencia":  512
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  34,
-                              "stock":  566,
-                              "diferencia":  532
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  36,
-                              "stock":  514,
-                              "diferencia":  478
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  70,
-                              "stock":  280,
-                              "diferencia":  210
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  46,
+                              "consumo":  0,
                               "stock":  177,
-                              "diferencia":  131
+                              "diferencia":  177
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  2,
+                              "stock":  169,
+                              "diferencia":  167
                           }
                       ]
     },
@@ -2095,39 +1024,18 @@
         "nombre":  "PEDRO ISAIAS CONCHA JORQUERA",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  113,
-                              "stock":  340,
-                              "diferencia":  227
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  76,
-                              "stock":  205,
-                              "diferencia":  129
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  75,
-                              "stock":  233,
-                              "diferencia":  158
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  285,
-                              "stock":  372,
-                              "diferencia":  87
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  107,
+                              "consumo":  0,
                               "stock":  101,
-                              "diferencia":  -6
+                              "diferencia":  101
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  0,
+                              "stock":  92,
+                              "diferencia":  92
                           }
                       ]
     },
@@ -2136,39 +1044,18 @@
         "nombre":  "PROPHETE GABRIEL",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  35,
-                              "stock":  447,
-                              "diferencia":  412
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  174,
-                              "stock":  250,
-                              "diferencia":  76
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  94,
-                              "stock":  297,
-                              "diferencia":  203
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  173,
-                              "stock":  345,
-                              "diferencia":  172
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  69,
+                              "consumo":  0,
                               "stock":  167,
-                              "diferencia":  98
+                              "diferencia":  167
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  2,
+                              "stock":  130,
+                              "diferencia":  128
                           }
                       ]
     },
@@ -2177,39 +1064,18 @@
         "nombre":  "RICHARDS ANTONIO CRUZ CUEVAS",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  70,
-                              "stock":  699,
-                              "diferencia":  629
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  7,
-                              "stock":  415,
-                              "diferencia":  408
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  90,
-                              "stock":  478,
-                              "diferencia":  388
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  27,
-                              "stock":  426,
-                              "diferencia":  399
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
                               "consumo":  0,
                               "stock":  598,
                               "diferencia":  598
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  0,
+                              "stock":  440,
+                              "diferencia":  440
                           }
                       ]
     },
@@ -2218,39 +1084,18 @@
         "nombre":  "SANTIAGO EMILIO ANGEL ARIAS",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  100,
-                              "stock":  703,
-                              "diferencia":  603
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  292,
-                              "stock":  671,
-                              "diferencia":  379
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  508,
-                              "stock":  1076,
-                              "diferencia":  568
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  325,
-                              "stock":  631,
-                              "diferencia":  306
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  401,
+                              "consumo":  0,
                               "stock":  640,
-                              "diferencia":  239
+                              "diferencia":  640
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  4,
+                              "stock":  526,
+                              "diferencia":  522
                           }
                       ]
     },
@@ -2259,39 +1104,18 @@
         "nombre":  "SEBASTIAN ANDRES SANCHEZ CAYUQUEO",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  32,
-                              "stock":  763,
-                              "diferencia":  731
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  84,
-                              "stock":  960,
-                              "diferencia":  876
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  23,
-                              "stock":  1002,
-                              "diferencia":  979
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  1,
-                              "stock":  491,
-                              "diferencia":  490
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
                               "consumo":  0,
                               "stock":  482,
                               "diferencia":  482
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  17,
+                              "stock":  451,
+                              "diferencia":  434
                           }
                       ]
     },
@@ -2300,36 +1124,15 @@
         "nombre":  "SIMON ANDRES SILVA PHILIP",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  0,
-                              "stock":  0,
-                              "diferencia":  0
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  0,
-                              "stock":  0,
-                              "diferencia":  0
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  0,
-                              "stock":  0,
-                              "diferencia":  0
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  0,
-                              "stock":  0,
-                              "diferencia":  0
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
+                              "consumo":  0,
+                              "stock":  0,
+                              "diferencia":  0
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
                               "consumo":  0,
                               "stock":  0,
                               "diferencia":  0
@@ -2341,39 +1144,18 @@
         "nombre":  "WILFRED RENE ROCCO ZUNIGA",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  77,
-                              "stock":  971,
-                              "diferencia":  894
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  240,
-                              "stock":  577,
-                              "diferencia":  337
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  110,
-                              "stock":  711,
-                              "diferencia":  601
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  95,
-                              "stock":  457,
-                              "diferencia":  362
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  121,
+                              "consumo":  0,
                               "stock":  249,
-                              "diferencia":  128
+                              "diferencia":  249
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  0,
+                              "stock":  357,
+                              "diferencia":  357
                           }
                       ]
     },
@@ -2382,39 +1164,18 @@
         "nombre":  "YUSSEF ALI SAT PINO",
         "porSemana":  [
                           {
-                              "desde":  "28-09-2026",
-                              "hasta":  "04-10-2026",
-                              "consumo":  34,
-                              "stock":  456,
-                              "diferencia":  422
-                          },
-                          {
-                              "desde":  "05-10-2026",
-                              "hasta":  "11-10-2026",
-                              "consumo":  59,
-                              "stock":  289,
-                              "diferencia":  230
-                          },
-                          {
-                              "desde":  "12-10-2026",
-                              "hasta":  "18-10-2026",
-                              "consumo":  72,
-                              "stock":  473,
-                              "diferencia":  401
-                          },
-                          {
-                              "desde":  "19-10-2026",
-                              "hasta":  "25-10-2026",
-                              "consumo":  71,
-                              "stock":  383,
-                              "diferencia":  312
-                          },
-                          {
                               "desde":  "26-10-2026",
                               "hasta":  "01-11-2026",
-                              "consumo":  85,
+                              "consumo":  0,
                               "stock":  525,
-                              "diferencia":  440
+                              "diferencia":  525
+                          },
+                          {
+                              "desde":  "02-11-2026",
+                              "hasta":  "08-11-2026",
+                              "consumo":  5,
+                              "stock":  499,
+                              "diferencia":  494
                           }
                       ]
     }

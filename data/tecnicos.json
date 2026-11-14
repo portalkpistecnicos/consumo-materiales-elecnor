@@ -1489,23 +1489,6 @@
                        ]
     },
     {
-        "idca":  "9352",
-        "nombre":  "FRANCISCO ESTEBAN CARMONA CASTRO",
-        "total":  0,
-        "stockTotal":  1348.65,
-        "flow":  [
-                     {
-                         "Tipo":  "CABLE_FU_NS",
-                         "nombre":  "CABLE_FU_NS",
-                         "stock":  1348.65,
-                         "consumo":  0
-                     }
-                 ],
-        "stockOtros":  [
-
-                       ]
-    },
-    {
         "idca":  "22049",
         "nombre":  "FRANCO JOSUE DIAZ NUNEZ",
         "total":  41,
@@ -2546,29 +2529,6 @@
                        ]
     },
     {
-        "idca":  "30734",
-        "nombre":  "JAVIER ANDRE PARRA ROJAS",
-        "total":  0,
-        "stockTotal":  3,
-        "flow":  [
-                     {
-                         "Tipo":  "DECO_IPTV_SD_S",
-                         "nombre":  "Decodificador IPTV SD",
-                         "stock":  2,
-                         "consumo":  0
-                     },
-                     {
-                         "Tipo":  "MODEM_F_W6_2x2",
-                         "nombre":  "Modem WiFi 6 (2x2)",
-                         "stock":  1,
-                         "consumo":  0
-                     }
-                 ],
-        "stockOtros":  [
-
-                       ]
-    },
-    {
         "idca":  "28992",
         "nombre":  "JONATHAN RICARDO HENRIQUEZ VENEGAS",
         "total":  232,
@@ -3150,29 +3110,6 @@
                          "nombre":  "Jumper Fibra Optica",
                          "stock":  0,
                          "consumo":  1
-                     }
-                 ],
-        "stockOtros":  [
-
-                       ]
-    },
-    {
-        "idca":  "30729",
-        "nombre":  "JOSUE ORELLANA ALARCON",
-        "total":  0,
-        "stockTotal":  3,
-        "flow":  [
-                     {
-                         "Tipo":  "MODEM_F_W6_S",
-                         "nombre":  "Modem WiFi 6",
-                         "stock":  2,
-                         "consumo":  0
-                     },
-                     {
-                         "Tipo":  "MODEM_F_S",
-                         "nombre":  "Modem Estandar",
-                         "stock":  1,
-                         "consumo":  0
                      }
                  ],
         "stockOtros":  [
@@ -4045,29 +3982,6 @@
                        ]
     },
     {
-        "idca":  "30705",
-        "nombre":  "MATIAS RUBEN RUBINA BURGOS",
-        "total":  0,
-        "stockTotal":  3,
-        "flow":  [
-                     {
-                         "Tipo":  "DECO_IPTV_SD_S",
-                         "nombre":  "Decodificador IPTV SD",
-                         "stock":  2,
-                         "consumo":  0
-                     },
-                     {
-                         "Tipo":  "MODEM_F_S",
-                         "nombre":  "Modem Estandar",
-                         "stock":  1,
-                         "consumo":  0
-                     }
-                 ],
-        "stockOtros":  [
-
-                       ]
-    },
-    {
         "idca":  "20728",
         "nombre":  "MAURICIO RODOLFO ASTORGA HERRERA",
         "total":  350,
@@ -4876,18 +4790,6 @@
                          "stock":  0,
                          "consumo":  1
                      }
-                 ],
-        "stockOtros":  [
-
-                       ]
-    },
-    {
-        "idca":  "28725",
-        "nombre":  "SIMON ANDRES SILVA PHILIP",
-        "total":  0,
-        "stockTotal":  0,
-        "flow":  [
-
                  ],
         "stockOtros":  [
 

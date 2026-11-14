@@ -459,33 +459,6 @@
                       ]
     },
     {
-        "idca":  "9352",
-        "nombre":  "FRANCISCO ESTEBAN CARMONA CASTRO",
-        "porSemana":  [
-                          {
-                              "desde":  "26-10-2026",
-                              "hasta":  "01-11-2026",
-                              "consumo":  0,
-                              "stock":  1626,
-                              "diferencia":  1626
-                          },
-                          {
-                              "desde":  "02-11-2026",
-                              "hasta":  "08-11-2026",
-                              "consumo":  0,
-                              "stock":  1348.65,
-                              "diferencia":  1348.65
-                          },
-                          {
-                              "desde":  "09-11-2026",
-                              "hasta":  "15-11-2026",
-                              "consumo":  0,
-                              "stock":  1348.65,
-                              "diferencia":  1348.65
-                          }
-                      ]
-    },
-    {
         "idca":  "22049",
         "nombre":  "FRANCO JOSUE DIAZ NUNEZ",
         "porSemana":  [
@@ -756,33 +729,6 @@
                       ]
     },
     {
-        "idca":  "30734",
-        "nombre":  "JAVIER ANDRE PARRA ROJAS",
-        "porSemana":  [
-                          {
-                              "desde":  "26-10-2026",
-                              "hasta":  "01-11-2026",
-                              "consumo":  0,
-                              "stock":  559,
-                              "diferencia":  559
-                          },
-                          {
-                              "desde":  "02-11-2026",
-                              "hasta":  "08-11-2026",
-                              "consumo":  0,
-                              "stock":  3,
-                              "diferencia":  3
-                          },
-                          {
-                              "desde":  "09-11-2026",
-                              "hasta":  "15-11-2026",
-                              "consumo":  0,
-                              "stock":  3,
-                              "diferencia":  3
-                          }
-                      ]
-    },
-    {
         "idca":  "28992",
         "nombre":  "JONATHAN RICARDO HENRIQUEZ VENEGAS",
         "porSemana":  [
@@ -941,33 +887,6 @@
                               "consumo":  0,
                               "stock":  1,
                               "diferencia":  1
-                          }
-                      ]
-    },
-    {
-        "idca":  "30729",
-        "nombre":  "JOSUE ORELLANA ALARCON",
-        "porSemana":  [
-                          {
-                              "desde":  "26-10-2026",
-                              "hasta":  "01-11-2026",
-                              "consumo":  0,
-                              "stock":  428,
-                              "diferencia":  428
-                          },
-                          {
-                              "desde":  "02-11-2026",
-                              "hasta":  "08-11-2026",
-                              "consumo":  0,
-                              "stock":  3,
-                              "diferencia":  3
-                          },
-                          {
-                              "desde":  "09-11-2026",
-                              "hasta":  "15-11-2026",
-                              "consumo":  0,
-                              "stock":  3,
-                              "diferencia":  3
                           }
                       ]
     },
@@ -1211,33 +1130,6 @@
                               "consumo":  49,
                               "stock":  173,
                               "diferencia":  124
-                          }
-                      ]
-    },
-    {
-        "idca":  "30705",
-        "nombre":  "MATIAS RUBEN RUBINA BURGOS",
-        "porSemana":  [
-                          {
-                              "desde":  "26-10-2026",
-                              "hasta":  "01-11-2026",
-                              "consumo":  0,
-                              "stock":  268,
-                              "diferencia":  268
-                          },
-                          {
-                              "desde":  "02-11-2026",
-                              "hasta":  "08-11-2026",
-                              "consumo":  0,
-                              "stock":  3,
-                              "diferencia":  3
-                          },
-                          {
-                              "desde":  "09-11-2026",
-                              "hasta":  "15-11-2026",
-                              "consumo":  0,
-                              "stock":  3,
-                              "diferencia":  3
                           }
                       ]
     },
@@ -1508,33 +1400,6 @@
                               "consumo":  22,
                               "stock":  222,
                               "diferencia":  200
-                          }
-                      ]
-    },
-    {
-        "idca":  "28725",
-        "nombre":  "SIMON ANDRES SILVA PHILIP",
-        "porSemana":  [
-                          {
-                              "desde":  "26-10-2026",
-                              "hasta":  "01-11-2026",
-                              "consumo":  0,
-                              "stock":  0,
-                              "diferencia":  0
-                          },
-                          {
-                              "desde":  "02-11-2026",
-                              "hasta":  "08-11-2026",
-                              "consumo":  0,
-                              "stock":  0,
-                              "diferencia":  0
-                          },
-                          {
-                              "desde":  "09-11-2026",
-                              "hasta":  "15-11-2026",
-                              "consumo":  0,
-                              "stock":  0,
-                              "diferencia":  0
                           }
                       ]
     },

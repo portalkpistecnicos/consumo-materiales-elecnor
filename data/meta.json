@@ -1,11 +1,11 @@
 {
     "periodo":  {
                     "desde":  "01-11-2026",
-                    "hasta":  "16-11-2026",
-                    "dias":  16
+                    "hasta":  "17-11-2026",
+                    "dias":  17
                 },
     "tecnicosActivos":  50,
-    "generado":  "18-11-2026 11:04",
+    "generado":  "19-11-2026 11:01",
     "stock":  {
                   "fecha":  "17-11-2026",
                   "turno":  "AM",

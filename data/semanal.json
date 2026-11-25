@@ -27,9 +27,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  18,
+                              "consumo":  60,
                               "stock":  1101,
-                              "diferencia":  1083
+                              "diferencia":  1041
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  12,
+                              "stock":  1054,
+                              "diferencia":  1042
                           }
                       ]
     },
@@ -61,9 +68,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  15,
+                              "consumo":  68,
                               "stock":  224,
-                              "diferencia":  209
+                              "diferencia":  156
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  1,
+                              "stock":  228,
+                              "diferencia":  227
                           }
                       ]
     },
@@ -98,6 +112,13 @@
                               "consumo":  0,
                               "stock":  578,
                               "diferencia":  578
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  8,
+                              "diferencia":  8
                           }
                       ]
     },
@@ -129,9 +150,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  193,
+                              "consumo":  412,
                               "stock":  199,
-                              "diferencia":  6
+                              "diferencia":  -213
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  283,
+                              "stock":  722,
+                              "diferencia":  439
                           }
                       ]
     },
@@ -163,6 +191,13 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
+                              "consumo":  0,
+                              "stock":  0,
+                              "diferencia":  0
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
                               "consumo":  0,
                               "stock":  0,
                               "diferencia":  0
@@ -200,6 +235,13 @@
                               "consumo":  0,
                               "stock":  1214,
                               "diferencia":  1214
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  1000,
+                              "diferencia":  1000
                           }
                       ]
     },
@@ -234,6 +276,13 @@
                               "consumo":  35,
                               "stock":  187,
                               "diferencia":  152
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  13,
+                              "stock":  134,
+                              "diferencia":  121
                           }
                       ]
     },
@@ -268,6 +317,13 @@
                               "consumo":  170,
                               "stock":  684,
                               "diferencia":  514
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  515,
+                              "diferencia":  515
                           }
                       ]
     },
@@ -299,9 +355,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  13,
+                              "consumo":  16,
                               "stock":  76,
-                              "diferencia":  63
+                              "diferencia":  60
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  26,
+                              "stock":  117,
+                              "diferencia":  91
                           }
                       ]
     },
@@ -336,6 +399,13 @@
                               "consumo":  0,
                               "stock":  104,
                               "diferencia":  104
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  5,
+                              "diferencia":  5
                           }
                       ]
     },
@@ -370,6 +440,13 @@
                               "consumo":  121,
                               "stock":  558,
                               "diferencia":  437
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  461,
+                              "diferencia":  461
                           }
                       ]
     },
@@ -401,9 +478,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  9,
+                              "consumo":  13,
                               "stock":  491,
-                              "diferencia":  482
+                              "diferencia":  478
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  6,
+                              "stock":  608,
+                              "diferencia":  602
                           }
                       ]
     },
@@ -438,6 +522,13 @@
                               "consumo":  0,
                               "stock":  231,
                               "diferencia":  231
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  231,
+                              "diferencia":  231
                           }
                       ]
     },
@@ -469,9 +560,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  16,
+                              "consumo":  328,
                               "stock":  1344,
-                              "diferencia":  1328
+                              "diferencia":  1016
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  4,
+                              "stock":  357,
+                              "diferencia":  353
                           }
                       ]
     },
@@ -503,9 +601,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  61,
+                              "consumo":  63,
                               "stock":  187,
-                              "diferencia":  126
+                              "diferencia":  124
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  65,
+                              "diferencia":  65
                           }
                       ]
     },
@@ -537,9 +642,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  228,
+                              "consumo":  336,
                               "stock":  506,
-                              "diferencia":  278
+                              "diferencia":  170
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  98,
+                              "stock":  365,
+                              "diferencia":  267
                           }
                       ]
     },
@@ -571,9 +683,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  61,
+                              "consumo":  95,
                               "stock":  29,
-                              "diferencia":  -32
+                              "diferencia":  -66
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  57,
+                              "stock":  122,
+                              "diferencia":  65
                           }
                       ]
     },
@@ -608,6 +727,13 @@
                               "consumo":  0,
                               "stock":  6,
                               "diferencia":  6
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  6,
+                              "diferencia":  6
                           }
                       ]
     },
@@ -639,9 +765,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  86,
+                              "consumo":  204,
                               "stock":  557,
-                              "diferencia":  471
+                              "diferencia":  353
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  98,
+                              "stock":  238,
+                              "diferencia":  140
                           }
                       ]
     },
@@ -676,6 +809,13 @@
                               "consumo":  0,
                               "stock":  614,
                               "diferencia":  614
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  604,
+                              "diferencia":  604
                           }
                       ]
     },
@@ -707,9 +847,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  403,
+                              "consumo":  405,
                               "stock":  1231,
-                              "diferencia":  828
+                              "diferencia":  826
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  37,
+                              "stock":  2766,
+                              "diferencia":  2729
                           }
                       ]
     },
@@ -741,9 +888,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  11,
+                              "consumo":  12,
                               "stock":  51,
-                              "diferencia":  40
+                              "diferencia":  39
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  5,
+                              "stock":  138,
+                              "diferencia":  133
                           }
                       ]
     },
@@ -775,9 +929,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  102,
+                              "consumo":  134,
                               "stock":  1206,
-                              "diferencia":  1104
+                              "diferencia":  1072
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  123,
+                              "stock":  967,
+                              "diferencia":  844
                           }
                       ]
     },
@@ -812,6 +973,13 @@
                               "consumo":  27,
                               "stock":  205,
                               "diferencia":  178
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  12,
+                              "stock":  228,
+                              "diferencia":  216
                           }
                       ]
     },
@@ -843,9 +1011,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  60,
+                              "consumo":  116,
                               "stock":  2258,
-                              "diferencia":  2198
+                              "diferencia":  2142
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  36,
+                              "stock":  1911,
+                              "diferencia":  1875
                           }
                       ]
     },
@@ -880,6 +1055,13 @@
                               "consumo":  261,
                               "stock":  1324,
                               "diferencia":  1063
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  983,
+                              "diferencia":  983
                           }
                       ]
     },
@@ -911,9 +1093,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  278,
+                              "consumo":  336,
                               "stock":  188,
-                              "diferencia":  -90
+                              "diferencia":  -148
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  30,
+                              "stock":  104,
+                              "diferencia":  74
                           }
                       ]
     },
@@ -945,9 +1134,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  122,
+                              "consumo":  145,
                               "stock":  446,
-                              "diferencia":  324
+                              "diferencia":  301
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  10,
+                              "stock":  277,
+                              "diferencia":  267
                           }
                       ]
     },
@@ -979,9 +1175,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  48,
+                              "consumo":  65,
                               "stock":  779,
-                              "diferencia":  731
+                              "diferencia":  714
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  632,
+                              "diferencia":  632
                           }
                       ]
     },
@@ -1013,9 +1216,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  312,
+                              "consumo":  633,
                               "stock":  903,
-                              "diferencia":  591
+                              "diferencia":  270
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  631,
+                              "diferencia":  631
                           }
                       ]
     },
@@ -1047,9 +1257,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  9,
+                              "consumo":  22,
                               "stock":  351,
-                              "diferencia":  342
+                              "diferencia":  329
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  8,
+                              "stock":  178,
+                              "diferencia":  170
                           }
                       ]
     },
@@ -1081,9 +1298,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  1,
+                              "consumo":  11,
                               "stock":  643,
-                              "diferencia":  642
+                              "diferencia":  632
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  7,
+                              "stock":  574,
+                              "diferencia":  567
                           }
                       ]
     },
@@ -1118,6 +1342,13 @@
                               "consumo":  0,
                               "stock":  1,
                               "diferencia":  1
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  1208,
+                              "diferencia":  1208
                           }
                       ]
     },
@@ -1152,6 +1383,13 @@
                               "consumo":  0,
                               "stock":  419,
                               "diferencia":  419
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  419,
+                              "diferencia":  419
                           }
                       ]
     },
@@ -1183,9 +1421,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  16,
+                              "consumo":  18,
                               "stock":  256,
-                              "diferencia":  240
+                              "diferencia":  238
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  32,
+                              "stock":  169,
+                              "diferencia":  137
                           }
                       ]
     },
@@ -1217,9 +1462,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  21,
+                              "consumo":  26,
                               "stock":  208,
-                              "diferencia":  187
+                              "diferencia":  182
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  5,
+                              "stock":  175,
+                              "diferencia":  170
                           }
                       ]
     },
@@ -1254,6 +1506,13 @@
                               "consumo":  45,
                               "stock":  1138,
                               "diferencia":  1093
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  3,
+                              "stock":  1080,
+                              "diferencia":  1077
                           }
                       ]
     },
@@ -1288,6 +1547,13 @@
                               "consumo":  1,
                               "stock":  5,
                               "diferencia":  4
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  7,
+                              "stock":  209,
+                              "diferencia":  202
                           }
                       ]
     },
@@ -1319,9 +1585,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  22,
+                              "consumo":  51,
                               "stock":  135,
-                              "diferencia":  113
+                              "diferencia":  84
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  4,
+                              "stock":  1144,
+                              "diferencia":  1140
                           }
                       ]
     },
@@ -1353,9 +1626,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  486,
+                              "consumo":  488,
                               "stock":  1484,
-                              "diferencia":  998
+                              "diferencia":  996
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  51,
+                              "stock":  583,
+                              "diferencia":  532
                           }
                       ]
     },
@@ -1387,9 +1667,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  50,
+                              "consumo":  70,
                               "stock":  803,
-                              "diferencia":  753
+                              "diferencia":  733
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  299,
+                              "diferencia":  299
                           }
                       ]
     },
@@ -1421,9 +1708,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  131,
+                              "consumo":  132,
                               "stock":  113,
-                              "diferencia":  -18
+                              "diferencia":  -19
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  9,
+                              "stock":  16,
+                              "diferencia":  7
                           }
                       ]
     },
@@ -1458,6 +1752,13 @@
                               "consumo":  11,
                               "stock":  247,
                               "diferencia":  236
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  7,
+                              "stock":  230,
+                              "diferencia":  223
                           }
                       ]
     },
@@ -1492,6 +1793,13 @@
                               "consumo":  0,
                               "stock":  2,
                               "diferencia":  2
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  2,
+                              "diferencia":  2
                           }
                       ]
     },
@@ -1523,9 +1831,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  10,
+                              "consumo":  16,
                               "stock":  148,
-                              "diferencia":  138
+                              "diferencia":  132
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  168,
+                              "diferencia":  168
                           }
                       ]
     },
@@ -1560,6 +1875,13 @@
                               "consumo":  0,
                               "stock":  0,
                               "diferencia":  0
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  0,
+                              "diferencia":  0
                           }
                       ]
     },
@@ -1591,9 +1913,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  42,
+                              "consumo":  61,
                               "stock":  14,
-                              "diferencia":  -28
+                              "diferencia":  -47
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  47,
+                              "diferencia":  47
                           }
                       ]
     },
@@ -1625,9 +1954,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  82,
+                              "consumo":  86,
                               "stock":  108,
-                              "diferencia":  26
+                              "diferencia":  22
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  12,
+                              "stock":  47,
+                              "diferencia":  35
                           }
                       ]
     },
@@ -1662,6 +1998,13 @@
                               "consumo":  16,
                               "stock":  1035,
                               "diferencia":  1019
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  731,
+                              "diferencia":  731
                           }
                       ]
     },
@@ -1696,6 +2039,13 @@
                               "consumo":  51,
                               "stock":  256,
                               "diferencia":  205
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  11,
+                              "stock":  239,
+                              "diferencia":  228
                           }
                       ]
     },
@@ -1727,9 +2077,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  11,
+                              "consumo":  15,
                               "stock":  1930,
-                              "diferencia":  1919
+                              "diferencia":  1915
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  1708,
+                              "diferencia":  1708
                           }
                       ]
     },
@@ -1764,6 +2121,13 @@
                               "consumo":  27,
                               "stock":  142,
                               "diferencia":  115
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  105,
+                              "diferencia":  105
                           }
                       ]
     },
@@ -1795,9 +2159,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  18,
+                              "consumo":  25,
                               "stock":  84,
-                              "diferencia":  66
+                              "diferencia":  59
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  0,
+                              "stock":  1110,
+                              "diferencia":  1110
                           }
                       ]
     },
@@ -1829,9 +2200,16 @@
                           {
                               "desde":  "16-11-2026",
                               "hasta":  "22-11-2026",
-                              "consumo":  11,
+                              "consumo":  20,
                               "stock":  690,
-                              "diferencia":  679
+                              "diferencia":  670
+                          },
+                          {
+                              "desde":  "23-11-2026",
+                              "hasta":  "29-11-2026",
+                              "consumo":  5,
+                              "stock":  1322,
+                              "diferencia":  1317
                           }
                       ]
     }
